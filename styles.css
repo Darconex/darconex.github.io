@@ -1,13 +1,17 @@
 <style>
             iframe {
-                    display:none;
+                        display:none;
+            }
+            h1
+            {
+                        color: white;
             }
             h2
             {
-                Color: Gren;
+                        Color: Green;
             }
             h4
             {
-            Color: red;
+                        Color: red;
             }
 </style>
