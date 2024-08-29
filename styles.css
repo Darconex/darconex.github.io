@@ -9,21 +9,26 @@ body {
     font-family: 'Orbitron', sans-serif;
     background-color: #0d0d0d;
     color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar {
     background: linear-gradient(90deg, #00f260, #0575e6);
-    padding: 20px;
-    text-align: center;
+    padding: 20px 40px;
+    border-radius: 50px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .nav-list {
     list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-item {
-    display: inline;
     margin: 0 20px;
 }
 
@@ -31,7 +36,7 @@ body {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border: 2px solid transparent;
     border-radius: 30px;
     transition: all 0.3s ease;
@@ -68,4 +73,3 @@ body {
     box-shadow: 0 0 15px rgba(0, 242, 96, 0.6), 0 0 15px rgba(5, 117, 230, 0.6);
     border-color: #00f260;
 }
-
