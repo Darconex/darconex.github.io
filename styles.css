@@ -1,4 +1,3 @@
-/* Réinitialisation de base */
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding: 20px;
 }
 
 .navbar {
@@ -24,6 +24,7 @@ body {
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     border: 1px solid rgba(255, 255, 255, 0.18);
     position: relative;
+    max-width: 90%;
 }
 
 .nav-list {
@@ -31,10 +32,12 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .nav-item {
     position: relative;
+    margin: 10px 0;
 }
 
 .nav-link {
@@ -85,4 +88,32 @@ body {
 .nav-item:hover .nav-link::after {
     transform: scale(1.2);
     border-color: rgba(0, 242, 96, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-link {
+        font-size: 20px;
+        padding: 10px 15px;
+    }
+
+    .navbar {
+        padding: 20px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-link {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+
+    .navbar {
+        padding: 15px 20px;
+    }
 }
