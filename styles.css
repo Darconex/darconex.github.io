@@ -15,8 +15,26 @@ body {
     justify-content: center;
     overflow: hidden;
     padding: 20px;
+        margin: 0;
+    height: 100vh;
+    background-color: #1a1a1a;
+    overflow: hidden;
+    position: relative;
+    cursor: none; /* Cache le curseur pour un meilleur effet */
 }
-
+.light {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 0, 0.5); /* Lumière jaune */
+    border-radius: 50%;
+    pointer-events: none;
+    mix-blend-mode: screen;
+    box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.5);
+    transform: translate(-50%, -50%);
+}
 /* Navbar Container */
 .navbar {
     background: rgba(255, 255, 255, 0.1);
