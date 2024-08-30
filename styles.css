@@ -21,6 +21,7 @@ body {
     overflow: hidden;
     position: relative;
     cursor: none; /* Cache le curseur pour un meilleur effet */
+       text-shadow: 0 0 5px #C8C8C8;
 }
 .light {
     position: absolute;
