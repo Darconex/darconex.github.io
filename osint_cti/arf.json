@@ -3,11 +3,11 @@
   "type": "folder",
   "children": [
   {
-    "name": "test",
+    "name": "Username",
     "type": "folder",
     "children": [
     {
-      "name": "test2",
+      "name": "Username Search Engines",
       "type": "folder",
       "children": [
       {
@@ -15,61 +15,9 @@
         "type": "url",
         "url": "https://whatsmyname.app/"
       },
-      {
-        "name": "Namechk",
-        "type": "url",
-        "url": "https://namechk.com/"
-      },
-      {
-        "name": "KnowEm",
-        "type": "url",
-        "url": "http://knowem.com/"
-      },
-      {
-        "name": "NameCheckr",
-        "type": "url",
-        "url": "https://www.namecheckr.com/"
-      },
-      {
-        "name": "UserSearch.org",
-        "type": "url",
-        "url": "https://usersearch.org/"
-      },
-      {
-        "name": "WhatsMyName (T)",
-        "type": "url",
-        "url": "https://github.com/WebBreacher/WhatsMyName"
-      },
-      {
-        "name": "WhatsMyName",
-        "type": "url",
-        "url": "https://whatsmyname.app/"
-      },
-      {
-        "name": "Thats Them",
-        "type": "url",
-        "url": "https://thatsthem.com/"
-      },
-      {
-        "name": "Check Usernames",
-        "type": "url",
-        "url": "http://checkusernames.com/"
-      },
-      {
-        "name": "NameCheckup",
-        "type": "url",
-        "url": "https://namecheckup.com/"
-      },
-      {
-        "name": "Instant Username Search",
-        "type": "url",
-        "url": "https://instantusername.com/"
-      },
-      {
-        "name": "Names Directory",
-        "type": "url",
-        "url": "https://namesdir.com/"
-      }]
-       }]
-    },
+    }]
+  }]
+}
+
+
 
