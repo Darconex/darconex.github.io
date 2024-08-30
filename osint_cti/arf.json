@@ -3,20 +3,23 @@
   "type": "folder",
   "children": [
   {
-    "name": "Username",
+    "name": "OSINT",
     "type": "folder",
     "children": [
     {
-      "name": "Username Search Engines",
+      "name": "Authentification",
       "type": "folder",
       "children": [
       {
-        "name": "WhatsMyName",
+        "name": "CyberChef",
         "type": "url",
-        "url": "https://whatsmyname.app/"
+        "url": "https://gchq.github.io/CyberChef/"
+      },
+      {
+        "name": "crt",
+        "type": "url",
+        "url": "https://crt.sh/"
       }]
+    }]
   }]
 }
-
-
-
