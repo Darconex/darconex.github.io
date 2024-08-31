@@ -230,6 +230,62 @@
       "type": "url",
       "url": "https://facecheck.id/"
             }]
+          },
+      {
+    "name": "Maps",
+    "type": "folder",
+    "children": [
+    {
+      "name": "DataCenterMap",
+      "type": "url",
+      "url": "https://www.datacentermap.com/"
+    },
+    {
+      "name": "MapSnapchat",
+      "type": "url",
+      "url": "https://map.snapchat.com/"
+    },
+    {
+      "name": "GPSJam",
+      "type": "url",
+      "url": "https://gpsjam.org/"
+    },
+    {
+      "name": "ShadowMap",
+      "type": "url",
+      "url": "https://app.shadowmap.org/"
+      },
+    {
+      "name": "MapNbr",
+      "type": "url",
+      "url": "https://map.nbr.org/interactivemap/"
+            },
+    {
+      "name": "FlighRadar24",
+      "type": "url",
+      "url": "https://www.flightradar24.com/"
+                  },
+    {
+      "name": "SubmarineCableMap",
+      "type": "url",
+      "url": "https://www.submarinecablemap.com/"
+                        },
+    {
+      "name": "OpenStreetMap",
+      "type": "url",
+      "url": "https://umap.openstreetmap.fr/"
+                              },
+    {
+      "name": "DeepStateMap",
+      "type": "url",
+      "url": "https://deepstatemap.live"
+                                    },
+    {
+      "name": "EarthKit",
+      "type": "url",
+      "url": "https://earthkit.app/geoclip"
+      },
+            }]
       }]
   }]
 }
