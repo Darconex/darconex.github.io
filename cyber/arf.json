@@ -284,6 +284,61 @@
       "name": "EarthKit",
       "type": "url",
       "url": "https://earthkit.app/geoclip"
+                },
+      }]
+      {
+    "name": "Network",
+    "type": "folder",
+    "children": [
+    {
+      "name": "IpInfo",
+      "type": "url",
+      "url": "https://ipinfo.io/"
+    },
+    {
+      "name": "Wigle",
+      "type": "url",
+      "url": "https://wigle.net/"
+    },
+    {
+      "name": "BGP",
+      "type": "url",
+      "url": "https://bgp.tools/"
+    },
+    {
+      "name": "IPVoid",
+      "type": "url",
+      "url": "https://www.ipvoid.com/"
+    },
+    {
+      "name": "Keycdn",
+      "type": "url",
+      "url": "https://tools.keycdn.com/"
+    },
+    {
+      "name": "Lupovis",
+      "type": "url",
+      "url": "https://prowl.lupovis.io/"
+    },
+    {
+      "name": "Peeringdb",
+      "type": "url",
+      "url": "https://www.peeringdb.com/"
+    },
+    {
+      "name": "Who.is",
+      "type": "url",
+      "url": "https://who.is/"
+    },
+    {
+      "name": "IPAdresseGuide",
+      "type": "url",
+      "url": "https://www.ipaddressguide.com/"
+     },
+    {
+      "name": "IP Address Ranges Par Country",
+      "type": "url",
+      "url": "https://lite.ip2location.com/ip-address-ranges-by-country"
       }]
   }]
   }]
