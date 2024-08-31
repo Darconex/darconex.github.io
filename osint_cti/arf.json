@@ -19,7 +19,49 @@
         "name": "crt",
         "type": "url",
         "url": "https://crt.sh/"
-      }]
+      },
+      {
+        "name": "2fa.directory",
+        "type": "url",
+        "url": "https://2fa.directory/fr/"
+      },
+      {
+        "name": "Regex101",
+        "type": "url",
+        "url": "https://regex101.com/"
+      },
+      {
+        "name": "UrlDecoder",
+        "type": "url",
+        "url": "https://www.urldecoder.io/"
+      },
+      {
+        "name": "UrlEncoder",
+        "type": "url",
+        "url": "https://www.urlencoder.org/"
+      },
+      {
+        "name": "Base64Decode",
+        "type": "url",
+        "url": "https://www.base64decode.org/"
+      },
+      {
+        "name": "Crackstation",
+        "type": "url",
+        "url": "https://crackstation.net/"
+      },
+      {
+        "name": "Hash-Analyzer",
+        "type": "url",
+        "url": "https://www.tunnelsup.com/hash-analyzer/"
+      },
+      {
+        "name": "HashCat",
+        "type": "url",
+        "url": "https://hashcat.net/hashcat/"
+     }]
     }]
   }]
 }
+
+
