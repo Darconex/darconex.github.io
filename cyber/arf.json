@@ -198,7 +198,8 @@
     {
       "name": "Mha Azure",
       "type": "url",
-      "url": "https://mha.azurewebsites.net/"            
+      "url": "https://mha.azurewebsites.net/"
+      }]
     }]
   }]
 }
