@@ -59,6 +59,7 @@
         "name": "HashCat",
         "type": "url",
         "url": "https://hashcat.net/hashcat/"
+      },
     {
       "name": "test",
       "type": "folder",
@@ -67,7 +68,8 @@
         "name": "test",
         "type": "url",
         "url": "https://gchq.github.io/CyberChef/"
-      },
+      }]
+    },
       {
         "name": "test",
         "type": "url",
