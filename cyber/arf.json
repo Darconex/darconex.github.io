@@ -284,8 +284,8 @@
       "name": "EarthKit",
       "type": "url",
       "url": "https://earthkit.app/geoclip"
-                },
       }]
+      },
       {
     "name": "Network",
     "type": "folder",
