@@ -334,14 +334,14 @@
       "name": "IPAdresseGuide",
       "type": "url",
       "url": "https://www.ipaddressguide.com/"
-     },
+    },
     {
       "name": "IP Address Ranges Par Country",
       "type": "url",
       "url": "https://lite.ip2location.com/ip-address-ranges-by-country"
-          }]    
-      },
-      {
+   }]    
+   },
+   {
     "name": "Scanner de vulnerabilites et de technologies web",
     "type": "folder",
     "children": [
@@ -404,6 +404,7 @@
       "name": "Fullhunt",
       "type": "url",
       "url": "https://fullhunt.io/"
+    },
     {
       "name": "Phonebook",
       "type": "url",
@@ -438,6 +439,20 @@
       "name": "Hunter",
       "type": "url",
       "url": "https://hunter.how/"
+    }]
+    {
+      "name": "Username",
+      "type": "folder",
+      "children": [
+    {
+      "name": "WhatsMyName",
+      "type": "url",
+      "url": "https://whatsmyname.app/"
+    },
+    {
+      "name": "Blackbird Osint",
+      "type": "url",
+      "url": "https://blackbird-osint.herokuapp.com/"
   }]
   }]
   }]
