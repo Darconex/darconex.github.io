@@ -87,7 +87,7 @@
       }]
       },
               {
-    "name": "test",
+    "name": "DNS",
     "type": "folder",
     "children": [
     {
@@ -109,6 +109,36 @@
       "name": "Whatsmydns",
       "type": "url",
       "url": "https://www.whatsmydns.net/"
+      },
+          {
+      "name": "Wheregoes",
+      "type": "url",
+      "url": "https://wheregoes.com/"
+    },
+    {
+      "name": "DNSLytics",
+      "type": "url",
+      "url": "https://dnslytics.com/"
+    },
+    {
+      "name": "CompleteDNS",
+      "type": "url",
+      "url": "https://completedns.com/dns-history/"
+        },
+    {
+      "name": "Diggui",
+      "type": "url",
+      "url": "https://www.diggui.com/"
+    },
+    {
+      "name": "DNSDumpter",
+      "type": "url",
+      "url": "https://dnsdumpster.com/"
+      },
+          {
+      "name": "Chaos",
+      "type": "url",
+      "url": "https://chaos.projectdiscovery.io"
           }]
     }]
   }]
