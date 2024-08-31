@@ -254,37 +254,37 @@
       "name": "ShadowMap",
       "type": "url",
       "url": "https://app.shadowmap.org/"
-      },
+    },
     {
       "name": "MapNbr",
       "type": "url",
       "url": "https://map.nbr.org/interactivemap/"
-            },
+    },
     {
       "name": "FlighRadar24",
       "type": "url",
       "url": "https://www.flightradar24.com/"
-                  },
+    },
     {
       "name": "SubmarineCableMap",
       "type": "url",
       "url": "https://www.submarinecablemap.com/"
-                        },
+    },
     {
       "name": "OpenStreetMap",
       "type": "url",
       "url": "https://umap.openstreetmap.fr/"
-                              },
+    },
     {
       "name": "DeepStateMap",
       "type": "url",
       "url": "https://deepstatemap.live"
-                                    },
+     },
     {
       "name": "EarthKit",
       "type": "url",
       "url": "https://earthkit.app/geoclip"
-            }]
+      }]
       }]
   }]
 }
