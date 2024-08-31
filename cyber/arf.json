@@ -216,15 +216,15 @@
       "url": "https://dehashed.com/"
 },
 {
-      "name": "Dehashed",
+      "name": "Hudsonrock",
       "type": "url",
-      "url": "https://dehashed.com/"
+      "url": "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools"
 },
-                {
+{
       "name": "HaveiBeenPwned",
       "type": "url",
       "url": "https://haveibeenpwned.com/"
-                }]
+}]
 },
 {
       "name": "Image",
