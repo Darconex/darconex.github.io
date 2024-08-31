@@ -74,6 +74,8 @@
         "type": "url",
         "url": "https://api.github.com/users/%3Cusername%3E/events/public"
       }
+          }]
+    }]
     }]
     }]
 }
