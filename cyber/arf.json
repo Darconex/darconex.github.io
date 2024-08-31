@@ -142,7 +142,7 @@
 }]
 },
 {
-     "name": "Email adress",
+     "name": "Email address",
      "type": "folder",
      "children": [
 {
@@ -208,7 +208,6 @@
       "name": "test",
       "type": "url",
       "url": "https://mha.azurewebsites.net/"
-{
 }]
   }]
 },
