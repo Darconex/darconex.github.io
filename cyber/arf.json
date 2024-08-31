@@ -209,6 +209,20 @@
       "name": "Ashley Madison",
       "type": "url",
       "url": "https://ashley.cynic.al/"
+  {
+      "name": "Dehashed",
+      "type": "url",
+      "url": "https://dehashed.com/"
+},
+         {
+      "name": "Dehashed",
+      "type": "url",
+      "url": "https://dehashed.com/"
+},
+                {
+      "name": "HaveiBeenPwned",
+      "type": "url",
+      "url": "https://haveibeenpwned.com/"
 }]
 },
 {
