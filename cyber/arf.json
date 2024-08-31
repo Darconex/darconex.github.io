@@ -199,7 +199,8 @@
       "name": "Mha Azure",
       "type": "url",
       "url": "https://mha.azurewebsites.net/"
-    }]             
+    }]      
+  },
       {
     "name": "Image",
     "type": "folder",
@@ -228,7 +229,6 @@
       "name": "FaceCheck",
       "type": "url",
       "url": "https://facecheck.id/"
-            }]
       }]
   }]
 }
