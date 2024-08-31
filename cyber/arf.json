@@ -379,6 +379,7 @@
       "name": "Exploit Shodan",
       "type": "url",
       "url": "https://exploits.shodan.io/"
+    },
     {
       "name": "Censys",
       "type": "url",
@@ -393,7 +394,7 @@
       "name": "Zoomeye",
       "type": "url",
       "url": "https://www.zoomeye.hk/"
-          },
+    },
     {
       "name": "IntelX",
       "type": "url",
