@@ -59,9 +59,17 @@
         "name": "HashCat",
         "type": "url",
         "url": "https://hashcat.net/hashcat/"
+      {
+      "name": "Cryptomonnaie",
+      "type": "folder",
+      "children": [
+      {
+        "name": "Blockcypher",
+        "type": "url",
+        "url": "https://live.blockcypher.com/"
+      }
      }]
     }]
   }]
 }
-
 
