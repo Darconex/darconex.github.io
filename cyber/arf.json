@@ -199,35 +199,7 @@
       "name": "Mha Azure",
       "type": "url",
       "url": "https://mha.azurewebsites.net/"            
-      },
-              {
-    "name": "Image",
-    "type": "folder",
-    "children": [
-    {
-      "name": "Tinexe",
-      "type": "url",
-      "url": "https://tineye.com/"
-    },
-    {
-      "name": "Pimeyes",
-      "type": "url",
-      "url": "https://pimeyes.com/"
-    },
-    {
-      "name": "Pic2Map",
-      "type": "url",
-      "url": "https://www.pic2map.com/"
-    },
-    {
-      "name": "Verexif",
-      "type": "url",
-      "url": "https://www.verexif.com/"
-      },
-    {
-      "name": "FaceCheck",
-      "type": "url",
-      "url": "https://facecheck.id/"
+      }
     }]
   }]
 }
