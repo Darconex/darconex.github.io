@@ -59,22 +59,42 @@
         "name": "HashCat",
         "type": "url",
         "url": "https://hashcat.net/hashcat/"
-      }]
+      }]    
     },
     {
-      "name": "test",
-      "type": "folder",
-      "children": [
-      {
-        "name": "test",
-        "type": "url",
-        "url": "https://gchq.github.io/CyberChef/"
-      },
-      {
-        "name": "test",
-        "type": "url",
-        "url": "https://crt.sh/"
+      "name": "Forensic OSINT KB Guides",
+      "type": "url",
+      "url": "https://www.forensicosint.com/osint-guide"
+    },
+    {
+      "name": "AutomatingOSINT.com",
+      "type": "url",
+      "url": "http://register.automatingosint.com/"
+    },
+    {
+      "name": "Open Source Intelligence Techniques",
+      "type": "url",
+      "url": "https://inteltechniques.com/"
+    },
+    {
+      "name": "Plessas",
+      "type": "url",
+      "url": "https://plessas.net/online-training"
+    },
+    {
+      "name": "SANS SEC487 OSINT Class",
+      "type": "url",
+      "url": "https://www.sans.org/sec487"
+    },
+    {
+      "name": "NetBootCamp",
+      "type": "url",
+      "url": "https://netbootcamp.org/trainingprogram/"
+    },
+    {
+      "name": "Smart Questions",
+      "type": "url",
+      "url": "http://www.catb.org/esr/faqs/smart-questions.html"
+    }]
   }]
-}]
 }
-
