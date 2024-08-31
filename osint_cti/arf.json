@@ -61,6 +61,10 @@
         "url": "https://hashcat.net/hashcat/"
       }]    
     },
+      {
+    "name": "Training",
+    "type": "folder",
+    "children": [
     {
       "name": "Forensic OSINT KB Guides",
       "type": "url",
