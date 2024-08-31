@@ -139,7 +139,6 @@
       "name": "Chaos",
       "type": "url",
       "url": "https://chaos.projectdiscovery.io"
-       
       }]
       },
               {
@@ -224,12 +223,13 @@
       "name": "Verexif",
       "type": "url",
       "url": "https://www.verexif.com/"
-          },
+      },
     {
       "name": "FaceCheck",
       "type": "url",
       "url": "https://facecheck.id/"
       }]
+              }
       }]
     }]
   }]
