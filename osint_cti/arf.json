@@ -96,19 +96,19 @@
       "url": "https://www.robtex.com/"
     },
     {
-      "name": "Bitref",
+      "name": "Whois",
       "type": "url",
-      "url": "https://bitref.com/"
+      "url": "https://whois.domaintools.com/"
     },
     {
-      "name": "OXT",
+      "name": "WhoisLookup",
       "type": "url",
-      "url": "https://oxt.me/"
+      "url": "https://whoislookup.pro/"
     },
     {
-      "name": "Chainbuse",
+      "name": "Whatsmydns",
       "type": "url",
-      "url": "https://www.chainabuse.com/"
+      "url": "https://www.whatsmydns.net/"
           }]
     }]
   }]
