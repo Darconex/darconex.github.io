@@ -60,6 +60,15 @@
         "type": "url",
         "url": "https://hashcat.net/hashcat/"
       }]
+      {
+      "name": "Specific Sites",
+      "type": "folder",
+      "children": [
+      {
+        "name": "Amazon Usernames (M)",
+        "type": "url",
+        "url": "https://www.google.com/search?q=site:amazon.com+%3Cusername%3E"
+      },
       }]
       }]
       }
