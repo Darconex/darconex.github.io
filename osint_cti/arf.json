@@ -62,43 +62,28 @@
       }]    
     },
       {
-    "name": "Training",
+    "name": "Cryptomonnaie",
     "type": "folder",
     "children": [
     {
-      "name": "Forensic OSINT KB Guides",
+      "name": "BlockCypher",
       "type": "url",
-      "url": "https://www.forensicosint.com/osint-guide"
+      "url": "https://live.blockcypher.com/"
     },
     {
-      "name": "AutomatingOSINT.com",
+      "name": "Bitref",
       "type": "url",
-      "url": "http://register.automatingosint.com/"
+      "url": "https://bitref.com/"
     },
     {
-      "name": "Open Source Intelligence Techniques",
+      "name": "OXT",
       "type": "url",
-      "url": "https://inteltechniques.com/"
+      "url": "https://oxt.me/"
     },
     {
-      "name": "Plessas",
+      "name": "Chainbuse",
       "type": "url",
-      "url": "https://plessas.net/online-training"
-    },
-    {
-      "name": "test",
-      "type": "url",
-      "url": "https://www.sans.org/sec487"
-    },
-    {
-      "name": "NetBootCamp",
-      "type": "url",
-      "url": "https://netbootcamp.org/trainingprogram/"
-    },
-    {
-      "name": "Smart Questions",
-      "type": "url",
-      "url": "http://www.catb.org/esr/faqs/smart-questions.html"
+      "url": "https://www.chainabuse.com/"
       }]
     }]
   }]
