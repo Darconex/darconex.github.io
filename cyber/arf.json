@@ -62,34 +62,34 @@
 }]    
 },
 {
-       "name": "Cryptomonnaie",
-       "type": "folder",
-       "children": [
+        "name": "Cryptomonnaie",
+        "type": "folder",
+        "children": [
 {
-      "name": "BlockCypher",
-      "type": "url",
-      "url": "https://live.blockcypher.com/"
+        "name": "BlockCypher",
+        "type": "url",
+        "url": "https://live.blockcypher.com/"
 },
 {
-      "name": "Bitref",
-      "type": "url",
-      "url": "https://bitref.com/"
+        "name": "Bitref",
+        "type": "url",
+        "url": "https://bitref.com/"
 },
 {
-      "name": "OXT",
-      "type": "url",
-      "url": "https://oxt.me/"
+        "name": "OXT",
+        "type": "url",
+        "url": "https://oxt.me/"
 },
 {
-      "name": "Chainbuse",
-      "type": "url",
-      "url": "https://www.chainabuse.com/"
+       "name": "Chainbuse",
+       "type": "url",
+       "url": "https://www.chainabuse.com/"
 }]
 },
 {
-    "name": "DNS",
-    "type": "folder",
-    "children": [
+      "name": "DNS",
+      "type": "folder",
+      "children": [
 {
       "name": "Robtex",
       "type": "url",
@@ -142,9 +142,9 @@
 }]
 },
 {
-    "name": "E-mail",
-    "type": "folder",
-    "children": [
+     "name": "E-mail",
+     "type": "folder",
+     "children": [
 {
       "name": "Epios",
       "type": "url",
@@ -202,9 +202,9 @@
 }]      
 },
 {
-    "name": "Image",
-    "type": "folder",
-    "children": [
+      "name": "Image",
+      "type": "folder",
+      "children": [
 {
       "name": "Tinexe",
       "type": "url",
@@ -232,9 +232,9 @@
 }]
 },
 {
-    "name": "Maps",
-    "type": "folder",
-    "children": [
+      "name": "Maps",
+      "type": "folder",
+      "children": [
 {
       "name": "DataCenterMap",
       "type": "url",
@@ -287,9 +287,9 @@
 }]
 },
 {
-    "name": "Network",
-    "type": "folder",
-    "children": [
+      "name": "Network",
+      "type": "folder",
+      "children": [
 {
       "name": "IpInfo",
       "type": "url",
@@ -342,9 +342,9 @@
 }]    
 },
 {
-    "name": "Scanner de vulnerabilites et de technologies web",
-    "type": "folder",
-    "children": [
+      "name": "Scanner de vulnerabilites et de technologies web",
+      "type": "folder",
+      "children": [
 {
       "name": "WebCheck",
       "type": "url",
@@ -362,9 +362,9 @@
 }]
 },
 {
-    "name": "Surface d'attaque",
-    "type": "folder",
-    "children": [
+      "name": "Surface d'attaque",
+      "type": "folder",
+      "children": [
 {
       "name": "Shodan",
       "type": "url",
@@ -455,6 +455,25 @@
       "type": "url",
       "url": "https://blackbird-osint.herokuapp.com/"
 }]
+},
+   {
+    "name": "Email Address",
+    "type": "folder",
+    "children": [
+    {
+      "name": "Email Search",
+      "type": "folder",
+      "children": [
+      {
+        "name": "ThatsThem",
+        "type": "url",
+        "url": "https://thatsthem.com/reverse-email-lookup"
+      },
+      {
+        "name": "Hunter",
+        "type": "url",
+        "url": "https://hunter.io/"
+      }
 }]
 }]
 }
