@@ -456,23 +456,24 @@
       "url": "https://blackbird-osint.herokuapp.com/"
 }]
 },
-   {
-    "name": "Email Address",
+{
+    "name": "TEST",
     "type": "folder",
     "children": [
-    {
+{
       "name": "Email Search",
       "type": "folder",
       "children": [
-      {
+{
         "name": "ThatsThem",
         "type": "url",
         "url": "https://thatsthem.com/reverse-email-lookup"
-      },
-      {
+},
+{
         "name": "Hunter",
         "type": "url",
         "url": "https://hunter.io/"
+}]
 }]
 }]
 }
