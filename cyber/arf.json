@@ -455,25 +455,6 @@
       "type": "url",
       "url": "https://blackbird-osint.herokuapp.com/"
 }]
-},
-{
-    "name": "TEST",
-    "type": "folder",
-    "children": [
-{
-      "name": "2",
-      "type": "folder",
-      "children": [
-{
-        "name": "3",
-        "type": "url",
-        "url": "https://thatsthem.com/reverse-email-lookup"
-},
-{
-        "name": "4",
-        "type": "url",
-        "url": "https://hunter.io/"
-}]
 }]
 }]
 }
