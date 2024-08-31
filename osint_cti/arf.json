@@ -60,20 +60,6 @@
         "type": "url",
         "url": "https://hashcat.net/hashcat/"
     }]
-       {
-      "name": "Specific Sites",
-      "type": "folder",
-      "children": [
-      {
-        "name": "Amazon Usernames (M)",
-        "type": "url",
-        "url": "https://www.google.com/search?q=site:amazon.com+%3Cusername%3E"
-      },
-      {
-        "name": "Github User (M)",
-        "type": "url",
-        "url": "https://api.github.com/users/%3Cusername%3E/events/public"
-         }]
     }]
         }]
 }
