@@ -135,11 +135,72 @@
       "type": "url",
       "url": "https://dnsdumpster.com/"
       },
-          {
+     {
       "name": "Chaos",
       "type": "url",
       "url": "https://chaos.projectdiscovery.io"
-          }]
+       
+      }]
+      },
+              {
+    "name": "E-mail",
+    "type": "folder",
+    "children": [
+    {
+      "name": "Epios",
+      "type": "url",
+      "url": "https://epieos.com/"
+    },
+    {
+      "name": "Hunter",
+      "type": "url",
+      "url": "https://hunter.io/"
+    },
+    {
+      "name": "CheckCybersecurity",
+      "type": "url",
+      "url": "https://checkcybersecurity.service.ncsc.gov.uk/email-security-check/form"
+    },
+    {
+      "name": "Osint Industries",
+      "type": "url",
+      "url": "https://www.osint.industries/"
+      },
+          {
+      "name": "Skymem",
+      "type": "url",
+      "url": "https://www.skymem.info/"
+    },
+    {
+      "name": "EmailSherlock",
+      "type": "url",
+      "url": "https://www.emailsherlock.com/"
+    },
+    {
+      "name": "MXTollbox",
+      "type": "url",
+      "url": "https://mxtoolbox.com/"
+        },
+    {
+      "name": "CaptainVerify",
+      "type": "url",
+      "url": "https://captainverify.com/fr/mail-tester.html"
+    },
+    {
+      "name": "MailHeader",
+      "type": "url",
+      "url": "https://mailheader.org/"
+      },
+     {
+      "name": "PredictaSearch",
+      "type": "url",
+      "url": "https://www.predictasearch.com/"
+     },
+           {
+      "name": "Mha Azure",
+      "type": "url",
+      "url": "https://mha.azurewebsites.net/"
+      }]
     }]
   }]
 }
