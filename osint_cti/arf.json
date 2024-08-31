@@ -91,9 +91,9 @@
     "type": "folder",
     "children": [
     {
-      "name": "BlockCypher",
+      "name": "Robtex",
       "type": "url",
-      "url": "https://live.blockcypher.com/"
+      "url": "https://www.robtex.com/"
     },
     {
       "name": "Bitref",
