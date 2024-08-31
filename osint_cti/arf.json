@@ -85,6 +85,31 @@
       "type": "url",
       "url": "https://www.chainabuse.com/"
       }]
+      },
+              {
+    "name": "test",
+    "type": "folder",
+    "children": [
+    {
+      "name": "BlockCypher",
+      "type": "url",
+      "url": "https://live.blockcypher.com/"
+    },
+    {
+      "name": "Bitref",
+      "type": "url",
+      "url": "https://bitref.com/"
+    },
+    {
+      "name": "OXT",
+      "type": "url",
+      "url": "https://oxt.me/"
+    },
+    {
+      "name": "Chainbuse",
+      "type": "url",
+      "url": "https://www.chainabuse.com/"
+          }]
     }]
   }]
 }
