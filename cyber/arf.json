@@ -1,4 +1,8 @@
 {
+  "name": "Data OSINT/CTI",
+  "type": "folder",
+  "children": [
+{
   "OSINT": {
     "name": "OSINT",
     "type": "folder",
