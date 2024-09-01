@@ -846,6 +846,22 @@
               "url": "https://ransomware.live/"
             }
           ]
+        },
+        {
+          "name": "Phishing",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Phishtank",
+              "type": "url",
+              "url": "https://phishtank.org/"
+            },
+            {
+              "name": "Checkphish",
+              "type": "url",
+              "url": "https://app.checkphish.ai/sign-in"
+            }
+          ]
         }
       ]
     },
