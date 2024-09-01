@@ -480,6 +480,7 @@
       "type": "url",
       "url": "https://blackbird-osint.herokuapp.com/"
 }]
+},
 {
     "name": "CTI",
     "type": "folder",
@@ -492,7 +493,6 @@
         "name": "CTI2",
         "type": "url",
         "url": "https://gchq.github.io/CyberChef/"
-},
 }]
 }]
 }]
