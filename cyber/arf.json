@@ -647,11 +647,6 @@
               "name": "Bitdefender",
               "type": "url",
               "url": "https://threatmap.bitdefender.com/"
-            },
-            {
-              "name": "Sonicwall",
-              "type": "url",
-              "url": "https://attackmap.sonicwall.com/live-attack-map/"
             }
           ]
         },
@@ -849,6 +844,59 @@
               "name": "Ransomware",
               "type": "url",
               "url": "https://ransomware.live/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sécurité et Guide",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Guide",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Cyber Guide Famille",
+              "type": "url",
+              "url": "https://www.masecurite.interieur.gouv.fr/media/562/download/Cyber-Guide-Familles.pdf?v=1&inline=1"
+            },
+            {
+              "name": "CERT (les bons reflexes en cas d'intrusion sur un système d'information)",
+              "type": "url",
+              "url": "https://www.cert.ssi.gouv.fr/les-bons-reflexes-en-cas-dintrusion-sur-un-systeme-dinformation/"
+            },
+            {
+              "name": "IleDeFrance - Assistance Cyber de la région",
+              "type": "url",
+              "url": "https://www.iledefrance.fr/toutes-les-actualites/urgence-cyber-ile-de-france-la-nouvelle-plateforme-dassistance-cyber-de-la-region"
+            },
+            {
+              "name": "Scammer",
+              "type": "url",
+              "url": "https://www.ripandscam.com/"
+            }
+          ]
+        },
+        {
+          "name": "Game",
+          "type": "folder",
+          "children": [
+            {
+              "name": "RansomwareGame",
+              "type": "url",
+              "url": "https://www.ebas.ch/ransomwaregame/fr/"
+            },
+            {
+              "name": "Escape-Fake",
+              "type": "url",
+              "url": "https://jeu.escape-fake.fr/"
+            },
+            {
+              "name": "Beinternetawesome",
+              "type": "url",
+              "url": "https://beinternetawesome.withgoogle.com/"
             }
           ]
         }
