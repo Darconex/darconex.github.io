@@ -138,6 +138,11 @@
               "url": "https://dnsdumpster.com/"
             },
             {
+              "name": "HackerTarget",
+              "type": "url",
+              "url": "https://hackertarget.com/reverse-dns-lookup/"
+            },
+            {
               "name": "Chaos",
               "type": "url",
               "url": "https://chaos.projectdiscovery.io"
@@ -363,6 +368,11 @@
               "url": "https://who.is/"
             },
             {
+              "name": "LiveIPMap",
+              "type": "url",
+              "url": "https://www.liveipmap.com/"
+            },
+            {
               "name": "IPAdresseGuide",
               "type": "url",
               "url": "https://www.ipaddressguide.com/"
@@ -473,6 +483,11 @@
               "name": "Hunter",
               "type": "url",
               "url": "https://hunter.how/"
+            },
+            {
+              "name": "Odin",
+              "type": "url",
+              "url": "https://search.odin.io/"
             }
           ]
         },
@@ -561,6 +576,11 @@
               "name": "Vulners",
               "type": "url",
               "url": "https://vulners.com/"
+            },
+            {
+              "name": "SurveillanceWatch",
+              "type": "url",
+              "url": "https://www.surveillancewatch.io/"
             },
             {
               "name": "APTMap",
