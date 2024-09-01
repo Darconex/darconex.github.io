@@ -499,10 +499,74 @@
         "type": "folder",
         "children": [
           {
-            "name": "test",
-            "type": "url",
-            "url": "test"
-          }
+            "name": "Exploit et CTI",
+            "type": "folder",
+            "children": [
+              {
+                "name": "CVEXploit",
+                "type": "url",
+                "url": "https://cvexploits.io/"
+              },
+              {
+                "name": "CVE Mitre",
+                "type": "url",
+                "url": "https://cve.mitre.org/"
+              },
+              {
+                "name": "CVE",
+                "type": "url",
+                "url": "https://www.cve.org/"
+              },
+              {
+                "name": "CVEDetails",
+                "type": "url",
+                "url": "https://www.cvedetails.com/"
+              },
+              {
+                "name": "UltimateWindowsSecurity",
+                "type": "url",
+                "url": "https://www.ultimatewindowssecurity.com/"
+              },
+              {
+                "name": "Leakix",
+                "type": "url",
+                "url": "https://leakix.net/"
+              },
+              {
+                "name": "Exploit-DB",
+                "type": "url",
+                "url": "https://www.exploit-db.com/"
+              },
+              {
+                "name": "TweetFeed",
+                "type": "url",
+                "url": "https://tweetfeed.live/"
+              },
+              {
+                "name": "Zero-Day",
+                "type": "url",
+                "url": "https://www.zero-day.cz/"
+              },
+                            {
+                "name": "FileSec",
+                "type": "url",
+                "url": "https://filesec.io/"
+              },
+              {
+                "name": "Lolbas",
+                "type": "url",
+                "url": "https://lolbas-project.github.io/"
+              },
+              {
+                "name": "Vulners",
+                "type": "url",
+                "url": "https://vulners.com/"
+              },
+              {
+                "name": "Vulners",
+                "type": "url",
+                "url": "https://andreacristaldi.github.io/APTmap/"
+              },
         ]
     }
   ]
