@@ -547,7 +547,7 @@
                 "type": "url",
                 "url": "https://www.zero-day.cz/"
               },
-                            {
+              {
                 "name": "FileSec",
                 "type": "url",
                 "url": "https://filesec.io/"
@@ -566,7 +566,7 @@
                 "name": "Vulners",
                 "type": "url",
                 "url": "https://andreacristaldi.github.io/APTmap/"
-              },
+              }
         ]
     }
   ]
