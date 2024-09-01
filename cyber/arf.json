@@ -233,6 +233,11 @@
                   "url": "https://haveibeenpwned.com/"
                 },
                 {
+                  "name": "SearchCode",
+                  "type": "url",
+                  "url": "https://searchcode.com/"
+                },
+                {
                   "name": "LeakedPassword",
                   "type": "url",
                   "url": "https://leakedpassword.com/"
