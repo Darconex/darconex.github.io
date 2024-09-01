@@ -233,11 +233,6 @@
                   "url": "https://haveibeenpwned.com/"
                 },
                 {
-                  "name": "SearchCode",
-                  "type": "url",
-                  "url": "https://searchcode.com/"
-                },
-                {
                   "name": "LeakedPassword",
                   "type": "url",
                   "url": "https://leakedpassword.com/"
@@ -530,7 +525,12 @@
               "name": "Passeport",
               "type": "url",
               "url": "https://www.passportindex.org"
-            }
+            },
+            {
+              "name": "SearchCode",
+              "type": "url",
+              "url": "https://searchcode.com/"
+             }
           ]
         }
       ]
