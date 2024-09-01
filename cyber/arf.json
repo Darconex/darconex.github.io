@@ -231,6 +231,16 @@
                   "name": "HaveiBeenPwned",
                   "type": "url",
                   "url": "https://haveibeenpwned.com/"
+                },
+                {
+                  "name": "LeakedPassword",
+                  "type": "url",
+                  "url": "https://leakedpassword.com/"
+                },
+                {
+                  "name": "PasswordDataBase",
+                  "type": "url",
+                  "url": "https://www.passwordsdatabase.com/"
                 }
               ]
             }
@@ -506,6 +516,17 @@
               "url": "https://blackbird-osint.herokuapp.com/"
             }
           ]
+        },
+        {
+          "name": "Autres",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Passeport",
+              "type": "url",
+              "url": "https://www.passportindex.org"
+            }
+          ]
         }
       ]
     },
@@ -581,6 +602,11 @@
               "name": "APTMap",
               "type": "url",
               "url": "https://andreacristaldi.github.io/APTmap/"
+            },
+            {
+              "name": "Malpedia",
+              "type": "url",
+              "url": "https://malpedia.caad.fkie.fraunhofer.de/"
             }
           ]
         },
@@ -879,7 +905,7 @@
             {
               "name": "Checkphish",
               "type": "url",
-              "url": "https://app.checkphish.ai/sign-in"
+              "url": "https://checkphish.bolster.ai/"
             }
           ]
         }
