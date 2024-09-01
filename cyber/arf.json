@@ -578,11 +578,6 @@
               "url": "https://vulners.com/"
             },
             {
-              "name": "SurveillanceWatch",
-              "type": "url",
-              "url": "https://www.surveillancewatch.io/"
-            },
-            {
               "name": "APTMap",
               "type": "url",
               "url": "https://andreacristaldi.github.io/APTmap/"
@@ -667,6 +662,11 @@
               "name": "Bitdefender",
               "type": "url",
               "url": "https://threatmap.bitdefender.com/"
+            },
+            {
+              "name": "SurveillanceWatch",
+              "type": "url",
+              "url": "https://www.surveillancewatch.io/"
             }
           ]
         },
