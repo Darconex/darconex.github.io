@@ -915,113 +915,113 @@
               "url": "https://beinternetawesome.withgoogle.com/"
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "Veille",
+      "type": "folder",
+      "children": [
+        {
+          "name": "CERT-FR",
+          "type": "url",
+          "url": "https://www.cert.ssi.gouv.fr/"
         },
         {
-          "name": "Veille",
-          "type": "folder",
-          "children": [
-            {
-              "name": "CERT-FR",
-              "type": "url",
-              "url": "https://www.cert.ssi.gouv.fr/"
-            },
-            {
-              "name": "Wikileaks",
-              "type": "url",
-              "url": "https://wikileaks.org/"
-            },
-            {
-              "name": "Conspiracywatch",
-              "type": "url",
-              "url": "https://www.conspiracywatch.info/conspiracymap/"
-            },
-            {
-              "name": "Veille-Cyber",
-              "type": "url",
-              "url": "https://veille-cyber.com/"
-            },
-            {
-              "name": "TheHackerNews",
-              "type": "url",
-              "url": "https://thehackernews.com/"
-            },
-            {
-              "name": "BleepingComputer",
-              "type": "url",
-              "url": "https://www.bleepingcomputer.com/"
-            },
-            {
-              "name": "Usine-Digitale",
-              "type": "url",
-              "url": "https://www.usine-digitale.fr/"
-            },
-            {
-              "name": "Silicon",
-              "type": "url",
-              "url": "https://www.silicon.fr/"
-            }
-          ]
+          "name": "Wikileaks",
+          "type": "url",
+          "url": "https://wikileaks.org/"
         },
         {
-          "name": "Learning",
-          "type": "folder",
-          "children": [
-            {
-              "name": "OpenClassRooms",
-              "type": "url",
-              "url": "https://openclassrooms.com/fr/courses"
-            },
-            {
-              "name": "TheBlackside",
-              "type": "url",
-              "url": "https://theblackside.fr/"
-            },
-            {
-              "name": "Portswigger",
-              "type": "url",
-              "url": "https://portswigger.net/web-security"
-            },
-            {
-              "name": "TryHackMe",
-              "type": "url",
-              "url": "https://tryhackme.com/"
-            },
-            {
-              "name": "HackTheBox",
-              "type": "url",
-              "url": "https://www.hackthebox.com/"
-            },
-            {
-              "name": "Letsdefend",
-              "type": "url",
-              "url": "https://app.letsdefend.io/"
-            },
-            {
-              "name": "Vulnhub",
-              "type": "url",
-              "url": "https://www.vulnhub.com/"
-            },
-            {
-              "name": "BlueTeamLabs",
-              "type": "url",
-              "url": "https://blueteamlabs.online/"
-            },
-            {
-              "name": "Cryptohack",
-              "type": "url",
-              "url": "https://cryptohack.org/"
-            },
-            {
-              "name": "Pentesterlab",
-              "type": "url",
-              "url": "https://pentesterlab.com/"
-            },
-            {
-              "name": "CyberDefenders",
-              "type": "url",
-              "url": "https://cyberdefenders.org/"
-            }
-          ]
+          "name": "Conspiracywatch",
+          "type": "url",
+          "url": "https://www.conspiracywatch.info/conspiracymap/"
+        },
+        {
+          "name": "Veille-Cyber",
+          "type": "url",
+          "url": "https://veille-cyber.com/"
+        },
+        {
+          "name": "TheHackerNews",
+          "type": "url",
+          "url": "https://thehackernews.com/"
+        },
+        {
+          "name": "BleepingComputer",
+          "type": "url",
+          "url": "https://www.bleepingcomputer.com/"
+        },
+        {
+          "name": "Usine-Digitale",
+          "type": "url",
+          "url": "https://www.usine-digitale.fr/"
+        },
+        {
+          "name": "Silicon",
+          "type": "url",
+          "url": "https://www.silicon.fr/"
+        }
+      ]
+    },
+    {
+      "name": "Learning",
+      "type": "folder",
+      "children": [
+        {
+          "name": "OpenClassRooms",
+          "type": "url",
+          "url": "https://openclassrooms.com/fr/courses"
+        },
+        {
+          "name": "TheBlackside",
+          "type": "url",
+          "url": "https://theblackside.fr/"
+        },
+        {
+          "name": "Portswigger",
+          "type": "url",
+          "url": "https://portswigger.net/web-security"
+        },
+        {
+          "name": "TryHackMe",
+          "type": "url",
+          "url": "https://tryhackme.com/"
+        },
+        {
+          "name": "HackTheBox",
+          "type": "url",
+          "url": "https://www.hackthebox.com/"
+        },
+        {
+          "name": "Letsdefend",
+          "type": "url",
+          "url": "https://app.letsdefend.io/"
+        },
+        {
+          "name": "Vulnhub",
+          "type": "url",
+          "url": "https://www.vulnhub.com/"
+        },
+        {
+          "name": "BlueTeamLabs",
+          "type": "url",
+          "url": "https://blueteamlabs.online/"
+        },
+        {
+          "name": "Cryptohack",
+          "type": "url",
+          "url": "https://cryptohack.org/"
+        },
+        {
+          "name": "Pentesterlab",
+          "type": "url",
+          "url": "https://pentesterlab.com/"
+        },
+        {
+          "name": "CyberDefenders",
+          "type": "url",
+          "url": "https://cyberdefenders.org/"
         }
       ]
     }
