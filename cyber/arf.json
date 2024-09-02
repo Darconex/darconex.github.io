@@ -233,6 +233,11 @@
                   "url": "https://haveibeenpwned.com/"
                 },
                 {
+                  "name": "HaveIbeenSold",
+                  "type": "url",
+                  "url": "https://haveibeensold.app/"
+                },
+                {
                   "name": "LeakedPassword",
                   "type": "url",
                   "url": "https://leakedpassword.com/"
@@ -627,6 +632,11 @@
               "name": "Loldrivers",
               "type": "url",
               "url": "https://www.loldrivers.io/"
+            },
+            {
+              "name": "IOC",
+              "type": "url",
+              "url": "https://ioc.one/"
             }
           ]
         },
@@ -1129,6 +1139,47 @@
           "name": "CyberDefenders",
           "type": "url",
           "url": "https://cyberdefenders.org/"
+        },
+        {
+          "name": "Cheat Sheet",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Sploitify",
+              "type": "url",
+              "url": "https://sploitify.haxx.it/"
+            },
+            {
+              "name": "QuickRef",
+              "type": "url",
+              "url": "https://quickref.me/"
+            },
+            {
+              "name": "SS64",
+              "type": "url",
+              "url": "https://ss64.com/"
+            },
+            {
+              "name": "KQLSearch",
+              "type": "url",
+              "url": "https://www.kqlsearch.com/"
+            },
+            {
+              "name": "Degital-Defense",
+              "type": "url",
+              "url": "https://digital-defense.io/"
+            },
+            {
+              "name": "CodeBeautify",
+              "type": "url",
+              "url": "https://codebeautify.org/"
+            },
+            {
+              "name": "JsonFormatter",
+              "type": "url",
+              "url": "https://jsonformatter.org/"
+            }
+          ]
         }
       ]
     },
