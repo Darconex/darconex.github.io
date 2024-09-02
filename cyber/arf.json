@@ -274,6 +274,11 @@
               "name": "FaceCheck",
               "type": "url",
               "url": "https://facecheck.id/"
+            },
+            {
+              "name": "HuggingFace",
+              "type": "url",
+              "url": "https://huggingface.co/spaces/gokaygokay/Florence-2"
             }
           ]
         },
