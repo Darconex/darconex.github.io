@@ -395,7 +395,7 @@
           ]
         },
         {
-          "name": "Scan Vulnérabilités & Tech Web",
+          "name": "Scan Vuln & Tech Web",
           "type": "folder",
           "children": [
             {
