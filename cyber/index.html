@@ -8,38 +8,43 @@
     <style>
       /* Button Styling */
       button {
-        background-color: #4CAF50; /* Green background */
+        background-color: #808080; /* Grey background */
         border: none; /* Remove borders */
         color: white; /* White text */
-        padding: 15px 32px; /* Some padding */
+        padding: 10px 20px; /* Some padding */
         text-align: center; /* Centered text */
         text-decoration: none; /* Remove underline */
         display: inline-block; /* Make the button inline-block */
-        font-size: 16px; /* Increase font size */
-        margin: 10px 2px; /* Add some margin */
+        font-size: 14px; /* Increase font size */
+        margin-left: 20px; /* Margin to separate from the CYBER text */
         cursor: pointer; /* Add a pointer cursor on hover */
-        border-radius: 12px; /* Rounded corners */
+        border-radius: 5px; /* Slightly rounded corners */
         transition-duration: 0.4s; /* Animation duration */
       }
 
       /* Add a hover effect for the button */
       button:hover {
         background-color: white; /* White background */
-        color: #4CAF50; /* Green text */
-        border: 2px solid #4CAF50; /* Green border */
+        color: #808080; /* Grey text */
+        border: 2px solid #808080; /* Grey border */
+      }
+
+      /* Align header and button */
+      #header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
       }
     </style>
   </head>
   <body>
     <div id="body">
       <div id="header">
-        CYBER
-        <hr/>
+        <div>CYBER</div>
+        <!-- Button placed next to CYBER -->
+        <button onclick="alert('Button clicked!')">Click Me</button>
+      <hr/>
       </div>
-
-      <!-- Button with styling -->
-      <button onclick="alert('Button clicked!')">Click Me</button>
-      
     </div>
     <script src="js/arf.js"></script>
     <div class="legend">
