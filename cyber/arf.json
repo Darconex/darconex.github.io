@@ -530,7 +530,7 @@
               "name": "SearchCode",
               "type": "url",
               "url": "https://searchcode.com/"
-             }
+            }
           ]
         }
       ]
@@ -612,6 +612,16 @@
               "name": "Malpedia",
               "type": "url",
               "url": "https://malpedia.caad.fkie.fraunhofer.de/"
+            },
+            {
+              "name": "OST-Map",
+              "type": "url",
+              "url": "https://intezer.com/ost-map/"
+            },
+            {
+              "name": "Loldrivers",
+              "type": "url",
+              "url": "https://www.loldrivers.io/"
             }
           ]
         },
@@ -913,6 +923,47 @@
               "url": "https://checkphish.bolster.ai/"
             }
           ]
+        },
+        {
+          "name": "Mitre",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Attackgen",
+              "type": "url",
+              "url": "https://attackgen.streamlit.app/"
+            },
+            {
+              "name": "D3fend",
+              "type": "url",
+              "url": "https://d3fend.mitre.org/"
+            },
+            {
+              "name": "Attack",
+              "type": "url",
+              "url": "https://attack.mitre.org/"
+            },
+            {
+              "name": "Fight",
+              "type": "url",
+              "url": "https://fight.mitre.org/"
+            },
+            {
+              "name": "Atlas",
+              "type": "url",
+              "url": "https://atlas.mitre.org/matrices/ATLAS"
+            },
+            {
+              "name": "PBOM",
+              "type": "url",
+              "url": "https://pbom.dev/"
+            },
+            {
+              "name": "Attack-Navigator",
+              "type": "url",
+              "url": "https://mitre-attack.github.io/attack-navigator/"
+            }
+          ]
         }
       ]
     },
@@ -1073,6 +1124,42 @@
           "name": "CyberDefenders",
           "type": "url",
           "url": "https://cyberdefenders.org/"
+        }
+      ]
+    },
+    {
+      "name": "Forensic",
+      "type": "folder",
+      "children": [
+        {
+          "name": "AutoPsy",
+          "type": "url",
+          "url": "https://www.autopsy.com/"
+        },
+        {
+          "name": "OpenText",
+          "type": "url",
+          "url": "https://www.opentext.com/products/encase-forensic"
+        },
+        {
+          "name": "KapeFiles",
+          "type": "url",
+          "url": "https://github.com/EricZimmerman/KapeFiles"
+        },
+        {
+          "name": "Redline",
+          "type": "url",
+          "url": "https://fireeye.market/apps/211364"
+        },
+        {
+          "name": "X-Ways",
+          "type": "url",
+          "url": "https://www.x-ways.net/forensics/"
+        },
+        {
+          "name": "ExifTool",
+          "type": "url",
+          "url": "https://exiftool.org/"
         }
       ]
     }
