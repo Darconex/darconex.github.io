@@ -540,7 +540,7 @@
       "type": "folder",
       "children": [
         {
-          "name": "Exploit et CTI",
+          "name": "Exploit & CTI",
           "type": "folder",
           "children": [
             {
@@ -712,7 +712,7 @@
           ]
         },
         {
-          "name": "Sandbox et Réputation",
+          "name": "Sandbox & Réputation",
           "type": "folder",
           "children": [
             {
@@ -968,7 +968,7 @@
       ]
     },
     {
-      "name": "Sécurité et Guide",
+      "name": "Sécurité & Guide",
       "type": "folder",
       "children": [
         {
