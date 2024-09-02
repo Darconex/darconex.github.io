@@ -16,10 +16,10 @@
         text-decoration: none; /* Remove underline */
         display: inline-block; /* Make the button inline-block */
         font-size: 14px; /* Increase font size */
-        margin-left: 20px; /* Margin to separate from the CYBER text */
         cursor: pointer; /* Add a pointer cursor on hover */
         border-radius: 5px; /* Slightly rounded corners */
         transition-duration: 0.4s; /* Animation duration */
+        margin-right: 20px; /* Space between button and CYBER text */
       }
 
       /* Add a hover effect for the button */
@@ -33,17 +33,22 @@
       #header {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+      }
+
+      /* CYBER text alignment */
+      #header > div {
+        flex-grow: 1; /* Pushes CYBER text to the right */
+        text-align: center;
       }
     </style>
   </head>
   <body>
     <div id="body">
       <div id="header">
-        <div>CYBER</div>
-        <!-- Button placed next to CYBER -->
+        <!-- Button placed at the left of the header -->
         <button onclick="alert('Button clicked!')">Click Me</button>
-      <hr/>
+        <div>CYBER</div>
+        <hr/>
       </div>
     </div>
     <script src="js/arf.js"></script>
