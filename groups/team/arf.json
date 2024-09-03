@@ -7,7 +7,7 @@
       "type": "folder",
       "children": [
         {
-          "name": "SIEM",
+          "name": "SIEM/EDR/EPP/XDR",
           "type": "folder",
           "children": [
             {
@@ -24,6 +24,11 @@
               "name": "CrowdStrike",
               "type": "url",
               "url": "https://www.crowdstrike.com/"
+            }
+            {
+              "name": "LogPoint",
+              "type": "url",
+              "url": "https://www.logpoint.com/en/"
             }
           ]
         },
