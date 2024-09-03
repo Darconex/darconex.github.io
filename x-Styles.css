@@ -1,0 +1,28 @@
+.nav-item {
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-item {
+    padding: 8px 16px;
+}
+
+.sub-item:hover {
+    background-color: #f1f1f1;
+}
+
+.nav-item:hover .sub-menu {
+    display: block;
+}
