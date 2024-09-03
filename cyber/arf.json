@@ -540,7 +540,12 @@
               "name": "SearchCode",
               "type": "url",
               "url": "https://searchcode.com/"
-            }
+            },
+            {
+              "name": "Vehicule",
+              "type": "url",
+              "url": "https://github.com/TheBurnsy/Vehicle-OSINT-Collection"
+            },
           ]
         }
       ]
@@ -1168,6 +1173,16 @@
               "name": "Degital-Defense",
               "type": "url",
               "url": "https://digital-defense.io/"
+            },
+            {
+              "name": "MindMap",
+              "type": "url",
+              "url": "https://github.com/Ignitetechnologies/Mindmap/tree/main"
+            },
+            {
+              "name": "OCD-MindMap",
+              "type": "url",
+              "url": "https://orange-cyberdefense.github.io/ocd-mindmaps/"
             },
             {
               "name": "CodeBeautify",
