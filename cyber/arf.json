@@ -82,7 +82,7 @@
               "url": "https://oxt.me/"
             },
             {
-              "name": "Chainbuse",
+              "name": "Chainabuse",
               "type": "url",
               "url": "https://www.chainabuse.com/"
             }
@@ -545,7 +545,7 @@
               "name": "Vehicule",
               "type": "url",
               "url": "https://github.com/TheBurnsy/Vehicle-OSINT-Collection"
-            },
+            }
           ]
         }
       ]
@@ -690,7 +690,7 @@
               "url": "https://talosintelligence.com/reputation_center"
             },
             {
-              "name": "ThreatBut",
+              "name": "ThreatButt",
               "type": "url",
               "url": "https://threatbutt.com/map/"
             },
@@ -1170,7 +1170,7 @@
               "url": "https://www.kqlsearch.com/"
             },
             {
-              "name": "Degital-Defense",
+              "name": "Digital-Defense",
               "type": "url",
               "url": "https://digital-defense.io/"
             },
