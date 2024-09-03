@@ -1,0 +1,1238 @@
+{
+  "name": "Data Cyber",
+  "type": "folder",
+  "children": [
+    {
+      "name": "OSINT",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Authentification",
+          "type": "folder",
+          "children": [
+            {
+              "name": "CyberChef",
+              "type": "url",
+              "url": "https://gchq.github.io/CyberChef/"
+            },
+            {
+              "name": "crt",
+              "type": "url",
+              "url": "https://crt.sh/"
+            },
+            {
+              "name": "2fa.directory",
+              "type": "url",
+              "url": "https://2fa.directory/fr/"
+            },
+            {
+              "name": "Regex101",
+              "type": "url",
+              "url": "https://regex101.com/"
+            },
+            {
+              "name": "UrlDecoder",
+              "type": "url",
+              "url": "https://www.urldecoder.io/"
+            },
+            {
+              "name": "UrlEncoder",
+              "type": "url",
+              "url": "https://www.urlencoder.org/"
+            },
+            {
+              "name": "Base64Decode",
+              "type": "url",
+              "url": "https://www.base64decode.org/"
+            },
+            {
+              "name": "Crackstation",
+              "type": "url",
+              "url": "https://crackstation.net/"
+            },
+            {
+              "name": "Hash-Analyzer",
+              "type": "url",
+              "url": "https://www.tunnelsup.com/hash-analyzer/"
+            },
+            {
+              "name": "HashCat",
+              "type": "url",
+              "url": "https://hashcat.net/hashcat/"
+            }
+          ]
+        },
+        {
+          "name": "Cryptomonnaie",
+          "type": "folder",
+          "children": [
+            {
+              "name": "BlockCypher",
+              "type": "url",
+              "url": "https://live.blockcypher.com/"
+            },
+            {
+              "name": "Bitref",
+              "type": "url",
+              "url": "https://bitref.com/"
+            },
+            {
+              "name": "OXT",
+              "type": "url",
+              "url": "https://oxt.me/"
+            },
+            {
+              "name": "Chainabuse",
+              "type": "url",
+              "url": "https://www.chainabuse.com/"
+            }
+          ]
+        },
+        {
+          "name": "DNS",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Robtex",
+              "type": "url",
+              "url": "https://www.robtex.com/"
+            },
+            {
+              "name": "Whois",
+              "type": "url",
+              "url": "https://whois.domaintools.com/"
+            },
+            {
+              "name": "WhoisLookup",
+              "type": "url",
+              "url": "https://whoislookup.pro/"
+            },
+            {
+              "name": "Whatsmydns",
+              "type": "url",
+              "url": "https://www.whatsmydns.net/"
+            },
+            {
+              "name": "Wheregoes",
+              "type": "url",
+              "url": "https://wheregoes.com/"
+            },
+            {
+              "name": "DNSLytics",
+              "type": "url",
+              "url": "https://dnslytics.com/"
+            },
+            {
+              "name": "CompleteDNS",
+              "type": "url",
+              "url": "https://completedns.com/dns-history/"
+            },
+            {
+              "name": "Diggui",
+              "type": "url",
+              "url": "https://www.diggui.com/"
+            },
+            {
+              "name": "DNSDumpter",
+              "type": "url",
+              "url": "https://dnsdumpster.com/"
+            },
+            {
+              "name": "HackerTarget",
+              "type": "url",
+              "url": "https://hackertarget.com/reverse-dns-lookup/"
+            },
+            {
+              "name": "Chaos",
+              "type": "url",
+              "url": "https://chaos.projectdiscovery.io"
+            }
+          ]
+        },
+        {
+          "name": "Email address",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Epios",
+              "type": "url",
+              "url": "https://epieos.com/"
+            },
+            {
+              "name": "Hunter",
+              "type": "url",
+              "url": "https://hunter.io/"
+            },
+            {
+              "name": "CheckCybersecurity",
+              "type": "url",
+              "url": "https://checkcybersecurity.service.ncsc.gov.uk/email-security-check/form"
+            },
+            {
+              "name": "Osint Industries",
+              "type": "url",
+              "url": "https://www.osint.industries/"
+            },
+            {
+              "name": "Skymem",
+              "type": "url",
+              "url": "https://www.skymem.info/"
+            },
+            {
+              "name": "EmailSherlock",
+              "type": "url",
+              "url": "https://www.emailsherlock.com/"
+            },
+            {
+              "name": "MXToolbox",
+              "type": "url",
+              "url": "https://mxtoolbox.com/"
+            },
+            {
+              "name": "CaptainVerify",
+              "type": "url",
+              "url": "https://captainverify.com/fr/mail-tester.html"
+            },
+            {
+              "name": "MailHeader",
+              "type": "url",
+              "url": "https://mailheader.org/"
+            },
+            {
+              "name": "PredictaSearch",
+              "type": "url",
+              "url": "https://www.predictasearch.com/"
+            },
+            {
+              "name": "Mha Azure",
+              "type": "url",
+              "url": "https://mha.azurewebsites.net/"
+            },
+            {
+              "name": "Data Breach",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Ashley Madison",
+                  "type": "url",
+                  "url": "https://ashley.cynic.al/"
+                },
+                {
+                  "name": "Dehashed",
+                  "type": "url",
+                  "url": "https://dehashed.com/"
+                },
+                {
+                  "name": "Hudsonrock",
+                  "type": "url",
+                  "url": "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools"
+                },
+                {
+                  "name": "HaveiBeenPwned",
+                  "type": "url",
+                  "url": "https://haveibeenpwned.com/"
+                },
+                {
+                  "name": "HaveIbeenSold",
+                  "type": "url",
+                  "url": "https://haveibeensold.app/"
+                },
+                {
+                  "name": "LeakedPassword",
+                  "type": "url",
+                  "url": "https://leakedpassword.com/"
+                },
+                {
+                  "name": "PasswordDataBase",
+                  "type": "url",
+                  "url": "https://www.passwordsdatabase.com/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Image",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Tinexe",
+              "type": "url",
+              "url": "https://tineye.com/"
+            },
+            {
+              "name": "Pimeyes",
+              "type": "url",
+              "url": "https://pimeyes.com/"
+            },
+            {
+              "name": "Pic2Map",
+              "type": "url",
+              "url": "https://www.pic2map.com/"
+            },
+            {
+              "name": "Verexif",
+              "type": "url",
+              "url": "https://www.verexif.com/"
+            },
+            {
+              "name": "FaceCheck",
+              "type": "url",
+              "url": "https://facecheck.id/"
+            },
+            {
+              "name": "HuggingFace",
+              "type": "url",
+              "url": "https://huggingface.co/spaces/gokaygokay/Florence-2"
+            }
+          ]
+        },
+        {
+          "name": "Maps",
+          "type": "folder",
+          "children": [
+            {
+              "name": "DataCenterMap",
+              "type": "url",
+              "url": "https://www.datacentermap.com/"
+            },
+            {
+              "name": "MapSnapchat",
+              "type": "url",
+              "url": "https://map.snapchat.com/"
+            },
+            {
+              "name": "GPSJam",
+              "type": "url",
+              "url": "https://gpsjam.org/"
+            },
+            {
+              "name": "ShadowMap",
+              "type": "url",
+              "url": "https://app.shadowmap.org/"
+            },
+            {
+              "name": "MapNbr",
+              "type": "url",
+              "url": "https://map.nbr.org/interactivemap/"
+            },
+            {
+              "name": "FlighRadar24",
+              "type": "url",
+              "url": "https://www.flightradar24.com/"
+            },
+            {
+              "name": "SubmarineCableMap",
+              "type": "url",
+              "url": "https://www.submarinecablemap.com/"
+            },
+            {
+              "name": "OpenStreetMap",
+              "type": "url",
+              "url": "https://umap.openstreetmap.fr/"
+            },
+            {
+              "name": "DeepStateMap",
+              "type": "url",
+              "url": "https://deepstatemap.live"
+            },
+            {
+              "name": "EarthKit",
+              "type": "url",
+              "url": "https://earthkit.app/geoclip"
+            }
+          ]
+        },
+        {
+          "name": "Network",
+          "type": "folder",
+          "children": [
+            {
+              "name": "IpInfo",
+              "type": "url",
+              "url": "https://ipinfo.io/"
+            },
+            {
+              "name": "Wigle",
+              "type": "url",
+              "url": "https://wigle.net/"
+            },
+            {
+              "name": "BGP",
+              "type": "url",
+              "url": "https://bgp.tools/"
+            },
+            {
+              "name": "IPVoid",
+              "type": "url",
+              "url": "https://www.ipvoid.com/"
+            },
+            {
+              "name": "Keycdn",
+              "type": "url",
+              "url": "https://tools.keycdn.com/"
+            },
+            {
+              "name": "Lupovis",
+              "type": "url",
+              "url": "https://prowl.lupovis.io/"
+            },
+            {
+              "name": "Peeringdb",
+              "type": "url",
+              "url": "https://www.peeringdb.com/"
+            },
+            {
+              "name": "Who.is",
+              "type": "url",
+              "url": "https://who.is/"
+            },
+            {
+              "name": "LiveIPMap",
+              "type": "url",
+              "url": "https://www.liveipmap.com/"
+            },
+            {
+              "name": "IPAdresseGuide",
+              "type": "url",
+              "url": "https://www.ipaddressguide.com/"
+            },
+            {
+              "name": "IP Address Ranges Par Country",
+              "type": "url",
+              "url": "https://lite.ip2location.com/ip-address-ranges-by-country"
+            }
+          ]
+        },
+        {
+          "name": "Scan Vuln & Tech Web",
+          "type": "folder",
+          "children": [
+            {
+              "name": "WebCheck",
+              "type": "url",
+              "url": "https://web-check.xyz/"
+            },
+            {
+              "name": "OpenVas",
+              "type": "url",
+              "url": "https://hostedscan.com/openvas-vulnerability-scan"
+            },
+            {
+              "name": "Securi",
+              "type": "url",
+              "url": "https://sitecheck.sucuri.net/"
+            }
+          ]
+        },
+        {
+          "name": "Surface d'attaque",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Shodan",
+              "type": "url",
+              "url": "https://www.shodan.io/"
+            },
+            {
+              "name": "2000 Shodan",
+              "type": "url",
+              "url": "https://2000.shodan.io/"
+            },
+            {
+              "name": "Exploit Shodan",
+              "type": "url",
+              "url": "https://exploits.shodan.io/"
+            },
+            {
+              "name": "Censys",
+              "type": "url",
+              "url": "https://search.censys.io/"
+            },
+            {
+              "name": "CriminalIP",
+              "type": "url",
+              "url": "https://www.criminalip.io/"
+            },
+            {
+              "name": "Zoomeye",
+              "type": "url",
+              "url": "https://www.zoomeye.hk/"
+            },
+            {
+              "name": "IntelX",
+              "type": "url",
+              "url": "https://intelx.io/"
+            },
+            {
+              "name": "Fullhunt",
+              "type": "url",
+              "url": "https://fullhunt.io/"
+            },
+            {
+              "name": "Phonebook",
+              "type": "url",
+              "url": "https://phonebook.cz/"
+            },
+            {
+              "name": "Onyphe",
+              "type": "url",
+              "url": "https://www.onyphe.io/"
+            },
+            {
+              "name": "Greynoise",
+              "type": "url",
+              "url": "https://viz.greynoise.io/"
+            },
+            {
+              "name": "SecurityTrails",
+              "type": "url",
+              "url": "https://securitytrails.com/"
+            },
+            {
+              "name": "Netlas",
+              "type": "url",
+              "url": "https://netlas.io/"
+            },
+            {
+              "name": "Shadowserver",
+              "type": "url",
+              "url": "https://dashboard.shadowserver.org/"
+            },
+            {
+              "name": "Hunter",
+              "type": "url",
+              "url": "https://hunter.how/"
+            },
+            {
+              "name": "Odin",
+              "type": "url",
+              "url": "https://search.odin.io/"
+            }
+          ]
+        },
+        {
+          "name": "Username",
+          "type": "folder",
+          "children": [
+            {
+              "name": "WhatsMyName",
+              "type": "url",
+              "url": "https://whatsmyname.app/"
+            },
+            {
+              "name": "Blackbird Osint",
+              "type": "url",
+              "url": "https://blackbird-osint.herokuapp.com/"
+            }
+          ]
+        },
+        {
+          "name": "Autres",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Passeport",
+              "type": "url",
+              "url": "https://www.passportindex.org"
+            },
+            {
+              "name": "SearchCode",
+              "type": "url",
+              "url": "https://searchcode.com/"
+            },
+            {
+              "name": "Vehicule",
+              "type": "url",
+              "url": "https://github.com/TheBurnsy/Vehicle-OSINT-Collection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CTI",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Exploit & CTI",
+          "type": "folder",
+          "children": [
+            {
+              "name": "CVEXploit",
+              "type": "url",
+              "url": "https://cvexploits.io/"
+            },
+            {
+              "name": "CVE Mitre",
+              "type": "url",
+              "url": "https://cve.mitre.org/"
+            },
+            {
+              "name": "CVE",
+              "type": "url",
+              "url": "https://www.cve.org/"
+            },
+            {
+              "name": "CVEDetails",
+              "type": "url",
+              "url": "https://www.cvedetails.com/"
+            },
+            {
+              "name": "UltimateWindowsSecurity",
+              "type": "url",
+              "url": "https://www.ultimatewindowssecurity.com/"
+            },
+            {
+              "name": "Leakix",
+              "type": "url",
+              "url": "https://leakix.net/"
+            },
+            {
+              "name": "Exploit-DB",
+              "type": "url",
+              "url": "https://www.exploit-db.com/"
+            },
+            {
+              "name": "TweetFeed",
+              "type": "url",
+              "url": "https://tweetfeed.live/"
+            },
+            {
+              "name": "Zero-Day",
+              "type": "url",
+              "url": "https://www.zero-day.cz/"
+            },
+            {
+              "name": "FileSec",
+              "type": "url",
+              "url": "https://filesec.io/"
+            },
+            {
+              "name": "Lolbas",
+              "type": "url",
+              "url": "https://lolbas-project.github.io/"
+            },
+            {
+              "name": "Vulners",
+              "type": "url",
+              "url": "https://vulners.com/"
+            },
+            {
+              "name": "APTMap",
+              "type": "url",
+              "url": "https://andreacristaldi.github.io/APTmap/"
+            },
+            {
+              "name": "Malpedia",
+              "type": "url",
+              "url": "https://malpedia.caad.fkie.fraunhofer.de/"
+            },
+            {
+              "name": "OST-Map",
+              "type": "url",
+              "url": "https://intezer.com/ost-map/"
+            },
+            {
+              "name": "Loldrivers",
+              "type": "url",
+              "url": "https://www.loldrivers.io/"
+            },
+            {
+              "name": "IOC",
+              "type": "url",
+              "url": "https://ioc.one/"
+            }
+          ]
+        },
+        {
+          "name": "Map Attaque",
+          "type": "folder",
+          "children": [
+            {
+              "name": "CheckPoint",
+              "type": "url",
+              "url": "https://threatmap.checkpoint.com/"
+            },
+            {
+              "name": "Spamhaus",
+              "type": "url",
+              "url": "https://www.spamhaus.com/threat-map/"
+            },
+            {
+              "name": "DigitalAttackMap",
+              "type": "url",
+              "url": "https://www.digitalattackmap.com/#anim=1&color=0&country=ALL&list=0&time=18763&view=map"
+            },
+            {
+              "name": "Fortiguard",
+              "type": "url",
+              "url": "https://threatmap.fortiguard.com/"
+            },
+            {
+              "name": "Imperva",
+              "type": "url",
+              "url": "https://www.imperva.com/cyber-threat-attack-map/"
+            },
+            {
+              "name": "Netscout",
+              "type": "url",
+              "url": "https://horizon.netscout.com/"
+            },
+            {
+              "name": "Sophos",
+              "type": "url",
+              "url": "https://www.sophos.com/fr-fr/threat-center/threat-monitoring/threatdashboard"
+            },
+            {
+              "name": "TalosIntelligence",
+              "type": "url",
+              "url": "https://talosintelligence.com/reputation_center"
+            },
+            {
+              "name": "ThreatButt",
+              "type": "url",
+              "url": "https://threatbutt.com/map/"
+            },
+            {
+              "name": "Kaspersky",
+              "type": "url",
+              "url": "https://cybermap.kaspersky.com/"
+            },
+            {
+              "name": "Radware",
+              "type": "url",
+              "url": "https://livethreatmap.radware.com/"
+            },
+            {
+              "name": "Httpcs",
+              "type": "url",
+              "url": "https://map.httpcs.com/"
+            },
+            {
+              "name": "Sonicwall",
+              "type": "url",
+              "url": "https://attackmap.sonicwall.com/live-attack-map/"
+            },
+            {
+              "name": "Sicherheitstacho",
+              "type": "url",
+              "url": "https://www.sicherheitstacho.eu/start/main#/en/tacho"
+            },
+            {
+              "name": "Bitdefender",
+              "type": "url",
+              "url": "https://threatmap.bitdefender.com/"
+            },
+            {
+              "name": "SurveillanceWatch",
+              "type": "url",
+              "url": "https://www.surveillancewatch.io/"
+            }
+          ]
+        },
+        {
+          "name": "Sandbox & Réputation",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Any.run",
+              "type": "url",
+              "url": "https://app.any.run/"
+            },
+            {
+              "name": "Cuckoo",
+              "type": "url",
+              "url": "https://cuckoo.cert.ee/"
+            },
+            {
+              "name": "Browserling",
+              "type": "url",
+              "url": "https://www.browserling.com/browser-sandbox"
+            },
+            {
+              "name": "VirusTotal",
+              "type": "url",
+              "url": "https://www.virustotal.com"
+            },
+            {
+              "name": "URLScan",
+              "type": "url",
+              "url": "https://urlscan.io/"
+            },
+            {
+              "name": "IPQualityScore",
+              "type": "url",
+              "url": "https://www.ipqualityscore.com/free-ip-lookup-proxy-vpn-test"
+            },
+            {
+              "name": "TransparencyReport",
+              "type": "url",
+              "url": "https://transparencyreport.google.com/safe-browsing/search"
+            },
+            {
+              "name": "Hybrid-Analysis",
+              "type": "url",
+              "url": "https://www.hybrid-analysis.com/"
+            },
+            {
+              "name": "AbuseIPDB",
+              "type": "url",
+              "url": "https://www.abuseipdb.com/"
+            },
+            {
+              "name": "TalosIntelligence",
+              "type": "url",
+              "url": "https://talosintelligence.com/"
+            },
+            {
+              "name": "URLVoid",
+              "type": "url",
+              "url": "https://www.urlvoid.com/"
+            },
+            {
+              "name": "JoeSandbox",
+              "type": "url",
+              "url": "https://www.joesandbox.com/"
+            },
+            {
+              "name": "Cybergordon",
+              "type": "url",
+              "url": "https://cybergordon.com/"
+            },
+            {
+              "name": "Mobsf",
+              "type": "url",
+              "url": "https://mobsf.live/"
+            },
+            {
+              "name": "XForce",
+              "type": "url",
+              "url": "https://exchange.xforce.ibmcloud.com/"
+            },
+            {
+              "name": "PaloaltoNetworks",
+              "type": "url",
+              "url": "https://urlfiltering.paloaltonetworks.com/"
+            },
+            {
+              "name": "Symantec",
+              "type": "url",
+              "url": "https://sitereview.bluecoat.com/"
+            },
+            {
+              "name": "Kaspersky",
+              "type": "url",
+              "url": "https://opentip.kaspersky.com/"
+            },
+            {
+              "name": "BlacklistChecker",
+              "type": "url",
+              "url": "https://blacklistchecker.com/"
+            },
+            {
+              "name": "Docguard",
+              "type": "url",
+              "url": "https://www.docguard.io/"
+            },
+            {
+              "name": "MetaDefender",
+              "type": "url",
+              "url": "https://metadefender.opswat.com/"
+            },
+            {
+              "name": "Filescan",
+              "type": "url",
+              "url": "https://www.filescan.io/scan"
+            },
+            {
+              "name": "CTX",
+              "type": "url",
+              "url": "https://www.ctx.io/"
+            },
+            {
+              "name": "Scamadviser",
+              "type": "url",
+              "url": "https://www.scamadviser.com/"
+            },
+            {
+              "name": "Threatminer",
+              "type": "url",
+              "url": "https://www.threatminer.org/"
+            },
+            {
+              "name": "URL2PNG",
+              "type": "url",
+              "url": "https://www.url2png.com/"
+            },
+            {
+              "name": "Socradar",
+              "type": "url",
+              "url": "https://socradar.io/labs"
+            },
+            {
+              "name": "Red Flag",
+              "type": "url",
+              "url": "https://red.flag.domains/"
+            },
+            {
+              "name": "Koodous",
+              "type": "url",
+              "url": "https://koodous.com/"
+            },
+            {
+              "name": "Lupovis",
+              "type": "url",
+              "url": "https://prowl.lupovis.io/"
+            }
+          ]
+        },
+        {
+          "name": "Ransomware",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Nomoreransom",
+              "type": "url",
+              "url": "https://www.nomoreransom.org/fr/index.html"
+            },
+            {
+              "name": "Ransom-DB",
+              "type": "url",
+              "url": "https://www.ransom-db.com/"
+            },
+            {
+              "name": "Avast",
+              "type": "url",
+              "url": "https://www.avast.com/ransomware-decryption-tools"
+            },
+            {
+              "name": "Kaspersky",
+              "type": "url",
+              "url": "https://noransom.kaspersky.com/"
+            },
+            {
+              "name": "ID-Ransomware",
+              "type": "url",
+              "url": "https://id-ransomware.malwarehunterteam.com/"
+            },
+            {
+              "name": "Kumu",
+              "type": "url",
+              "url": "https://kumu.io/pancak3/cybercrime-ops-demo#cybercrime-ops-demo/conti"
+            },
+            {
+              "name": "Ransomware",
+              "type": "url",
+              "url": "https://ransomware.live/"
+            }
+          ]
+        },
+        {
+          "name": "Phishing",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Phishtank",
+              "type": "url",
+              "url": "https://phishtank.org/"
+            },
+            {
+              "name": "Checkphish",
+              "type": "url",
+              "url": "https://checkphish.bolster.ai/"
+            }
+          ]
+        },
+        {
+          "name": "Mitre",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Attackgen",
+              "type": "url",
+              "url": "https://attackgen.streamlit.app/"
+            },
+            {
+              "name": "D3fend",
+              "type": "url",
+              "url": "https://d3fend.mitre.org/"
+            },
+            {
+              "name": "Attack",
+              "type": "url",
+              "url": "https://attack.mitre.org/"
+            },
+            {
+              "name": "Fight",
+              "type": "url",
+              "url": "https://fight.mitre.org/"
+            },
+            {
+              "name": "Atlas",
+              "type": "url",
+              "url": "https://atlas.mitre.org/matrices/ATLAS"
+            },
+            {
+              "name": "PBOM",
+              "type": "url",
+              "url": "https://pbom.dev/"
+            },
+            {
+              "name": "Attack-Navigator",
+              "type": "url",
+              "url": "https://mitre-attack.github.io/attack-navigator/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sécurité & Guide",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Guide",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Cyber Guide Famille",
+              "type": "url",
+              "url": "https://www.masecurite.interieur.gouv.fr/media/562/download/Cyber-Guide-Familles.pdf?v=1&inline=1"
+            },
+            {
+              "name": "CERT (les bons reflexes en cas d'intrusion sur un système d'information)",
+              "type": "url",
+              "url": "https://www.cert.ssi.gouv.fr/les-bons-reflexes-en-cas-dintrusion-sur-un-systeme-dinformation/"
+            },
+            {
+              "name": "IleDeFrance - Assistance Cyber de la région",
+              "type": "url",
+              "url": "https://www.iledefrance.fr/toutes-les-actualites/urgence-cyber-ile-de-france-la-nouvelle-plateforme-dassistance-cyber-de-la-region"
+            },
+            {
+              "name": "Scammer",
+              "type": "url",
+              "url": "https://www.ripandscam.com/"
+            }
+          ]
+        },
+        {
+          "name": "Game",
+          "type": "folder",
+          "children": [
+            {
+              "name": "RansomwareGame",
+              "type": "url",
+              "url": "https://www.ebas.ch/ransomwaregame/fr/"
+            },
+            {
+              "name": "Escape-Fake",
+              "type": "url",
+              "url": "https://jeu.escape-fake.fr/"
+            },
+            {
+              "name": "Beinternetawesome",
+              "type": "url",
+              "url": "https://beinternetawesome.withgoogle.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Veille",
+      "type": "folder",
+      "children": [
+        {
+          "name": "CERT-FR",
+          "type": "url",
+          "url": "https://www.cert.ssi.gouv.fr/"
+        },
+        {
+          "name": "Wikileaks",
+          "type": "url",
+          "url": "https://wikileaks.org/"
+        },
+        {
+          "name": "Conspiracywatch",
+          "type": "url",
+          "url": "https://www.conspiracywatch.info/conspiracymap/"
+        },
+        {
+          "name": "Veille-Cyber",
+          "type": "url",
+          "url": "https://veille-cyber.com/"
+        },
+        {
+          "name": "TheHackerNews",
+          "type": "url",
+          "url": "https://thehackernews.com/"
+        },
+        {
+          "name": "BleepingComputer",
+          "type": "url",
+          "url": "https://www.bleepingcomputer.com/"
+        },
+        {
+          "name": "Usine-Digitale",
+          "type": "url",
+          "url": "https://www.usine-digitale.fr/"
+        },
+        {
+          "name": "Silicon",
+          "type": "url",
+          "url": "https://www.silicon.fr/"
+        }
+      ]
+    },
+    {
+      "name": "Learning",
+      "type": "folder",
+      "children": [
+        {
+          "name": "OpenClassRooms",
+          "type": "url",
+          "url": "https://openclassrooms.com/fr/courses"
+        },
+        {
+          "name": "TheBlackside",
+          "type": "url",
+          "url": "https://theblackside.fr/"
+        },
+        {
+          "name": "Portswigger",
+          "type": "url",
+          "url": "https://portswigger.net/web-security"
+        },
+        {
+          "name": "TryHackMe",
+          "type": "url",
+          "url": "https://tryhackme.com/"
+        },
+        {
+          "name": "HackTheBox",
+          "type": "url",
+          "url": "https://www.hackthebox.com/"
+        },
+        {
+          "name": "Letsdefend",
+          "type": "url",
+          "url": "https://app.letsdefend.io/"
+        },
+        {
+          "name": "Vulnhub",
+          "type": "url",
+          "url": "https://www.vulnhub.com/"
+        },
+        {
+          "name": "BlueTeamLabs",
+          "type": "url",
+          "url": "https://blueteamlabs.online/"
+        },
+        {
+          "name": "Cryptohack",
+          "type": "url",
+          "url": "https://cryptohack.org/"
+        },
+        {
+          "name": "Pentesterlab",
+          "type": "url",
+          "url": "https://pentesterlab.com/"
+        },
+        {
+          "name": "CyberDefenders",
+          "type": "url",
+          "url": "https://cyberdefenders.org/"
+        },
+        {
+          "name": "Cheat Sheet",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Sploitify",
+              "type": "url",
+              "url": "https://sploitify.haxx.it/"
+            },
+            {
+              "name": "QuickRef",
+              "type": "url",
+              "url": "https://quickref.me/"
+            },
+            {
+              "name": "SS64",
+              "type": "url",
+              "url": "https://ss64.com/"
+            },
+            {
+              "name": "KQLSearch",
+              "type": "url",
+              "url": "https://www.kqlsearch.com/"
+            },
+            {
+              "name": "Digital-Defense",
+              "type": "url",
+              "url": "https://digital-defense.io/"
+            },
+            {
+              "name": "MindMap",
+              "type": "url",
+              "url": "https://github.com/Ignitetechnologies/Mindmap/tree/main"
+            },
+            {
+              "name": "OCD-MindMap",
+              "type": "url",
+              "url": "https://orange-cyberdefense.github.io/ocd-mindmaps/"
+            },
+            {
+              "name": "CodeBeautify",
+              "type": "url",
+              "url": "https://codebeautify.org/"
+            },
+            {
+              "name": "JsonFormatter",
+              "type": "url",
+              "url": "https://jsonformatter.org/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Forensic",
+      "type": "folder",
+      "children": [
+        {
+          "name": "AutoPsy",
+          "type": "url",
+          "url": "https://www.autopsy.com/"
+        },
+        {
+          "name": "OpenText",
+          "type": "url",
+          "url": "https://www.opentext.com/products/encase-forensic"
+        },
+        {
+          "name": "KapeFiles",
+          "type": "url",
+          "url": "https://github.com/EricZimmerman/KapeFiles"
+        },
+        {
+          "name": "Redline",
+          "type": "url",
+          "url": "https://fireeye.market/apps/211364"
+        },
+        {
+          "name": "X-Ways",
+          "type": "url",
+          "url": "https://www.x-ways.net/forensics/"
+        },
+        {
+          "name": "ExifTool",
+          "type": "url",
+          "url": "https://exiftool.org/"
+        }
+      ]
+    }
+  ]
+}
