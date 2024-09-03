@@ -25,14 +25,9 @@
         color: #808080;
         border: 2px solid #808080;
       }
-      #header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-      #header > div {
-        margin-left: auto;
+      .right-align {
         text-align: right;
+        margin-right: 20px; /* Optional: adds some space to the right */
       }
     </style>
   </head>
@@ -40,12 +35,13 @@
     <div id="body">
       <div id="header">
         <a href="https://darconex.github.io/" class="button-link">Menu</a>
-        <div>BlueTeam / RedTeam</div>
+        <hr/>
       </div>
-      <hr/>
+
+      <div class="right-align">BlueTeam / RedTeam</div>
     </div>
     <script src="js/arf.js"></script>
-     <div class="legend">
+    <div class="legend">
       <p>BlueTeam (Defensive)<br>
       RedTeam (Offensive)</p>
     </div>
