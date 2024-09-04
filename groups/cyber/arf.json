@@ -184,6 +184,11 @@
               "url": "https://www.emailsherlock.com/"
             },
             {
+              "name": "OsintRocks",
+              "type": "url",
+              "url": "https://osint.rocks/"
+            },
+            {
               "name": "MXToolbox",
               "type": "url",
               "url": "https://mxtoolbox.com/"
