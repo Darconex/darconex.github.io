@@ -566,6 +566,11 @@
               "type": "url",
               "url": "https://thispersondoesnotexist.com"
             }
+            {
+              "name": "FCCID",
+              "type": "url",
+              "url": "https://fccid.io/"
+            }
           ]
         }
       ]
