@@ -550,6 +550,11 @@
               "name": "Vehicule",
               "type": "url",
               "url": "https://github.com/TheBurnsy/Vehicle-OSINT-Collection"
+            },
+            {
+              "name": "HackdList",
+              "type": "url",
+              "url": "https://hackedlist.io/"
             }
           ]
         }
