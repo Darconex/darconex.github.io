@@ -555,6 +555,16 @@
               "name": "HackdList",
               "type": "url",
               "url": "https://hackedlist.io/"
+            },
+            {
+              "name": "FakeNameGenerator",
+              "type": "url",
+              "url": "https://fr.fakenamegenerator.com/"
+            },
+            {
+              "name": "Thispersondoesnotexist",
+              "type": "url",
+              "url": "https://thispersondoesnotexist.com"
             }
           ]
         }
