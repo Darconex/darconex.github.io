@@ -565,11 +565,16 @@
               "name": "Thispersondoesnotexist",
               "type": "url",
               "url": "https://thispersondoesnotexist.com"
-            }
+            },
             {
               "name": "FCCID",
               "type": "url",
               "url": "https://fccid.io/"
+            },
+            {
+              "name": "Platerecognizer",
+              "type": "url",
+              "url": "https://platerecognizer.com/"
             }
           ]
         }
