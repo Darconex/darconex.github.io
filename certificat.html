@@ -13,52 +13,6 @@
             text-decoration: none;
             cursor: default;
         }
-        .navbar ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        .nav-item {
-            position: relative;
-        }
-        .sub-menu {
-            display: none;
-            position: absolute;
-            background-color: white;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-            list-style: none;
-            padding: 10px;
-            top: 100%;
-            left: 0;
-            width: 200px;
-            z-index: 1000;
-        }
-        .nav-item:hover .sub-menu {
-            display: block;
-        }
-        .sub-menu li {
-            margin: 5px 0;
-        }
-        
-        /* Adding margin to separate certifications from the menu */
-        .certifications {
-            margin-top: 50px; /* Separates the section from the menu */
-            padding: 20px;
-            background-color: #f9f9f9;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .certifications h2 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
-        .certifications ul {
-            list-style: none;
-            padding: 0;
-        }
-        .certifications li {
-            margin: 5px 0;
-        }
     </style>
 </head>
 <body>
@@ -81,19 +35,7 @@
                         <li class="sub-item"><a href="https://darconex.github.io/charte.html" class="sub-link">Charte</a></li>
                         <li class="sub-item"><a href="https://darconex.github.io/loi-cybersecurite.html" class="sub-link">Loi sur la cybersécurité</a></li>
                         <li class="sub-item"><a href="https://darconex.github.io/formation.html" class="sub-link">Formation</a></li>
-                        <li class="sub-item">
-                            <span class="sub-link">Certificat</span>
-                            <ul class="sub-menu">
-                                <li class="sub-item"><a href="#secnum" class="sub-link">SecNum ANSSI</a></li>
-                                <li class="sub-item"><a href="#tehtris-ds" class="sub-link">TEHTRIS DATA SCIENCE</a></li>
-                                <li class="sub-item"><a href="#tehtris-soar" class="sub-link">TEHTRIS SOARTEHTRIS</a></li>
-                                <li class="sub-item"><a href="#tehtris-xdr" class="sub-link">TEHTRIS XDR Niveau 1</a></li>
-                                <li class="sub-item"><a href="#tehtris-ues" class="sub-link">TEHTRIS UES Niveau 2</a></li>
-                                <li class="sub-item"><a href="#vade-cloud" class="sub-link">Vade Secure Cloud Administration</a></li>
-                                <li class="sub-item"><a href="#vade-m365" class="sub-link">Vade for M365 Administration</a></li>
-                                <li class="sub-item"><a href="#lpm" class="sub-link">Loi de Programmation militaire – SSI/LPM</a></li>
-                            </ul>
-                        </li>
+                        <li class="sub-item"><a href="https://darconex.github.io/certificat.html" class="sub-link">Certificat</a></li>
                         <li class="sub-item"><a href="https://darconex.github.io/cv.html" class="sub-link">CV</a></li>
                     </ul>
                 </li>
@@ -101,31 +43,18 @@
             </ul>
         </nav>
     </header>
-
-    <section class="certifications">
-        <h2 id="secnum">SecNum ANSSI</h2>
-        <p>Date de délivrance : janv. 2023 – Agence nationale de la sécurité des systèmes d’information</p>
-
-        <h2 id="tehtris-ds">TEHTRIS DATA SCIENCE</h2>
-        <p>Date de délivrance : janv. 2023</p>
-
-        <h2 id="tehtris-soar">TEHTRIS SOARTEHTRIS</h2>
-        <p>Date de délivrance : janv. 2023</p>
-
-        <h2 id="tehtris-xdr">TEHTRIS XDR Niveau 1</h2>
-        <p>Date de délivrance : sept. 2022</p>
-
-        <h2 id="tehtris-ues">TEHTRIS UES Niveau 2</h2>
-        <p>Date de délivrance : sept. 2022</p>
-
-        <h2 id="vade-cloud">Vade Secure Cloud Administration</h2>
-        <p>Date de délivrance : janv. 2023</p>
-
-        <h2 id="vade-m365">Vade for M365 Administration</h2>
-        <p>Date de délivrance : janv. 2023</p>
-
-        <h2 id="lpm">Loi de Programmation militaire – SSI/LPM</h2>
-        <p>Date de délivrance : juil. 2020</p>
-    </section>
+    <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+        <li>Date de délivrance : janv. 2023 – SecNum ANSSI – Agence nationale de la sécurité des systèmes d’information</li>
+        <li>Date de délivrance : janv. 2023 – TEHTRIS DATA SCIENCE</li>
+        <li>Date de délivrance : janv. 2023 – TEHTRIS SOARTEHTRIS</li>
+        <li>Date de délivrance : sept. 2022 – TEHTRIS XDR Niveau 1</li>
+        <li>Date de délivrance : sept. 2022 – TEHTRIS UES Niveau 2</li>
+        <li>Date de délivrance : janv. 2023 – Vade Secure Cloud Administration</li>
+        <li>Date de délivrance : janv. 2023 – Vade for M365 Administration</li>
+        <li>Date de délivrance : juil. 2020 – Loi de Programmation militaire – Formation SSI/LPM</li>
+    </ul>
+</section>
 </body>
 </html>
