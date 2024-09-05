@@ -16,6 +16,7 @@
         .navbar ul {
             list-style: none;
             padding: 0;
+            margin: 0;
         }
         .nav-item {
             position: relative;
@@ -27,9 +28,9 @@
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             list-style: none;
             padding: 10px;
-            top: 100%; /* Ensure sub-menu appears below */
-            left: 0; /* Align sub-menu with the parent menu item */
-            width: 200px; /* Optional: Control the width of the sub-menu */
+            top: 100%;
+            left: 0;
+            width: 200px;
             z-index: 1000;
         }
         .nav-item:hover .sub-menu {
@@ -38,9 +39,11 @@
         .sub-menu li {
             margin: 5px 0;
         }
+        
+        /* Adding margin to separate certifications from the menu */
         .certifications {
-            margin: 20px;
-            padding: 10px;
+            margin-top: 50px; /* Separates the section from the menu */
+            padding: 20px;
             background-color: #f9f9f9;
             border: 1px solid #ccc;
             border-radius: 5px;
