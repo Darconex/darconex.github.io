@@ -9,23 +9,23 @@
     <script src="js/script.js"></script>
     <style>
         body {
-            background-color: #000; /* Garder un fond noir si nécessaire */
-            color: #fff; /* Couleur du texte pour contraster avec le fond */
+            background-color: #000;
+            color: #fff;
             font-family: Arial, sans-serif;
+            text-align: center; /* Centrer le contenu */
         }
 
         .navbar {
             display: flex;
-            justify-content: center; /* Centrer le menu */
-            margin-top: 50px; /* Espacement supérieur du menu */
+            justify-content: center;
+            margin-top: 50px;
         }
 
         .nav-list {
             list-style: none;
             padding: 0;
-            margin: 0;
             display: flex;
-            gap: 20px; /* Espace entre les éléments du menu */
+            gap: 20px;
         }
 
         .nav-item {
@@ -35,30 +35,33 @@
         .nav-link {
             text-decoration: none;
             padding: 10px 20px;
-            background-color: #0e76a8; /* Couleur des boutons */
+            background-color: #0e76a8;
             border-radius: 8px;
             color: #fff;
             transition: background-color 0.3s;
         }
 
         .nav-link:hover {
-            background-color: #005f87; /* Changement de couleur au survol */
+            background-color: #005f87;
         }
 
-        /* Centrer la section des certificats */
+        /* Style de la section des certificats */
         .certificates {
-            margin-top: 40px; /* Espace entre le menu et la section des certificats */
-            text-align: center;
-            width: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+            width: 50%; /* Limiter la largeur à 50% de l'écran */
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .certificates p {
-            display: block;
-            margin-bottom: 10px; /* Espacement entre chaque certificat */
-            font-size: 18px; /* Taille de police plus grande pour lisibilité */
+            margin: 5px 0; /* Espacement entre chaque ligne de certificat */
+            font-size: 16px; /* Taille de police ajustée */
         }
 
-        /* Style pour un effet graphique supplémentaire */
         .light {
             position: absolute;
             top: 0;
@@ -100,7 +103,7 @@
         </nav>
     </header>
 
-    <!-- Section des certificats placée sous le menu, en bloc centré -->
+    <!-- Section des certificats centrée sous le menu -->
     <section class="certificates">
         <p>Date de délivrance : janv. 2023 – SecNum ANSSI – Agence nationale de la sécurité des systèmes d’information</p>
         <p>Date de délivrance : janv. 2023 – TEHTRIS DATA SCIENCE</p>
