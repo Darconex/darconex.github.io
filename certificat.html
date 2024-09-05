@@ -8,69 +8,31 @@
     <link rel="stylesheet" href="css/x-styles.css">
     <script src="js/script.js"></script>
     <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: Arial, sans-serif;
-            text-align: center; /* Centrer le contenu */
-        }
-
-        .navbar {
-            display: flex;
-            justify-content: center;
-            margin-top: 50px;
-        }
-
-        .nav-list {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            gap: 20px;
-        }
-
-        .nav-item {
-            display: block;
-        }
-
-        .nav-link {
+        /* Basic style for the menu and text */
+        .nav-link-disabled {
+            color: inherit;
             text-decoration: none;
-            padding: 10px 20px;
-            background-color: #0e76a8;
-            border-radius: 8px;
-            color: #fff;
-            transition: background-color 0.3s;
+            cursor: default;
         }
-
-        .nav-link:hover {
-            background-color: #005f87;
+        
+        /* Styling the red area where the text should go */
+        .text-container {
+            width: 80%; /* Adjust as needed */
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid red; /* Simulating the red rectangle */
+            color: white;
+            font-size: 1.2rem;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
         }
-
-        /* Style de la section des certificats */
-        .certificates {
-            margin-top: 30px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: left;
-            width: 50%; /* Limiter la largeur à 50% de l'écran */
-            margin-left: auto;
-            margin-right: auto;
+        
+        body {
+            background-color: black; /* Match background from your screenshot */
         }
-
-        .certificates p {
-            margin: 5px 0; /* Espacement entre chaque ligne de certificat */
-            font-size: 16px; /* Taille de police ajustée */
-        }
-
-        .light {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100px;
-            height: 100px;
-            background-color: yellow;
-            border-radius: 50%;
-            box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+        
+        .navbar {
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -101,18 +63,18 @@
                 <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </nav>
-    </header>
 
-    <!-- Section des certificats centrée sous le menu -->
-    <section class="certificates">
-        <p>Date de délivrance : janv. 2023 – SecNum ANSSI – Agence nationale de la sécurité des systèmes d’information</p>
-        <p>Date de délivrance : janv. 2023 – TEHTRIS DATA SCIENCE</p>
-        <p>Date de délivrance : janv. 2023 – TEHTRIS SOARTEHTRIS</p>
-        <p>Date de délivrance : sept. 2022 – TEHTRIS XDR Niveau 1</p>
-        <p>Date de délivrance : sept. 2022 – TEHTRIS UES Niveau 2</p>
-        <p>Date de délivrance : janv. 2023 – Vade Secure Cloud Administration</p>
-        <p>Date de délivrance : janv. 2023 – Vade for M365 Administration</p>
-        <p>Date de délivrance : juil. 2020 – Loi de Programmation militaire – Formation SSI/LPM</p>
-    </section>
+        <!-- Text Container placed under the menu -->
+        <div class="text-container">
+            <p>Date de délivrance : janv. 2023 – SecNum ANSSI – Agence nationale de la sécurité des systèmes d’information</p>
+            <p>Date de délivrance : janv. 2023 – TEHTRIS DATA SCIENCE</p>
+            <p>Date de délivrance : janv. 2023 – TEHTRIS SOARTEHTRIS</p>
+            <p>Date de délivrance : sept. 2022 – TEHTRIS XDR Niveau 1</p>
+            <p>Date de délivrance : sept. 2022 – TEHTRIS UES Niveau 2</p>
+            <p>Date de délivrance : janv. 2023 – Vade Secure Cloud Administration</p>
+            <p>Date de délivrance : janv. 2023 – Vade for M365 Administration</p>
+            <p>Date de délivrance : juil. 2020 – Loi de Programmation militaire – Formation SSI/LPM</p>
+        </div>
+    </header>
 </body>
 </html>
