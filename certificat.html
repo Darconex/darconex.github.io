@@ -24,9 +24,12 @@
             display: none;
             position: absolute;
             background-color: white;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             list-style: none;
             padding: 10px;
+            top: 100%; /* Ensure sub-menu appears below */
+            left: 0; /* Align sub-menu with the parent menu item */
+            width: 200px; /* Optional: Control the width of the sub-menu */
             z-index: 1000;
         }
         .nav-item:hover .sub-menu {
