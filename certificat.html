@@ -14,18 +14,32 @@
             cursor: default;
         }
 
-        /* Ajoutez un style pour forcer l'affichage vertical */
         .navbar {
             display: block;
+            text-align: center; /* Centrer le menu */
         }
 
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            display: inline-block;
+        }
+
+        .nav-item {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        /* Centrer la section des certificats */
         .certificates {
-            margin-top: 20px; /* Pour ajouter un peu d'espace entre le menu et la section */
-            font-size: 16px;
+            margin-top: 20px;
+            text-align: center;
+            width: 100%;
         }
 
         .certificates p {
-            margin: 5px 0;
+            display: inline-block; /* Pour que chaque ligne s'aligne au centre */
+            text-align: left;
         }
     </style>
 </head>
@@ -58,7 +72,7 @@
         </nav>
     </header>
 
-    <!-- Section des certificats placée sous le menu, en bloc -->
+    <!-- Section des certificats placée sous le menu et centrée -->
     <section class="certificates">
         <p>Date de délivrance : janv. 2023 – SecNum ANSSI – Agence nationale de la sécurité des systèmes d’information</p>
         <p>Date de délivrance : janv. 2023 – TEHTRIS DATA SCIENCE</p>
