@@ -13,36 +13,34 @@
             text-decoration: none;
             cursor: default;
         }
-        #certifications {
-            margin-top: auto; /* Pousse la section vers le bas de la page */
-            padding: 20px;
+
+        /* Style pour le tableau */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #e0e0e0;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Styles pour le menu et le tableau */
+        .table-container {
+            margin: 20px auto;
+            width: 80%; /* Largeur du tableau */
             text-align: center;
         }
-#certifications {
-    margin-top: auto; /* Pousse la section vers le bas de la page */
-    padding: 20px;
-    text-align: center;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px auto;
-}
-
-th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color: #e0e0e0;
-}
-
-tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
     </style>
 </head>
 <body>
@@ -73,7 +71,9 @@ tbody tr:nth-child(even) {
             </ul>
         </nav>
     </header>
- <section id="certifications">
+
+    <!-- Section contenant le tableau, placé juste sous le menu -->
+    <section id="certifications" class="table-container">
         <h2>Certifications</h2>
         <table>
             <thead>
