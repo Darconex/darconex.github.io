@@ -634,6 +634,11 @@
               "url": "https://www.exploit-db.com/"
             },
             {
+              "name": "Google Bug Bounty",
+              "type": "url",
+              "url": "https://taksec.github.io/google-dorks-bug-bounty/"
+            },
+            {
               "name": "TweetFeed",
               "type": "url",
               "url": "https://tweetfeed.live/"
