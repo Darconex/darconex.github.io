@@ -16,16 +16,17 @@
             flex-direction: column;
         }
 
-        /* Flex container pour forcer le contenu à se répartir sur la hauteur */
+        /* Flex container pour gérer la position du contenu */
         body {
-            justify-content: space-between;
+            justify-content: flex-start;
         }
 
         /* Styles pour le tableau et la section */
         #certifications {
             padding: 20px;
             text-align: center;
-            margin-top: auto; /* Assure que le tableau est en bas */
+            margin-top: auto; /* Force la section à se rapprocher du bas */
+            margin-bottom: 50px; /* Ajuste la hauteur par rapport au bas de la page */
         }
 
         table {
