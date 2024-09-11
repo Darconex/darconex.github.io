@@ -576,6 +576,11 @@
               "type": "url",
               "url": "https://platerecognizer.com/"
             }
+            {
+              "name": "Web Archive",
+              "type": "url",
+              "url": "https://web.archive.org/"
+            }
           ]
         }
       ]
