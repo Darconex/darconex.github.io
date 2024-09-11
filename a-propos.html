@@ -8,14 +8,137 @@
     <link rel="stylesheet" href="css/x-styles.css">
     <script src="js/script.js"></script>
     <style>
-        .nav-link-disabled {
-            color: inherit;
+        /* Style général pour que le body prenne toute la hauteur */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Flex container pour gérer la position du contenu */
+        body {
+            justify-content: flex-start;
+        }
+
+        /* Styles pour le tableau et la section */
+        #certifications {
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+            margin-bottom: 50px;
+        }
+
+        /* Styles du tableau */
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 0 auto 20px;
+            background-color: #f0f0f0;
+            color: black;
+            font-size: 1rem;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #d0d0d0;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #e0e0e0;
+        }
+
+        /* Styles pour le menu */
+        .navbar {
+            margin-bottom: 0;
+            padding: 10px;
+            background-color: #333;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            color: white;
             text-decoration: none;
-            cursor: default;
+        }
+
+        .navbar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media Queries pour mobile */
+        @media (max-width: 768px) {
+            /* Ajustement du tableau pour les petits écrans */
+            table {
+                width: 100%;
+                font-size: 0.9rem;
+            }
+
+            th, td {
+                padding: 8px;
+                font-size: 0.9rem;
+            }
+
+            /* Ajustement de la taille de la police pour les titres */
+            #certifications h2 {
+                font-size: 1.5rem;
+            }
+
+            /* Menu: passe en vertical */
+            .navbar ul {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .navbar ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .navbar ul li a {
+                padding: 10px;
+                display: block;
+            }
+        }
+
+        /* Media Queries pour très petits écrans (smartphones) */
+        @media (max-width: 480px) {
+            /* Réduction encore plus de la taille des éléments */
+            table {
+                font-size: 0.8rem;
+            }
+
+            th, td {
+                padding: 6px;
+            }
+
+            .navbar ul li a {
+                padding: 8px;
+            }
+
+            #certifications {
+                padding: 10px;
+            }
         }
     </style>
 </head>
 <body>
+
+    <!-- Section du menu en haut de la page -->
     <header>
         <div class="light"></div>
         <nav class="navbar">
@@ -43,5 +166,54 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Contenu principal -->
+    <main>
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date de délivrance</th>
+                        <th>Certificat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>janv. 2023</td>
+                        <td>SecNum ANSSI – Agence nationale de la sécurité des systèmes d’information</td>
+                    </tr>
+                    <tr>
+                        <td>janv. 2023</td>
+                        <td>TEHTRIS DATA SCIENCE</td>
+                    </tr>
+                    <tr>
+                        <td>janv. 2023</td>
+                        <td>TEHTRIS SOAR</td>
+                    </tr>
+                    <tr>
+                        <td>sept. 2022</td>
+                        <td>TEHTRIS XDR Niveau 1</td>
+                    </tr>
+                    <tr>
+                        <td>sept. 2022</td>
+                        <td>TEHTRIS UES Niveau 2</td>
+                    </tr>
+                    <tr>
+                        <td>janv. 2023</td>
+                        <td>Vade Secure Cloud Administration</td>
+                    </tr>
+                    <tr>
+                        <td>janv. 2023</td>
+                        <td>Vade for M365 Administration</td>
+                    </tr>
+                    <tr>
+                        <td>juil. 2020</td>
+                        <td>Loi de Programmation militaire – Formation SSI/LPM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
 </body>
 </html>
