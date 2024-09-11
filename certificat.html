@@ -8,23 +8,30 @@
     <link rel="stylesheet" href="css/x-styles.css">
     <script src="js/script.js"></script>
     <style>
-        .nav-link-disabled {
-            color: inherit;
-            text-decoration: none;
-            cursor: default;
+        /* Style général pour que le body prenne toute la hauteur */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Flex container pour forcer le contenu à se répartir sur la hauteur */
+        body {
+            justify-content: space-between;
         }
 
         /* Styles pour le tableau et la section */
         #certifications {
             padding: 20px;
             text-align: center;
-            margin-top: 0; /* Évite l'espace au-dessus du tableau */
+            margin-top: auto; /* Assure que le tableau est en bas */
         }
 
         table {
             width: 80%; /* Limite la largeur du tableau */
             border-collapse: collapse;
-            margin: 20px auto; /* Centrage du tableau */
+            margin: 0 auto 20px; /* Centrage du tableau */
         }
 
         th, td {
@@ -43,11 +50,34 @@
 
         /* Styles pour le menu */
         .navbar {
-            margin-bottom: 0; /* Enlève l'espacement entre le menu et la section */
+            margin-bottom: 0;
+            padding: 10px;
+            background-color: #333;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar ul li a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
+
+    <!-- Section du menu en haut de la page -->
     <header>
         <div class="light"></div>
         <nav class="navbar">
@@ -76,51 +106,53 @@
         </nav>
     </header>
 
-    <!-- Section des certifications sous le menu -->
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Date de délivrance</th>
-                    <th>Certificat</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>janv. 2023</td>
-                    <td>SecNum ANSSI – Agence nationale de la sécurité des systèmes d’information</td>
-                </tr>
-                <tr>
-                    <td>janv. 2023</td>
-                    <td>TEHTRIS DATA SCIENCE</td>
-                </tr>
-                <tr>
-                    <td>janv. 2023</td>
-                    <td>TEHTRIS SOAR</td>
-                </tr>
-                <tr>
-                    <td>sept. 2022</td>
-                    <td>TEHTRIS XDR Niveau 1</td>
-                </tr>
-                <tr>
-                    <td>sept. 2022</td>
-                    <td>TEHTRIS UES Niveau 2</td>
-                </tr>
-                <tr>
-                    <td>janv. 2023</td>
-                    <td>Vade Secure Cloud Administration</td>
-                </tr>
-                <tr>
-                    <td>janv. 2023</td>
-                    <td>Vade for M365 Administration</td>
-                </tr>
-                <tr>
-                    <td>juil. 2020</td>
-                    <td>Loi de Programmation militaire – Formation SSI/LPM</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+    <!-- Contenu principal -->
+    <main>
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date de délivrance</th>
+                        <th>Certificat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>janv. 2023</td>
+                        <td>SecNum ANSSI – Agence nationale de la sécurité des systèmes d’information</td>
+                    </tr>
+                    <tr>
+                        <td>janv. 2023</td>
+                        <td>TEHTRIS DATA SCIENCE</td>
+                    </tr>
+                    <tr>
+                        <td>janv. 2023</td>
+                        <td>TEHTRIS SOAR</td>
+                    </tr>
+                    <tr>
+                        <td>sept. 2022</td>
+                        <td>TEHTRIS XDR Niveau 1</td>
+                    </tr>
+                    <tr>
+                        <td>sept. 2022</td>
+                        <td>TEHTRIS UES Niveau 2</td>
+                    </tr>
+                    <tr>
+                        <td>janv. 2023</td>
+                        <td>Vade Secure Cloud Administration</td>
+                    </tr>
+                    <tr>
+                        <td>janv. 2023</td>
+                        <td>Vade for M365 Administration</td>
+                    </tr>
+                    <tr>
+                        <td>juil. 2020</td>
+                        <td>Loi de Programmation militaire – Formation SSI/LPM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
 </body>
 </html>
