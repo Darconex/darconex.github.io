@@ -1206,6 +1206,16 @@
           "url": "https://cyberdefenders.org/"
         },
         {
+          "name": "Learn Microsoft",
+          "type": "url",
+          "url": "https://learn.microsoft.com/fr-fr/"
+        },
+        {
+          "name": "SecNumacademie",
+          "type": "url",
+          "url": "https://secnumacademie.gouv.fr/"
+        },
+        {
           "name": "Cheat Sheet",
           "type": "folder",
           "children": [
