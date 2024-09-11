@@ -577,6 +577,11 @@
               "url": "https://platerecognizer.com/"
             },
             {
+              "name": "Whatsapp CheckLeaked",
+              "type": "url",
+              "url": "https://whatsapp.checkleaked.cc/"
+            },
+            {
               "name": "Web Archive",
               "type": "url",
               "url": "https://web.archive.org/"
