@@ -639,6 +639,16 @@
               "url": "https://taksec.github.io/google-dorks-bug-bounty/"
             },
             {
+              "name": "Dorks Faisalahmed",
+              "type": "url",
+              "url": "https://dorks.faisalahmed.me/"
+            },
+            {
+              "name": "DorkGenius",
+              "type": "url",
+              "url": "https://dorkgenius.com/"
+            },
+            {
               "name": "TweetFeed",
               "type": "url",
               "url": "https://tweetfeed.live/"
