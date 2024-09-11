@@ -1118,6 +1118,11 @@
           "name": "Silicon",
           "type": "url",
           "url": "https://www.silicon.fr/"
+        },
+        {
+          "name": "RedPacketSecurity",
+          "type": "url",
+          "url": "https://www.redpacketsecurity.com/"
         }
       ]
     },
