@@ -14,11 +14,17 @@
             cursor: default;
         }
 
-        /* Style pour le tableau */
+        /* Styles pour le tableau et la section */
+        #certifications {
+            padding: 20px;
+            text-align: center;
+            margin-top: 0; /* Évite l'espace au-dessus du tableau */
+        }
+
         table {
-            width: 100%;
+            width: 80%; /* Limite la largeur du tableau */
             border-collapse: collapse;
-            margin: 20px auto;
+            margin: 20px auto; /* Centrage du tableau */
         }
 
         th, td {
@@ -35,11 +41,9 @@
             background-color: #f9f9f9;
         }
 
-        /* Styles pour le menu et le tableau */
-        .table-container {
-            margin: 20px auto;
-            width: 80%; /* Largeur du tableau */
-            text-align: center;
+        /* Styles pour le menu */
+        .navbar {
+            margin-bottom: 0; /* Enlève l'espacement entre le menu et la section */
         }
     </style>
 </head>
@@ -72,8 +76,8 @@
         </nav>
     </header>
 
-    <!-- Section contenant le tableau, placé juste sous le menu -->
-    <section id="certifications" class="table-container">
+    <!-- Section des certifications sous le menu -->
+    <section id="certifications">
         <h2>Certifications</h2>
         <table>
             <thead>
@@ -93,7 +97,7 @@
                 </tr>
                 <tr>
                     <td>janv. 2023</td>
-                    <td>TEHTRIS SOARTEHTRIS</td>
+                    <td>TEHTRIS SOAR</td>
                 </tr>
                 <tr>
                     <td>sept. 2022</td>
