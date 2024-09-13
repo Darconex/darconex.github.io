@@ -289,7 +289,13 @@
               "name": "HuggingFace",
               "type": "url",
               "url": "https://huggingface.co/spaces/gokaygokay/Florence-2"
+            },
+            {
+              "name": "Aperisolve",
+              "type": "url",
+              "url": "https://aperisolve.com/"
             }
+            
           ]
         },
         {
