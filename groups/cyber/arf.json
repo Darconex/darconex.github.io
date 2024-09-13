@@ -295,7 +295,6 @@
               "type": "url",
               "url": "https://aperisolve.com/"
             }
-            
           ]
         },
         {
@@ -333,11 +332,6 @@
               "url": "https://www.flightradar24.com/"
             },
             {
-              "name": "SubmarineCableMap",
-              "type": "url",
-              "url": "https://www.submarinecablemap.com/"
-            },
-            {
               "name": "OpenStreetMap",
               "type": "url",
               "url": "https://umap.openstreetmap.fr/"
@@ -351,6 +345,27 @@
               "name": "EarthKit",
               "type": "url",
               "url": "https://earthkit.app/geoclip"
+            },
+            {
+              "name": "Mer",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "SubmarineCableMap",
+                  "type": "url",
+                  "url": "https://www.submarinecablemap.com/"
+                },
+                {
+                  "name": "VesselFinder",
+                  "type": "url",
+                  "url": "https://www.vesselfinder.com/"
+                },
+                {
+                  "name": "MarineTraffic",
+                  "type": "url",
+                  "url": "https://www.marinetraffic.com/"
+                }
+              ]
             }
           ]
         },
