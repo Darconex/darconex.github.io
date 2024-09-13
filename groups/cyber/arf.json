@@ -103,6 +103,11 @@
               "url": "https://whois.domaintools.com/"
             },
             {
+              "name": "WhoisXmlApi",
+              "type": "url",
+              "url": "https://whois-history.whoisxmlapi.com/"
+            },
+            {
               "name": "WhoisLookup",
               "type": "url",
               "url": "https://whoislookup.pro/"
@@ -401,6 +406,11 @@
               "name": "IPAdresseGuide",
               "type": "url",
               "url": "https://www.ipaddressguide.com/"
+            },            
+            {
+              "name": "Apnic",
+              "type": "url",
+              "url": "https://www.apnic.net/"
             },
             {
               "name": "IP Address Ranges Par Country",
@@ -580,6 +590,11 @@
               "name": "Whatsapp CheckLeaked",
               "type": "url",
               "url": "https://whatsapp.checkleaked.cc/"
+            },
+            {
+              "name": "Discord ID",
+              "type": "url",
+              "url": "https://discord.id/"
             },
             {
               "name": "Web Archive",
