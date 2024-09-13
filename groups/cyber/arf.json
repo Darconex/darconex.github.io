@@ -337,6 +337,16 @@
               "url": "https://www.submarinecablemap.com/"
             },
             {
+              "name": "SubmarineCableMap",
+              "type": "url",
+              "url": "https://www.submarinecablemap.com/"
+            },
+            {
+              "name": "DataShom",
+              "type": "url",
+              "url": "https://data.shom.fr"
+            },
+            {
               "name": "OpenStreetMap",
               "type": "url",
               "url": "https://umap.openstreetmap.fr/"
@@ -355,6 +365,11 @@
               "name": "Topographic",
               "type": "url",
               "url": "https://fr-fr.topographic-map.com/"
+            },
+            {
+              "name": "Firms NASA",
+              "type": "url",
+              "url": "https://firms.modaps.eosdis.nasa.gov/map/#d:24hrs;@0.0,0.0,3.0z"
             },
             {
               "name": "EarthKit",
