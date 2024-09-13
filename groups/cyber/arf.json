@@ -1075,6 +1075,15 @@
               "type": "url",
               "url": "https://mitre-attack.github.io/attack-navigator/"
             }
+        {
+          "name": "Github",
+          "type": "folder",
+          "children": [
+            {
+              "name": "X",
+              "type": "url",
+              "url": "X"
+            }
           ]
         }
       ]
