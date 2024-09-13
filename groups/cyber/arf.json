@@ -347,6 +347,16 @@
               "url": "https://deepstatemap.live"
             },
             {
+              "name": "GeoPortail",
+              "type": "url",
+              "url": "https://www.geoportail.gouv.fr/"
+            },
+            {
+              "name": "Topographic",
+              "type": "url",
+              "url": "https://fr-fr.topographic-map.com/"
+            },
+            {
               "name": "EarthKit",
               "type": "url",
               "url": "https://earthkit.app/geoclip"
@@ -595,6 +605,11 @@
               "name": "Discord ID",
               "type": "url",
               "url": "https://discord.id/"
+            },
+            {
+              "name": "OsintMap",
+              "type": "url",
+              "url": "https://cybdetective.com/osintmap/"
             },
             {
               "name": "Web Archive",
