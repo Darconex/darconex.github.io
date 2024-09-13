@@ -1169,6 +1169,11 @@
           "name": "RedPacketSecurity",
           "type": "url",
           "url": "https://www.redpacketsecurity.com/"
+        },
+        {
+          "name": "Zone-H",
+          "type": "url",
+          "url": "https://www.zone-h.org/"
         }
       ]
     },
