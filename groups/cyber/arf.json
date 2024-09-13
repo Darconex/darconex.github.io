@@ -619,9 +619,9 @@
           "type": "folder",
           "children": [
             {
-              "name": "X",
+              "name": "GeoGramint",
               "type": "url",
-              "url": "X"
+              "url": "https://github.com/Alb-310/Geogramint"
             }
           ]
         }
@@ -1082,9 +1082,9 @@
           "type": "folder",
           "children": [
             {
-              "name": "X",
+              "name": "Subdominator",
               "type": "url",
-              "url": "X"
+              "url": "https://github.com/RevoltSecurities/Subdominator"
             }
           ]
         }
