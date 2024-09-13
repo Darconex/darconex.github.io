@@ -364,6 +364,11 @@
                   "name": "MarineTraffic",
                   "type": "url",
                   "url": "https://www.marinetraffic.com/"
+                },
+                {
+                  "name": "DataShom",
+                  "type": "url",
+                  "url": "https://data.shom.fr/"
                 }
               ]
             }
