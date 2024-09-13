@@ -612,8 +612,8 @@
               "type": "url",
               "url": "https://web.archive.org/"
             }
-          ]
-                    {
+         ]
+        {
           "name": "Github",
           "type": "folder",
           "children": [
@@ -624,6 +624,7 @@
             }  
       ]
     },
+      ]  
     {
       "name": "CTI",
       "type": "folder",
