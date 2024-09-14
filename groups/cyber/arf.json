@@ -611,7 +611,7 @@
               "name": "Web Archive",
               "type": "url",
               "url": "https://web.archive.org/"
-            }
+            },
             {
               "name": "Lambda",
               "type": "url",
