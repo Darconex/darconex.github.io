@@ -63,6 +63,11 @@
           "name": "APTSimulator",
           "type": "url",
           "url": "https://github.com/NextronSystems/APTSimulator"
+        },
+        {
+          "name": "RAT (Remote Access Trojan)",
+          "type": "url",
+          "url": "https://darconex.github.io/listing/Ultimate-RAT-Collection.html"
         }
       ]
     }
