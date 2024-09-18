@@ -347,26 +347,45 @@
               "url": "https://www.flightradar24.com/"
             },
             {
-              "name": "SubmarineCableMap",
-              "type": "url",
-              "url": "https://www.submarinecablemap.com/"
-            },
-            {
-              "name": "OpenStreetMap",
-              "type": "url",
-              "url": "https://umap.openstreetmap.fr/"
-            },
-            {
-              "name": "DeepStateMap",
-              "type": "url",
-              "url": "https://deepstatemap.live"
-            },
-            {
               "name": "EarthKit",
               "type": "url",
               "url": "https://earthkit.app/geoclip"
-            }
-          ]
+            },
+        {
+          "name": "Calculator IPVM",
+          "type": "url",
+          "url": "https://calculator.ipvm.com/"
+        },
+        {
+          "name": "Showmytreet",
+          "type": "url",
+          "url": "https://showmystreet.com/"
+        },
+        {
+              "name": "Sea",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "SubmarineCableMap",
+                  "type": "url",
+                  "url": "https://www.submarinecablemap.com/"
+                },
+                {
+                  "name": "VesselFinder",
+                  "type": "url",
+                  "url": "https://www.vesselfinder.com/"
+                },
+                {
+                  "name": "MarineTraffic",
+                  "type": "url",
+                  "url": "https://www.marinetraffic.com/"
+                },
+                {
+                  "name": "DataShom",
+                  "type": "url",
+                  "url": "https://data.shom.fr/"
+                }
+        ]
         },
         {
           "name": "Network",
@@ -807,7 +826,7 @@
           ]
         },
         {
-          "name": "Sandbox & Réputation",
+          "name": "Sandbox & Reputation",
           "type": "folder",
           "children": [
             {
