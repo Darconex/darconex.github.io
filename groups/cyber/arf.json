@@ -273,6 +273,410 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Captures",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Tinexe",
+          "type": "url",
+          "url": "https://tineye.com/"
+        },
+        {
+          "name": "Pimeyes",
+          "type": "url",
+          "url": "https://pimeyes.com/"
+        },
+        {
+          "name": "Pic2Map",
+          "type": "url",
+          "url": "https://www.pic2map.com/"
+        },
+        {
+          "name": "Verexif",
+          "type": "url",
+          "url": "https://www.verexif.com/"
+        },
+        {
+          "name": "FaceCheck",
+          "type": "url",
+          "url": "https://facecheck.id/"
+        },
+        {
+          "name": "HuggingFace",
+          "type": "url",
+          "url": "https://huggingface.co/spaces/gokaygokay/Florence-2"
+        },
+        {
+          "name": "Aperisolve",
+          "type": "url",
+          "url": "https://aperisolve.com/"
+        },
+        {
+          "name": "CopySeeker",
+          "type": "url",
+          "url": "https://copyseeker.net/"
+        }
+      ]
+    },
+    {
+      "name": "Maps",
+      "type": "folder",
+      "children": [
+        {
+          "name": "DataCenterMap",
+          "type": "url",
+          "url": "https://www.datacentermap.com/"
+        },
+        {
+          "name": "MapSnapchat",
+          "type": "url",
+          "url": "https://map.snapchat.com/"
+        },
+        {
+          "name": "GPSJam",
+          "type": "url",
+          "url": "https://gpsjam.org/"
+        },
+        {
+          "name": "ShadowMap",
+          "type": "url",
+          "url": "https://app.shadowmap.org/"
+        },
+        {
+          "name": "MapNbr",
+          "type": "url",
+          "url": "https://map.nbr.org/interactivemap/"
+        },
+        {
+          "name": "FlighRadar24",
+          "type": "url",
+          "url": "https://www.flightradar24.com/"
+        },
+        {
+          "name": "OpenStreetMap",
+          "type": "url",
+          "url": "https://umap.openstreetmap.fr/"
+        },
+        {
+          "name": "DeepStateMap",
+          "type": "url",
+          "url": "https://deepstatemap.live"
+        },
+        {
+          "name": "EarthKit",
+          "type": "url",
+          "url": "https://earthkit.app/geoclip"
+        },
+        {
+          "name": "Calculator IPVM",
+          "type": "url",
+          "url": "https://calculator.ipvm.com/"
+        },
+        {
+          "name": "Showmytreet",
+          "type": "url",
+          "url": "https://showmystreet.com/"
+        },
+        {
+          "name": "Sea",
+          "type": "folder",
+          "children": [
+            {
+              "name": "SubmarineCableMap",
+              "type": "url",
+              "url": "https://www.submarinecablemap.com/"
+            },
+            {
+              "name": "VesselFinder",
+              "type": "url",
+              "url": "https://www.vesselfinder.com/"
+            },
+            {
+              "name": "MarineTraffic",
+              "type": "url",
+              "url": "https://www.marinetraffic.com/"
+            },
+            {
+              "name": "DataShom",
+              "type": "url",
+              "url": "https://data.shom.fr/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Network",
+      "type": "folder",
+      "children": [
+        {
+          "name": "IpInfo",
+          "type": "url",
+          "url": "https://ipinfo.io/"
+        },
+        {
+          "name": "Wigle",
+          "type": "url",
+          "url": "https://wigle.net/"
+        },
+        {
+          "name": "BGP",
+          "type": "url",
+          "url": "https://bgp.tools/"
+        },
+        {
+          "name": "IPVoid",
+          "type": "url",
+          "url": "https://www.ipvoid.com/"
+        },
+        {
+          "name": "Keycdn",
+          "type": "url",
+          "url": "https://tools.keycdn.com/"
+        },
+        {
+          "name": "Lupovis",
+          "type": "url",
+          "url": "https://prowl.lupovis.io/"
+        },
+        {
+          "name": "Peeringdb",
+          "type": "url",
+          "url": "https://www.peeringdb.com/"
+        },
+        {
+          "name": "Who.is",
+          "type": "url",
+          "url": "https://who.is/"
+        },
+        {
+          "name": "LiveIPMap",
+          "type": "url",
+          "url": "https://www.liveipmap.com/"
+        },
+        {
+          "name": "IPAdresseGuide",
+          "type": "url",
+          "url": "https://www.ipaddressguide.com/"
+        },
+        {
+          "name": "IP Address Ranges Par Country",
+          "type": "url",
+          "url": "https://lite.ip2location.com/ip-address-ranges-by-country"
+        }
+      ]
+    },
+    {
+      "name": "Scan Vuln & Tech Web",
+      "type": "folder",
+      "children": [
+        {
+          "name": "WebCheck",
+          "type": "url",
+          "url": "https://web-check.xyz/"
+        },
+        {
+          "name": "OpenVas",
+          "type": "url",
+          "url": "https://hostedscan.com/openvas-vulnerability-scan"
+        },
+        {
+          "name": "Securi",
+          "type": "url",
+          "url": "https://sitecheck.sucuri.net/"
+        }
+      ]
+    },
+    {
+      "name": "Attack surface",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Shodan",
+          "type": "url",
+          "url": "https://www.shodan.io/"
+        },
+        {
+          "name": "2000 Shodan",
+          "type": "url",
+          "url": "https://2000.shodan.io/"
+        },
+        {
+          "name": "Exploit Shodan",
+          "type": "url",
+          "url": "https://exploits.shodan.io/"
+        },
+        {
+          "name": "Censys",
+          "type": "url",
+          "url": "https://search.censys.io/"
+        },
+        {
+          "name": "CriminalIP",
+          "type": "url",
+          "url": "https://www.criminalip.io/"
+        },
+        {
+          "name": "Zoomeye",
+          "type": "url",
+          "url": "https://www.zoomeye.hk/"
+        },
+        {
+          "name": "IntelX",
+          "type": "url",
+          "url": "https://intelx.io/"
+        },
+        {
+          "name": "Fullhunt",
+          "type": "url",
+          "url": "https://fullhunt.io/"
+        },
+        {
+          "name": "Phonebook",
+          "type": "url",
+          "url": "https://phonebook.cz/"
+        },
+        {
+          "name": "Onyphe",
+          "type": "url",
+          "url": "https://www.onyphe.io/"
+        },
+        {
+          "name": "Greynoise",
+          "type": "url",
+          "url": "https://viz.greynoise.io/"
+        },
+        {
+          "name": "SecurityTrails",
+          "type": "url",
+          "url": "https://securitytrails.com/"
+        },
+        {
+          "name": "Netlas",
+          "type": "url",
+          "url": "https://netlas.io/"
+        },
+        {
+          "name": "Shadowserver",
+          "type": "url",
+          "url": "https://dashboard.shadowserver.org/"
+        },
+        {
+          "name": "Hunter",
+          "type": "url",
+          "url": "https://hunter.how/"
+        },
+        {
+          "name": "Odin",
+          "type": "url",
+          "url": "https://search.odin.io/"
+        }
+      ]
+    },
+    {
+      "name": "Username",
+      "type": "folder",
+      "children": [
+        {
+          "name": "WhatsMyName",
+          "type": "url",
+          "url": "https://whatsmyname.app/"
+        },
+        {
+          "name": "Blackbird Osint",
+          "type": "url",
+          "url": "https://blackbird-osint.herokuapp.com/"
+        }
+      ]
+    },
+    {
+      "name": "others",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Passeport",
+          "type": "url",
+          "url": "https://www.passportindex.org"
+        },
+        {
+          "name": "SearchCode",
+          "type": "url",
+          "url": "https://searchcode.com/"
+        },
+        {
+          "name": "Vehicule",
+          "type": "url",
+          "url": "https://github.com/TheBurnsy/Vehicle-OSINT-Collection"
+        },
+        {
+          "name": "HackdList",
+          "type": "url",
+          "url": "https://hackedlist.io/"
+        },
+        {
+          "name": "FakeNameGenerator",
+          "type": "url",
+          "url": "https://fr.fakenamegenerator.com/"
+        },
+        {
+          "name": "Thispersondoesnotexist",
+          "type": "url",
+          "url": "https://thispersondoesnotexist.com"
+        },
+        {
+          "name": "FCCID",
+          "type": "url",
+          "url": "https://fccid.io/"
+        },
+        {
+          "name": "Platerecognizer",
+          "type": "url",
+          "url": "https://platerecognizer.com/"
+        },
+        {
+          "name": "Whatsapp CheckLeaked",
+          "type": "url",
+          "url": "https://whatsapp.checkleaked.cc/"
+        },
+        {
+          "name": "Web Archive",
+          "type": "url",
+          "url": "https://web.archive.org/"
+        },
+        {
+          "name": "Lambda",
+          "type": "url",
+          "url": "https://lambda.black/osint.html"
+        },
+        {
+          "name": "Groupdocs",
+          "type": "url",
+          "url": "https://products.groupdocs.app/metadata/family"
+        },
+        {
+          "name": "Track-Trace",
+          "type": "url",
+          "url": "https://www.track-trace.com/"
+        },
+        {
+          "name": "Sunders",
+          "type": "url",
+          "url": "https://sunders.uber.space/"
+        }
+      ]
+    },
+    {
+      "name": "Github",
+      "type": "folder",
+      "children": [
+        {
+          "name": "GeoGramint",
+          "type": "url",
+          "url": "https://github.com/Alb-310/Geogramint"
+        }
+      ]
     }
   ]
 }
