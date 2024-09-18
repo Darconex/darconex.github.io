@@ -214,6 +214,16 @@
               "url": "https://mha.azurewebsites.net/"
             },
             {
+              "name": "checkphish",
+              "type": "url",
+              "url": "https://checkphish.bolster.ai/"
+           },
+           {
+               "name": "Phishtool",
+               "type": "url",
+               "url": "https://www.phishtool.com/"
+            },
+            {
               "name": "Data Breach",
               "type": "folder",
               "children": [
@@ -257,7 +267,7 @@
           ]
         },
         {
-          "name": "Image",
+          "name": "Capture",
           "type": "folder",
           "children": [
             {
@@ -289,8 +299,18 @@
               "name": "HuggingFace",
               "type": "url",
               "url": "https://huggingface.co/spaces/gokaygokay/Florence-2"
-            }
-          ]
+            },
+            {
+          "name": "Aperisolve",
+          "type": "url",
+          "url": "https://aperisolve.com/"
+        },
+        {
+          "name": "CopySeeker",
+          "type": "url",
+          "url": "https://copyseeker.net/"
+        }
+        ]
         },
         {
           "name": "Maps",
@@ -431,7 +451,7 @@
           ]
         },
         {
-          "name": "Surface d'attaque",
+          "name": "attack surface",
           "type": "folder",
           "children": [
             {
@@ -533,7 +553,7 @@
           ]
         },
         {
-          "name": "Autres",
+          "name": "other",
           "type": "folder",
           "children": [
             {
@@ -1043,7 +1063,7 @@
       ]
     },
     {
-      "name": "Sécurité & Guide",
+      "name": "Security & Guide",
       "type": "folder",
       "children": [
         {
