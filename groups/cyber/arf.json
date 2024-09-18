@@ -7,7 +7,7 @@
       "type": "folder",
       "children": [
         {
-          "name": "Authentification",
+          "name": "Authentication",
           "type": "folder",
           "children": [
             {
@@ -63,7 +63,7 @@
           ]
         },
         {
-          "name": "Cryptomonnaie",
+          "name": "Cryptocurrency",
           "type": "folder",
           "children": [
             {
@@ -257,7 +257,7 @@
           ]
         },
         {
-          "name": "Image",
+          "name": "Captures",
           "type": "folder",
           "children": [
             {
@@ -294,6 +294,11 @@
               "name": "Aperisolve",
               "type": "url",
               "url": "https://aperisolve.com/"
+            },
+            {
+              "name": "CopySeeker",
+              "type": "url",
+              "url": "https://copyseeker.net/"
             }
           ]
         },
@@ -347,7 +352,12 @@
               "url": "https://earthkit.app/geoclip"
             },
             {
-              "name": "Mer",
+              "name": "Calculator IPVM",
+              "type": "url",
+              "url": "https://calculator.ipvm.com/"
+            },
+            {
+              "name": "Sea",
               "type": "folder",
               "children": [
                 {
@@ -457,7 +467,7 @@
           ]
         },
         {
-          "name": "Surface d'attaque",
+          "name": "Attack surface",
           "type": "folder",
           "children": [
             {
@@ -559,7 +569,7 @@
           ]
         },
         {
-          "name": "Autres",
+          "name": "others",
           "type": "folder",
           "children": [
             {
@@ -616,6 +626,21 @@
               "name": "Lambda",
               "type": "url",
               "url": "https://lambda.black/osint.html"
+            },
+            {
+              "name": "Groupdocs",
+              "type": "url",
+              "url": "https://products.groupdocs.app/metadata/family"
+            },
+            {
+              "name": "Track-Trace",
+              "type": "url",
+              "url": "https://www.track-trace.com/"
+            },
+            {
+              "name": "Sunders",
+              "type": "url",
+              "url": "https://sunders.uber.space/"
             }
           ]
         },
@@ -1096,7 +1121,7 @@
       ]
     },
     {
-      "name": "Sécurité & Guide",
+      "name": "Security & Guide",
       "type": "folder",
       "children": [
         {
