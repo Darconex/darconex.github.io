@@ -214,6 +214,16 @@
               "url": "https://mha.azurewebsites.net/"
             },
             {
+              "name": "checkphish",
+              "type": "url",
+              "url": "https://checkphish.bolster.ai/"
+            },
+            {
+              "name": "Phishtool",
+              "type": "url",
+              "url": "https://www.phishtool.com/"
+            },
+            {
               "name": "Data Breach",
               "type": "folder",
               "children": [
@@ -355,6 +365,11 @@
               "name": "Calculator IPVM",
               "type": "url",
               "url": "https://calculator.ipvm.com/"
+            },
+            {
+              "name": "Showmytreet",
+              "type": "url",
+              "url": "https://showmystreet.com/"
             },
             {
               "name": "Sea",
