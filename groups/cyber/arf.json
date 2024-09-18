@@ -189,11 +189,6 @@
               "url": "https://osint.rocks/"
             },
             {
-              "name": "MXToolbox",
-              "type": "url",
-              "url": "https://mxtoolbox.com/"
-            },
-            {
               "name": "CaptainVerify",
               "type": "url",
               "url": "https://captainverify.com/fr/mail-tester.html"
@@ -209,20 +204,33 @@
               "url": "https://www.predictasearch.com/"
             },
             {
-              "name": "Mha Azure",
-              "type": "url",
-              "url": "https://mha.azurewebsites.net/"
-            },
-            {
-              "name": "checkphish",
-              "type": "url",
-              "url": "https://checkphish.bolster.ai/"
-            },
-            {
-              "name": "Phishtool",
-              "type": "url",
-              "url": "https://www.phishtool.com/"
-            },
+              "name": "analyze header",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Mha Azure",
+                  "type": "url",
+                  "url": "https://mha.azurewebsites.net/"
+                },
+                {
+                  "name": "checkphish",
+                  "type": "url",
+                  "url": "https://checkphish.bolster.ai/"
+                },
+                {
+                  "name": "Phishtool",
+                  "type": "url",
+                  "url": "https://www.phishtool.com/"
+                },
+                {
+                  "name": "MXToolbox",
+                  "type": "url",
+                  "url": "https://mxtoolbox.com/"
+                }
+              ]
+            }
+          ]
+        },
             {
               "name": "Data Breach",
               "type": "folder",
