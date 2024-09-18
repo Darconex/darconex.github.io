@@ -214,16 +214,6 @@
               "url": "https://mha.azurewebsites.net/"
             },
             {
-              "name": "checkphish",
-              "type": "url",
-              "url": "https://checkphish.bolster.ai/"
-           },
-           {
-               "name": "Phishtool",
-               "type": "url",
-               "url": "https://www.phishtool.com/"
-            },
-            {
               "name": "Data Breach",
               "type": "folder",
               "children": [
@@ -267,7 +257,7 @@
           ]
         },
         {
-          "name": "Capture",
+          "name": "Image",
           "type": "folder",
           "children": [
             {
@@ -299,18 +289,8 @@
               "name": "HuggingFace",
               "type": "url",
               "url": "https://huggingface.co/spaces/gokaygokay/Florence-2"
-            },
-            {
-          "name": "Aperisolve",
-          "type": "url",
-          "url": "https://aperisolve.com/"
-        },
-        {
-          "name": "CopySeeker",
-          "type": "url",
-          "url": "https://copyseeker.net/"
-        }
-        ]
+            }
+          ]
         },
         {
           "name": "Maps",
@@ -347,45 +327,26 @@
               "url": "https://www.flightradar24.com/"
             },
             {
+              "name": "SubmarineCableMap",
+              "type": "url",
+              "url": "https://www.submarinecablemap.com/"
+            },
+            {
+              "name": "OpenStreetMap",
+              "type": "url",
+              "url": "https://umap.openstreetmap.fr/"
+            },
+            {
+              "name": "DeepStateMap",
+              "type": "url",
+              "url": "https://deepstatemap.live"
+            },
+            {
               "name": "EarthKit",
               "type": "url",
               "url": "https://earthkit.app/geoclip"
-            },
-        {
-          "name": "Calculator IPVM",
-          "type": "url",
-          "url": "https://calculator.ipvm.com/"
-        },
-        {
-          "name": "Showmytreet",
-          "type": "url",
-          "url": "https://showmystreet.com/"
-        },
-        {
-              "name": "Sea",
-              "type": "folder",
-              "children": [
-                {
-                  "name": "SubmarineCableMap",
-                  "type": "url",
-                  "url": "https://www.submarinecablemap.com/"
-                },
-                {
-                  "name": "VesselFinder",
-                  "type": "url",
-                  "url": "https://www.vesselfinder.com/"
-                },
-                {
-                  "name": "MarineTraffic",
-                  "type": "url",
-                  "url": "https://www.marinetraffic.com/"
-                },
-                {
-                  "name": "DataShom",
-                  "type": "url",
-                  "url": "https://data.shom.fr/"
-                }
-        ]
+            }
+          ]
         },
         {
           "name": "Network",
@@ -470,7 +431,7 @@
           ]
         },
         {
-          "name": "attack surface",
+          "name": "Surface d'attaque",
           "type": "folder",
           "children": [
             {
@@ -572,7 +533,7 @@
           ]
         },
         {
-          "name": "other",
+          "name": "Autres",
           "type": "folder",
           "children": [
             {
@@ -826,7 +787,7 @@
           ]
         },
         {
-          "name": "Sandbox & Reputation",
+          "name": "Sandbox & Réputation",
           "type": "folder",
           "children": [
             {
@@ -1082,7 +1043,7 @@
       ]
     },
     {
-      "name": "Security & Guide",
+      "name": "Sécurité & Guide",
       "type": "folder",
       "children": [
         {
