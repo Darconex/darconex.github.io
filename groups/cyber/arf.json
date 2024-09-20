@@ -7,7 +7,7 @@
       "type": "folder",
       "children": [
         {
-          "name": "Authentification",
+          "name": "Authentication",
           "type": "folder",
           "children": [
             {
@@ -63,7 +63,7 @@
           ]
         },
         {
-          "name": "Cryptomonnaie",
+          "name": "Cryptocurrency",
           "type": "folder",
           "children": [
             {
@@ -214,6 +214,11 @@
               "url": "https://mha.azurewebsites.net/"
             },
             {
+              "name": "CheckPhish",
+              "type": "url",
+              "url": "https://checkphish.bolster.ai/"
+            },
+            {
               "name": "Data Breach",
               "type": "folder",
               "children": [
@@ -257,7 +262,7 @@
           ]
         },
         {
-          "name": "Image",
+          "name": "Capture",
           "type": "folder",
           "children": [
             {
@@ -289,6 +294,11 @@
               "name": "HuggingFace",
               "type": "url",
               "url": "https://huggingface.co/spaces/gokaygokay/Florence-2"
+            },
+            {
+              "name": "Copyseeker",
+              "type": "url",
+              "url": "https://copyseeker.net/"
             },
             {
               "name": "Aperisolve",
@@ -347,7 +357,22 @@
               "url": "https://earthkit.app/geoclip"
             },
             {
-              "name": "Mer",
+              "name": "Sunders",
+              "type": "url",
+              "url": "https://sunders.uber.space/"
+            },
+            {
+              "name": "Showmystreet",
+              "type": "url",
+              "url": "https://showmystreet.com/"
+            },
+            {
+              "name": "Calculator IPVM",
+              "type": "url",
+              "url": "https://calculator.ipvm.com/"
+            },
+            {
+              "name": "Sea",
               "type": "folder",
               "children": [
                 {
@@ -457,7 +482,7 @@
           ]
         },
         {
-          "name": "Surface d'attaque",
+          "name": "attack surface",
           "type": "folder",
           "children": [
             {
@@ -559,7 +584,7 @@
           ]
         },
         {
-          "name": "Autres",
+          "name": "other",
           "type": "folder",
           "children": [
             {
@@ -606,6 +631,16 @@
               "name": "Whatsapp CheckLeaked",
               "type": "url",
               "url": "https://whatsapp.checkleaked.cc/"
+            },
+            {
+              "name": "Track-Trace",
+              "type": "url",
+              "url": "https://www.track-trace.com/"
+            },
+            {
+              "name": "GroupDocs",
+              "type": "url",
+              "url": "https://products.groupdocs.app/metadata/family"
             },
             {
               "name": "Web Archive",
