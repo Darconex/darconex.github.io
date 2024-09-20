@@ -327,19 +327,9 @@
               "url": "https://map.snapchat.com/"
             },
             {
-              "name": "GPSJam",
-              "type": "url",
-              "url": "https://gpsjam.org/"
-            },
-            {
               "name": "ShadowMap",
               "type": "url",
               "url": "https://app.shadowmap.org/"
-            },
-            {
-              "name": "FlighRadar24",
-              "type": "url",
-              "url": "https://www.flightradar24.com/"
             },
             {
               "name": "OpenStreetMap",
@@ -377,14 +367,30 @@
               "url": "https://mobility.portal.geops.io"
             },
             {
-              "name": "N2yo",
-              "type": "url",
-              "url": "https://www.n2yo.com/"
-            },
-            {
-              "name": "AirPoertia",
-              "type": "url",
-              "url": "https://www.airportia.com/"
+              "name": "Sky",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "AirPortia",
+                  "type": "url",
+                  "url": "https://www.airportia.com/"
+                },
+                {
+                  "name": "FlighRadar24",
+                  "type": "url",
+                  "url": "https://www.flightradar24.com/"
+                },
+                {
+                  "name": "GPSJam",
+                  "type": "url",
+                  "url": "https://gpsjam.org/"
+                },
+                {
+                  "name": "N2yo",
+                  "type": "url",
+                  "url": "https://www.n2yo.com/"
+                }
+              ]
             },
             {
               "name": "Sea",
@@ -502,7 +508,7 @@
           ]
         },
         {
-          "name": "attack surface",
+          "name": "Attack Surface",
           "type": "folder",
           "children": [
             {
