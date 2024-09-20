@@ -40,6 +40,11 @@
               "name": "TidalCyber",
               "type": "url",
               "url": "https://app.tidalcyber.com/"
+            },
+            {
+              "name": "OpenCTI",
+              "type": "url",
+              "url": "https://github.com/OpenCTI-Platform/opencti"
             }
           ]
         }
@@ -63,6 +68,21 @@
           "name": "APTSimulator",
           "type": "url",
           "url": "https://github.com/NextronSystems/APTSimulator"
+        },
+        {
+          "name": "HEKATOMB",
+          "type": "url",
+          "url": "https://github.com/ProcessusT/HEKATOMB"
+        },
+        {
+          "name": "WAF-Bypass",
+          "type": "url",
+          "url": "https://github.com/nemesida-waf/waf-bypass"
+        },
+        {
+          "name": "SecLists (Password)",
+          "type": "url",
+          "url": "https://github.com/danielmiessler/SecLists/tree/master/Passwords"
         },
         {
           "name": "RAT (Remote Access Trojan)",
