@@ -60,9 +60,19 @@
           "url": "https://github.com/gentilkiwi/mimikatz"
         },
         {
+          "name": "PentestReports",
+          "type": "url",
+          "url": "https://pentestreports.com/"
+        },
+        {
           "name": "AtomicRedTeam",
           "type": "url",
           "url": "https://atomicredteam.io/"
+        },
+        {
+          "name": "Observatory",
+          "type": "url",
+          "url": "https://observatory.mozilla.org/"
         },
         {
           "name": "APTSimulator",
@@ -83,6 +93,11 @@
           "name": "SecLists (Password)",
           "type": "url",
           "url": "https://github.com/danielmiessler/SecLists/tree/master/Passwords"
+        },
+        {
+          "name": "Priv-esc",
+          "type": "url",
+          "url": "https://amr-git-dot.github.io/offensive/Priv-esc/"
         },
         {
           "name": "RAT (Remote Access Trojan)",
