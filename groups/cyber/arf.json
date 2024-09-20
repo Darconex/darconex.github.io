@@ -214,6 +214,11 @@
               "url": "https://mha.azurewebsites.net/"
             },
             {
+              "name": "AnalyzerHeader",
+              "type": "url",
+              "url": "https://toolbox.googleapps.com/apps/messageheader/analyzeheader"
+            },
+            {
               "name": "CheckPhish",
               "type": "url",
               "url": "https://checkphish.bolster.ai/"
@@ -271,6 +276,16 @@
                   "name": "HPI",
                   "type": "url",
                   "url": "https://sec.hpi.de/ilc/"
+                },
+                {
+                  "name": "IdentityChecker",
+                  "type": "url",
+                  "url": "https://www.f-secure.com/en/identity-theft-checker"
+                },
+                {
+                  "name": "HackCheck",
+                  "type": "url",
+                  "url": "https://www.avast.com/hackcheck"
                 }
               ]
             }
@@ -723,6 +738,11 @@
               "name": "SuperLogout",
               "type": "url",
               "url": "https://superlogout.com/"
+            },
+            {
+              "name": "JustDeleteMe",
+              "type": "url",
+              "url": "https://justdeleteme.xyz/"
             }
           ]
         },
@@ -952,6 +972,11 @@
               "name": "SurveillanceWatch",
               "type": "url",
               "url": "https://www.surveillancewatch.io/"
+            },
+            {
+              "name": "Sylink",
+              "type": "url",
+              "url": "https://sylink.fr/cybermap/"
             }
           ]
         },
