@@ -219,6 +219,11 @@
               "url": "https://checkphish.bolster.ai/"
             },
             {
+              "name": "PhishTool",
+              "type": "url",
+              "url": "https://www.phishtool.com/"
+            },
+            {
               "name": "Data Breach",
               "type": "folder",
               "children": [
@@ -1126,7 +1131,7 @@
       ]
     },
     {
-      "name": "Sécurité & Guide",
+      "name": "Security & Guide",
       "type": "folder",
       "children": [
         {
