@@ -1256,6 +1256,11 @@
               "name": "Attack-Navigator",
               "type": "url",
               "url": "https://mitre-attack.github.io/attack-navigator/"
+            },
+            {
+              "name": "Car",
+              "type": "url",
+              "url": "https://car.mitre.org"
             }
           ]
         },
