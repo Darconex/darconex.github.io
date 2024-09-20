@@ -334,6 +334,11 @@
               "name": "Aperisolve",
               "type": "url",
               "url": "https://aperisolve.com/"
+            },
+            {
+              "name": "BetaFace",
+              "type": "url",
+              "url": "http://betaface.com/demo.html"
             }
           ]
         },
@@ -636,6 +641,11 @@
               "name": "Odin",
               "type": "url",
               "url": "https://search.odin.io/"
+            },
+            {
+              "name": "Fofa",
+              "type": "url",
+              "url": "https://fofa.info"
             }
           ]
         },
@@ -743,6 +753,11 @@
               "name": "JustDeleteMe",
               "type": "url",
               "url": "https://justdeleteme.xyz/"
+            },
+            {
+              "name": "CfredsNistGov",
+              "type": "url",
+              "url": "https://cfreds.nist.gov/"
             }
           ]
         },
@@ -764,6 +779,16 @@
               "name": "Toutatis",
               "type": "url",
               "url": "https://github.com/megadose/toutatis"
+            },
+            {
+              "name": "Osintgram",
+              "type": "url",
+              "url": "https://github.com/Datalux/Osintgram"
+            },
+            {
+              "name": "PhoneInfoga",
+              "type": "url",
+              "url": "https://github.com/sundowndev/PhoneInfoga"
             }
           ]
         }
