@@ -337,11 +337,6 @@
               "url": "https://app.shadowmap.org/"
             },
             {
-              "name": "MapNbr",
-              "type": "url",
-              "url": "https://map.nbr.org/interactivemap/"
-            },
-            {
               "name": "FlighRadar24",
               "type": "url",
               "url": "https://www.flightradar24.com/"
@@ -394,6 +389,11 @@
                   "name": "MarineTraffic",
                   "type": "url",
                   "url": "https://www.marinetraffic.com/"
+                },
+                {
+                  "name": "MapNbr",
+                  "type": "url",
+                  "url": "https://map.nbr.org/interactivemap/"
                 },
                 {
                   "name": "DataShom",
@@ -651,6 +651,16 @@
               "name": "Web Archive",
               "type": "url",
               "url": "https://web.archive.org/"
+            },
+            {
+              "name": "Synapsint",
+              "type": "url",
+              "url": "https://synapsint.com/"
+            },
+            {
+              "name": "MetaOsint",
+              "type": "url",
+              "url": "https://metaosint.github.io/"
             },
             {
               "name": "SuperLogout",
