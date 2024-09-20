@@ -372,6 +372,11 @@
               "url": "https://calculator.ipvm.com/"
             },
             {
+              "name": "Mobility",
+              "type": "url",
+              "url": "https://mobility.portal.geops.io"
+            },
+            {
               "name": "Sea",
               "type": "folder",
               "children": [
@@ -796,6 +801,11 @@
               "url": "https://www.loldrivers.io/"
             },
             {
+              "name": "VirusShare",
+              "type": "url",
+              "url": "https://virusshare.com/"
+            },
+            {
               "name": "IOC",
               "type": "url",
               "url": "https://ioc.one/"
@@ -894,7 +904,7 @@
           ]
         },
         {
-          "name": "Sandbox & Réputation",
+          "name": "Sandbox & Reputation",
           "type": "folder",
           "children": [
             {
