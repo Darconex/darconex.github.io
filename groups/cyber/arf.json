@@ -652,6 +652,11 @@
               "type": "url",
               "url": "https://web.archive.org/"
             }
+            {
+              "name": "SuperLogout",
+              "type": "url",
+              "url": "https://superlogout.com"
+            }
           ]
         },
         {
@@ -659,9 +664,19 @@
           "type": "folder",
           "children": [
             {
-              "name": "X",
+              "name": "Ivre",
               "type": "url",
-              "url": "X"
+              "url": "https://github.com/ivre/ivre"
+            },
+            {
+              "name": "Holehe",
+              "type": "url",
+              "url": "https://github.com/megadose/holehe"
+            },
+            {
+              "name": "Toutatis",
+              "type": "url",
+              "url": "https://github.com/megadose/toutatis"
             }
           ]
         }
@@ -774,6 +789,11 @@
               "name": "IOC",
               "type": "url",
               "url": "https://ioc.one/"
+            },
+            {
+              "name": "GTFobins",
+              "type": "url",
+              "url": "https://gtfobins.github.io/"
             }
           ]
         },
@@ -1307,6 +1327,11 @@
           "name": "SecNumacademie",
           "type": "url",
           "url": "https://secnumacademie.gouv.fr/"
+        },
+        {
+          "name": "AttackDefense",
+          "type": "url",
+          "url": "https://attackdefense.com/search"
         },
         {
           "name": "Cheat Sheet",
