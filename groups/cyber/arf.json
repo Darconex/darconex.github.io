@@ -888,6 +888,11 @@
               "url": "https://malpedia.caad.fkie.fraunhofer.de/"
             },
             {
+              "name": "Malware-Traffic",
+              "type": "url",
+              "url": "https://www.malware-traffic-analysis.net/2018/12/19/index.html"
+            },
+            {
               "name": "OST-Map",
               "type": "url",
               "url": "https://intezer.com/ost-map/"
@@ -959,6 +964,11 @@
               "url": "https://talosintelligence.com/reputation_center"
             },
             {
+              "name": "ThreatBook",
+              "type": "url",
+              "url": "https://threatbook.io/"
+            },
+            {
               "name": "ThreatButt",
               "type": "url",
               "url": "https://threatbutt.com/map/"
@@ -1002,6 +1012,11 @@
               "name": "Sylink",
               "type": "url",
               "url": "https://sylink.fr/cybermap/"
+            },
+            {
+              "name": "Fortiguard",
+              "type": "url",
+              "url": "http://threatmap.fortiguard.com/"
             }
           ]
         },
@@ -1050,6 +1065,11 @@
               "url": "https://www.hybrid-analysis.com/"
             },
             {
+              "name": "CockooSandbox",
+              "type": "url",
+              "url": "https://cuckoosandbox.org/"
+            },
+            {
               "name": "AbuseIPDB",
               "type": "url",
               "url": "https://www.abuseipdb.com/"
@@ -1068,6 +1088,21 @@
               "name": "JoeSandbox",
               "type": "url",
               "url": "https://www.joesandbox.com/"
+            },
+            {
+              "name": "Intezer",
+              "type": "url",
+              "url": "https://analyze.intezer.com/"
+            },
+            {
+              "name": "MalwareBazaar",
+              "type": "url",
+              "url": "https://bazaar.abuse.ch/"
+            },
+            {
+              "name": "FeodoTracker",
+              "type": "url",
+              "url": "https://feodotracker.abuse.ch/"
             },
             {
               "name": "Cybergordon",
@@ -1158,6 +1193,11 @@
               "name": "Lupovis",
               "type": "url",
               "url": "https://prowl.lupovis.io/"
+            },
+            {
+              "name": "Online-barcode",
+              "type": "url",
+              "url": "https://online-barcode-reader.inliteresearch.com/"
             }
           ]
         },
@@ -1199,7 +1239,12 @@
               "name": "Ransomware",
               "type": "url",
               "url": "https://ransomware.live/"
-            }
+            },
+            {
+              "name": "BitDefender",
+              "type": "url",
+              "url": "https://www.bitdefender.com/blog/labs/bitdefender-releases-decryptor-for-mortalkombat-ransomware/"
+            },
           ]
         },
         {
