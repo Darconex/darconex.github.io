@@ -544,12 +544,12 @@
               "name": "WhatisMyIP (Scan)",
               "type": "url",
               "url": "https://www.whatismyip.com/port-scanner/"
-            }
+            },
             {
               "name": "NMAP Online Port",
               "type": "url",
               "url": "https://hackertarget.com/nmap-online-port-scanner/"
-            }
+            },
             {
               "name": "IP Address Ranges By Country",
               "type": "url",
@@ -1011,7 +1011,7 @@
               "name": "Triage",
               "type": "url",
               "url": "https://tria.ge/"
-            },
+            }
           ]
         },
         {
