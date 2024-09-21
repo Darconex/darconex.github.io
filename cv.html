@@ -8,10 +8,31 @@
     <link rel="stylesheet" href="css/x-styles.css">
     <script src="js/script.js"></script>
     <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        body {
+            flex: 1;
+        }
         .nav-link-disabled {
             color: inherit;
             text-decoration: none;
             cursor: default;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #403f3f;
+            font-size: 0.9em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .content {
+            flex: 1;
         }
     </style>
 </head>
@@ -43,5 +64,10 @@
             </ul>
         </nav>
     </header>
+    <div class="content">
+    </div>
+    <footer>
+        &copy; 2024 Darconex. Tous droits réservés.
+    </footer>
 </body>
 </html>
