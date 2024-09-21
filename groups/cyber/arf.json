@@ -16,6 +16,11 @@
               "url": "https://gchq.github.io/CyberChef/"
             },
             {
+              "name": "NTLM",
+              "type": "url",
+              "url": "https://ntlm.pw/"
+            },
+            {
               "name": "crt",
               "type": "url",
               "url": "https://crt.sh/"
@@ -146,6 +151,16 @@
               "name": "Chaos",
               "type": "url",
               "url": "https://chaos.projectdiscovery.io/"
+            },
+            {
+              "name": "Ismalicious",
+              "type": "url",
+              "url": "https://ismalicious.com/"
+            },
+            {
+              "name": "CheckMerox",
+              "type": "url",
+              "url": "https://check.merox.io/"
             }
           ]
         },
@@ -404,6 +419,11 @@
                   "name": "Wigle",
                   "type": "url",
                   "url": "https://www.wigle.net/"
+                },
+                {
+                  "name": "Overpass-Turbo",
+                  "type": "url",
+                  "url": "https://overpass-turbo.eu/"
                 }
               ]
             },
@@ -521,6 +541,16 @@
               "url": "https://www.ipaddressguide.com/"
             },
             {
+              "name": "WhatisMyIP (Scan)",
+              "type": "url",
+              "url": "https://www.whatismyip.com/port-scanner/"
+            }
+            {
+              "name": "NMAP Online Port",
+              "type": "url",
+              "url": "https://hackertarget.com/nmap-online-port-scanner/"
+            }
+            {
               "name": "IP Address Ranges By Country",
               "type": "url",
               "url": "https://lite.ip2location.com/ip-address-ranges-by-country"
@@ -545,6 +575,46 @@
               "name": "Securi",
               "type": "url",
               "url": "https://sitecheck.sucuri.net/"
+            },
+            {
+              "name": "SslLabs",
+              "type": "url",
+              "url": "https://www.ssllabs.com/ssltest/"
+            },
+            {
+              "name": "BuimWith",
+              "type": "url",
+              "url": "https://builtwith.com/"
+            },
+            {
+              "name": "Web Archive",
+              "type": "url",
+              "url": "https://web.archive.org/"
+            },
+            {
+              "name": "RedarCloudflare",
+              "type": "url",
+              "url": "https://radar.cloudflare.com/"
+            },
+            {
+              "name": "Zscaler",
+              "type": "url",
+              "url": "https://zulu.zscaler.com/"
+            },
+            {
+              "name": "WhatWeb",
+              "type": "url",
+              "url": "https://www.whatweb.net/"
+            },
+            {
+              "name": "VisualPing",
+              "type": "url",
+              "url": "https://visualping.io/"
+            },
+            {
+              "name": "Pentest-Tools",
+              "type": "url",
+              "url": "https://pentest-tools.com/alltools"
             }
           ]
         },
@@ -646,6 +716,11 @@
               "name": "Fofa",
               "type": "url",
               "url": "https://fofa.info"
+            },
+            {
+              "name": "Polyswarm",
+              "type": "url",
+              "url": "https://polyswarm.io/"
             }
           ]
         },
@@ -728,11 +803,6 @@
               "name": "GroupDocs",
               "type": "url",
               "url": "https://products.groupdocs.app/metadata/family"
-            },
-            {
-              "name": "Web Archive",
-              "type": "url",
-              "url": "https://web.archive.org/"
             },
             {
               "name": "Synapsint",
@@ -821,6 +891,26 @@
               "name": "CVEDetails",
               "type": "url",
               "url": "https://www.cvedetails.com/"
+            },
+            {
+              "name": "CVEShield",
+              "type": "url",
+              "url": "https://www.cveshield.com/"
+            },
+            {
+              "name": "VxIntelligence",
+              "type": "url",
+              "url": "https://vxintelligence.com/"
+            },
+            {
+              "name": "VulnCheck",
+              "type": "url",
+              "url": "https://vulncheck.com/"
+            },
+            {
+              "name": "0DayToday",
+              "type": "url",
+              "url": "https://0day.today/"
             },
             {
               "name": "UltimateWindowsSecurity",
@@ -916,7 +1006,12 @@
               "name": "GTFobins",
               "type": "url",
               "url": "https://gtfobins.github.io/"
-            }
+            },
+            {
+              "name": "Triage",
+              "type": "url",
+              "url": "https://tria.ge/"
+            },
           ]
         },
         {
@@ -1198,6 +1293,41 @@
               "name": "Online-barcode",
               "type": "url",
               "url": "https://online-barcode-reader.inliteresearch.com/"
+            },
+            {
+              "name": "Bluecoat",
+              "type": "url",
+              "url": "https://sitereview.bluecoat.com/#/"
+            },
+            {
+              "name": "OpenTip",
+              "type": "url",
+              "url": "https://opentip.kaspersky.com/#search/"
+            },
+            {
+              "name": "FranceVerif",
+              "type": "url",
+              "url": "https://franceverif.fr/fr/verifier-site-web"
+            },
+            {
+              "name": "RESTCloud",
+              "type": "url",
+              "url": "https://www.rstcloud.com/ioc-lookup/"
+            },
+            {
+              "name": "Scamalytics",
+              "type": "url",
+              "url": "https://scamalytics.com/"
+            },
+            {
+              "name": "Verdict",
+              "type": "url",
+              "url": "https://verdict.valkyrie.comodo.com/"
+            },
+            {
+              "name": "ExpandUrl",
+              "type": "url",
+              "url": "https://www.expandurl.net/"
             }
           ]
         },
