@@ -8,12 +8,26 @@
     <link rel="stylesheet" href="css/x-styles.css">
     <script src="js/script.js"></script>
     <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Le contenu principal doit remplir tout l'espace restant */
+        body {
+            flex: 1;
+        }
+
         .nav-link-disabled {
             color: inherit;
             text-decoration: none;
             cursor: default;
         }
-         footer {
+
+        /* Style du pied de page */
+        footer {
             text-align: center;
             padding: 10px;
             background-color: #f1f1f1;
@@ -21,6 +35,11 @@
             position: relative;
             bottom: 0;
             width: 100%;
+        }
+
+        /* Permet au contenu de la page de s'étendre */
+        .content {
+            flex: 1;
         }
     </style>
 </head>
