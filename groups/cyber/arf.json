@@ -1555,6 +1555,36 @@
           "url": "https://www.redpacketsecurity.com/"
         },
         {
+          "name": "LeMagIT",
+          "type": "url",
+          "url": "https://www.lemagit.fr/"
+        },
+        {
+          "name": "TheCyberExpress",
+          "type": "url",
+          "url": "https://thecyberexpress.com/"
+        },
+        {
+          "name": "SecurityAffairs",
+          "type": "url",
+          "url": "https://securityaffairs.com/"
+        },
+        {
+          "name": "InfoSecurity-Magazine",
+          "type": "url",
+          "url": "https://www.infosecurity-magazine.com/"
+        },
+        {
+          "name": "DarkReading",
+          "type": "url",
+          "url": "https://www.darkreading.com/"
+        },
+        {
+          "name": "HelpNetSecurity",
+          "type": "url",
+          "url": "https://www.helpnetsecurity.com/"
+        },
+        {
           "name": "Zone-H",
           "type": "url",
           "url": "https://www.zone-h.org/"
