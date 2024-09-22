@@ -430,6 +430,11 @@
                   "name": "Overpass Turbo",
                   "type": "url",
                   "url": "https://overpass-turbo.eu/"
+                },
+                {
+                  "name": "OpenRailWayMap",
+                  "type": "url",
+                  "url": "https://www.openrailwaymap.org/"
                 }
               ]
             },
@@ -456,6 +461,16 @@
                   "name": "N2YO",
                   "type": "url",
                   "url": "https://www.n2yo.com/"
+                },
+                {
+                  "name": "ADS-B",
+                  "type": "url",
+                  "url": "https://www.ads-b.nl/"
+                },
+                {
+                  "name": "ADSBExchange",
+                  "type": "url",
+                  "url": "https://globe.adsbexchange.com/"
                 }
               ]
             },
@@ -487,6 +502,11 @@
                   "name": "DataShom",
                   "type": "url",
                   "url": "https://data.shom.fr/"
+                },
+                {
+                  "name": "OpenSeaMap",
+                  "type": "url",
+                  "url": "https://www.openseamap.org/"
                 }
               ]
             }
