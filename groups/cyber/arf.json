@@ -161,6 +161,11 @@
               "name": "Check Merox",
               "type": "url",
               "url": "https://check.merox.io/"
+            },
+            {
+              "name": "RedirectDetective",
+              "type": "url",
+              "url": "https://redirectdetective.com/"
             }
           ]
         },
@@ -747,6 +752,11 @@
               "name": "Polyswarm",
               "type": "url",
               "url": "https://polyswarm.io/"
+            },
+            {
+              "name": "Nikto",
+              "type": "url",
+              "url": "https://nikto.online/"
             }
           ]
         },
