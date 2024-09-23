@@ -884,6 +884,11 @@
               "name": "CFREDS NIST Gov",
               "type": "url",
               "url": "https://cfreds.nist.gov/"
+            },
+            {
+              "name": "Aware-Online",
+              "type": "url",
+              "url": "https://www.aware-online.com/"
             }
           ]
         },
