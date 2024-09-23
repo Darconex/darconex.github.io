@@ -889,6 +889,11 @@
               "name": "Aware-Online",
               "type": "url",
               "url": "https://www.aware-online.com/"
+            },
+            {
+              "name": "CountryMeters",
+              "type": "url",
+              "url": "https://countrymeters.info"
             }
           ]
         },
@@ -1725,6 +1730,11 @@
           "name": "Attack Defense",
           "type": "url",
           "url": "https://attackdefense.com/search"
+        },
+        {
+          "name": "Root-Me",
+          "type": "url",
+          "url": "https://www.root-me.org/"
         },
         {
           "name": "Cheat Sheet",
