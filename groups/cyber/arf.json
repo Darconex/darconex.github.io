@@ -445,6 +445,21 @@
                   "name": "Rally-Maps",
                   "type": "url",
                   "url": "https://www.rally-maps.com/"
+                },
+                {
+                  "name": "LiveUaMap",
+                  "type": "url",
+                  "url": "https://liveuamap.com/"
+                },
+                {
+                  "name": "ZoomEarth",
+                  "type": "url",
+                  "url": "https://zoom.earth/maps/satellite/"
+                },
+                {
+                  "name": "PeakFinder",
+                  "type": "url",
+                  "url": "https://www.peakfinder.com/"
                 }
               ]
             },
