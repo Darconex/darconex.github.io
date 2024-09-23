@@ -440,6 +440,11 @@
                   "name": "OpenRailWayMap",
                   "type": "url",
                   "url": "https://www.openrailwaymap.org/"
+                },
+                {
+                  "name": "Rally-Maps",
+                  "type": "url",
+                  "url": "https://www.rally-maps.com/"
                 }
               ]
             },
