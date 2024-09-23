@@ -1510,9 +1510,9 @@
           "type": "folder",
           "children": [
             {
-              "name": "X",
+              "name": "CTI-Toolbox",
               "type": "url",
-              "url": "X"
+              "url": "https://github.com/johestephan/CTI-Toolbox"
             }
           ]
         }
@@ -1735,6 +1735,37 @@
           "name": "Root-Me",
           "type": "url",
           "url": "https://www.root-me.org/"
+        },
+        {
+          "name": "BugBounty",
+          "type": "folder",
+          "children": [
+            {
+              "name": "YesWeHack",
+              "type": "url",
+              "url": "https://www.yeswehack.com/"
+            },
+            {
+              "name": "Huntr",
+              "type": "url",
+              "url": "https://huntr.com/"
+            },
+            {
+              "name": "HackOne",
+              "type": "url",
+              "url": "https://hackerone.com/"
+            },
+            {
+              "name": "BugCrowd",
+              "type": "url",
+              "url": "https://www.bugcrowd.com/"
+            },
+            {
+              "name": "BugBountyHunter",
+              "type": "url",
+              "url": "https://www.bugbountyhunter.com/"
+            }
+          ]
         },
         {
           "name": "Cheat Sheet",
