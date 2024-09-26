@@ -643,6 +643,11 @@
               "url": "https://web.archive.org/"
             },
             {
+              "name": "Archive",
+              "type": "url",
+              "url": "https://archive.is/"
+            },
+            {
               "name": "Radar Cloudflare",
               "type": "url",
               "url": "https://radar.cloudflare.com/"
