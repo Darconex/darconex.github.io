@@ -930,6 +930,11 @@
               "name": "Orbit",
               "type": "url",
               "url": "https://github.com/s0md3v/Orbit"
+            },
+            {
+              "name": "Mr.Holmes",
+              "type": "url",
+              "url": "https://github.com/Lucksi/Mr.Holmes"
             }
           ]
         }
@@ -1394,6 +1399,11 @@
               "name": "Expand URL",
               "type": "url",
               "url": "https://www.expandurl.net/"
+            },
+            {
+              "name": "VMRay",
+              "type": "url",
+              "url": "https://www.vmray.com/"
             }
           ]
         },
