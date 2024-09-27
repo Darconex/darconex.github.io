@@ -184,6 +184,26 @@
               "url": "https://hunter.io/"
             },
             {
+              "name": "Snov",
+              "type": "url",
+              "url": "https://snov.io/email-finder"
+            },
+            {
+              "name": "Findemail",
+              "type": "url",
+              "url": "https://findemail.io/"
+            },
+            {
+              "name": "Minelead",
+              "type": "url",
+              "url": "https://minelead.io/"
+            },
+            {
+              "name": "Experte",
+              "type": "url",
+              "url": "https://www.experte.com/email-finder"
+            },
+            {
               "name": "Check Cybersecurity",
               "type": "url",
               "url": "https://checkcybersecurity.service.ncsc.gov.uk/email-security-check/form"
