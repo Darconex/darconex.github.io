@@ -4,82 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Analyste SOC / Cybersécurité</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f4f4f9;
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f4f7fa;
             color: #333;
+            line-height: 1.6;
         }
         header {
-            background-color: #2a2e35;
+            background-color: #34495e;
             color: white;
-            padding: 20px 0;
             text-align: center;
+            padding: 40px 0;
         }
         header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-            letter-spacing: 1px;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
         }
         header h2 {
-            margin: 0;
+            font-size: 1.5rem;
             font-weight: 400;
         }
         .container {
-            max-width: 1000px;
-            margin: 30px auto;
+            max-width: 1200px;
+            margin: 40px auto;
             padding: 0 20px;
-            background: white;
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
         }
-        section {
-            padding: 20px;
-            border-bottom: 1px solid #e0e0e0;
-        }
-        section:last-child {
-            border-bottom: none;
-        }
-        h3 {
-            font-size: 1.5rem;
-            color: #2a2e35;
-            margin-bottom: 15px;
-        }
-        .job {
+        .section-title {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 10px;
             margin-bottom: 20px;
         }
-        .job h4 {
-            font-size: 1.2rem;
-            color: #2a2e35;
-            margin-bottom: 5px;
+        .profile {
+            text-align: center;
+            margin-bottom: 40px;
         }
-        .job p {
-            margin: 5px 0;
+        .profile p {
+            font-size: 1.1rem;
             color: #555;
         }
+        .experience, .education {
+            margin-bottom: 40px;
+        }
+        .job, .school {
+            margin-bottom: 20px;
+        }
+        .job h4, .school h4 {
+            font-size: 1.3rem;
+            color: #34495e;
+            margin-bottom: 5px;
+        }
+        .job span, .school span {
+            display: block;
+            font-size: 1rem;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+        .job p, .school p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
         ul {
-            margin: 10px 0;
             padding-left: 20px;
-            color: #333;
+            margin-bottom: 20px;
         }
         ul li {
-            margin-bottom: 8px;
             list-style-type: disc;
+            margin-bottom: 10px;
         }
         footer {
             text-align: center;
-            padding: 10px;
-            background-color: #2a2e35;
+            padding: 20px;
+            background-color: #34495e;
             color: white;
             font-size: 0.9em;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-            border-top: 4px solid #f4f4f9;
         }
         @media (max-width: 768px) {
             header h1 {
@@ -88,8 +97,11 @@
             header h2 {
                 font-size: 1.2rem;
             }
-            section {
-                padding: 15px;
+            .section-title {
+                font-size: 1.5rem;
+            }
+            .profile p {
+                font-size: 1rem;
             }
         }
     </style>
@@ -97,72 +109,69 @@
 <body>
 
     <header>
-        <h1>SEA TPI</h1>
+        <h1>Jean Dupont</h1>
         <h2>Analyste SOC / Cybersécurité</h2>
-        <p>7 ans 3 mois d'expérience</p>
     </header>
 
     <div class="container">
+        <section class="profile">
+            <h3 class="section-title">Profil</h3>
+            <p>Analyste SOC expérimenté avec plus de 7 ans d’expérience en cybersécurité. Spécialisé dans le traitement des alertes, la gestion des incidents de sécurité, et l’investigation via OSINT. Solide expertise en technologies de sécurité comme SIEM, EPP, et EDR.</p>
+        </section>
+
         <section class="experience">
-            <h3>Expérience Professionnelle</h3>
+            <h3 class="section-title">Expérience Professionnelle</h3>
 
             <div class="job">
                 <h4>Analyste SOC / Cybersécurité</h4>
-                <p><strong>CDI</strong> | Avril 2022 - Aujourd'hui (2 ans 6 mois) | Paris (Hybride)</p>
+                <span>SEA TPI | Avril 2022 - Présent | Paris (Hybride)</span>
                 <ul>
-                    <li>SOC Analyste N2 : Traitement des alertes de sécurité, analyse, qualification et réponse aux incidents</li>
-                    <li>Investigation Open Source Intelligence (OSINT), Cyber Threat Intelligence</li>
-                    <li>Technologies : SIEM, EPP, EDR, etc. (Tehtris, Sophos, Microsoft Defender...)</li>
-                    <li>Gestion de crise, astreinte N1</li>
-                    <li>Création de templates, procédures et documents techniques</li>
-                    <li>Journal intranet (CyberVeille, Patch Tuesday...)</li>
+                    <li>Traitement des alertes de sécurité, analyse des incidents, et réponse immédiate.</li>
+                    <li>Gestion des technologies : SIEM, EPP, EDR, protection des emails.</li>
+                    <li>Investigation via OSINT et hunting de menaces cyber.</li>
+                    <li>Participation à la gestion de crise et astreinte N1.</li>
                 </ul>
             </div>
 
             <div class="job">
                 <h4>Technicien N2 - AVIVA France</h4>
-                <p><strong>CDI</strong> | Août 2021 - Mars 2022 (8 mois) | Bois-Colombes (Sur site)</p>
+                <span>Août 2021 - Mars 2022 | Bois-Colombes</span>
                 <ul>
-                    <li>Création de procédures, déplacement multi-sites</li>
-                    <li>Gestion des demandes et incidents, rapports Backlog et SLA</li>
+                    <li>Création de procédures, gestion des demandes et incidents.</li>
+                    <li>Déplacement multi-sites, rapports Backlog et SLA.</li>
                 </ul>
             </div>
 
             <div class="job">
                 <h4>Technicien de Proximité N2 - Groupe BPCE-IT</h4>
-                <p><strong>CDI</strong> | Juillet 2017 - Août 2021 (4 ans 2 mois) | Région de Paris (Sur site)</p>
+                <span>Juillet 2017 - Août 2021 | Paris</span>
                 <ul>
-                    <li>Préparation des postes, gestion des demandes et incidents</li>
-                    <li>Gestion d'inventaire, intervention réseau</li>
-                    <li>Gestion d’équipe sur site et à distance, intervention multi-sites</li>
-                    <li>Accompagnement des nouveaux arrivants</li>
-                    <li>Projet "OPEN" : Réaménagement en Open Space, configuration de 150 postes</li>
-                    <li>Migration de Windows 7 à Windows 10</li>
+                    <li>Gestion des postes et des incidents utilisateurs VIP.</li>
+                    <li>Réaménagement des bureaux en Open Space (Projet OPEN).</li>
+                    <li>Migration de Windows 7 vers Windows 10.</li>
                 </ul>
             </div>
+        </section>
 
-            <div class="job">
-                <h4>Technicien de Proximité - Sysmex</h4>
-                <p><strong>Temps partiel</strong> | Février 2019 - Juin 2019 (5 mois) | Villepinte (Sur site)</p>
-                <ul>
-                    <li>Déploiement du parc informatique, gestion de l'AD</li>
-                    <li>Création de procédures spécifiques</li>
-                </ul>
+        <section class="education">
+            <h3 class="section-title">Formation</h3>
+
+            <div class="school">
+                <h4>Master en Cybersécurité</h4>
+                <span>Université de Paris | 2015 - 2017</span>
+                <p>Spécialisation en sécurité des réseaux et systèmes d'information.</p>
             </div>
 
-            <div class="job">
-                <h4>Technicien de Proximité - SNCF</h4>
-                <p><strong>Alternance</strong> | Septembre 2016 - Juin 2017 (10 mois) | Villeneuve triage (Sur site)</p>
-                <ul>
-                    <li>Déploiement des PC Rame, prise en main à distance « Dameware »</li>
-                    <li>Hotline, brassage de baies réseaux</li>
-                </ul>
+            <div class="school">
+                <h4>Licence en Informatique</h4>
+                <span>Université de Lyon | 2012 - 2015</span>
+                <p>Approfondissement des systèmes d'exploitation et des réseaux.</p>
             </div>
         </section>
     </div>
 
     <footer>
-        &copy; 2024 Darconex. Tous droits réservés.
+        &copy; 2024 Jean Dupont - Tous droits réservés
     </footer>
 
 </body>
