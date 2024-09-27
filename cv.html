@@ -3,165 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darconex</title>
+    <title>CV - Analyste SOC / Cybersécurité</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/x-styles.css">
-    <link rel="icon" href="img/logo.png" title="logo">
-    <script src="js/script.js"></script>
     <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-        }
         body {
-            flex: 1;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
         }
-        .nav-link-disabled {
-            color: inherit;
-            text-decoration: none;
-            cursor: default;
+        header {
+            background-color: #2a2e35;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        header h2 {
+            margin: 0;
+            font-weight: 400;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+            background: white;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        section {
+            padding: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        section:last-child {
+            border-bottom: none;
+        }
+        h3 {
+            font-size: 1.5rem;
+            color: #2a2e35;
+            margin-bottom: 15px;
+        }
+        .job {
+            margin-bottom: 20px;
+        }
+        .job h4 {
+            font-size: 1.2rem;
+            color: #2a2e35;
+            margin-bottom: 5px;
+        }
+        .job p {
+            margin: 5px 0;
+            color: #555;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+            color: #333;
+        }
+        ul li {
+            margin-bottom: 8px;
+            list-style-type: disc;
         }
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #403f3f;
+            background-color: #2a2e35;
+            color: white;
             font-size: 0.9em;
             position: relative;
             bottom: 0;
             width: 100%;
+            border-top: 4px solid #f4f4f9;
         }
-        .content {
-            flex: 1;
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header h2 {
+                font-size: 1.2rem;
+            }
+            section {
+                padding: 15px;
+            }
         }
     </style>
 </head>
 <body>
+
     <header>
-        <div class="light"></div>
-        <nav class="navbar">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="https://darconex.github.io" class="nav-link">Accueil</a></li>
-                <li class="nav-item">
-                    <span class="nav-link nav-link-disabled">Cyber</span>
-                    <ul class="sub-menu">
-                        <li class="sub-item"><a href="https://darconex.github.io/groups/cyber" class="sub-link">Data Cyber</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/groups/team" class="sub-link">Team</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item"><a href="https://darconex.com" class="nav-link">Pro</a></li>
-                <li class="nav-item">
-                    <span class="nav-link nav-link-disabled">À Propos</span>
-                    <ul class="sub-menu">
-                        <li class="sub-item"><a href="https://darconex.github.io/charte.html" class="sub-link">Charte</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/loi-cybersecurite.html" class="sub-link">Loi sur la cybersécurité</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/formation.html" class="sub-link">Formation</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/certificat.html" class="sub-link">Certificat</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/cv.html" class="sub-link">CV</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>SEA TPI</h1>
+        <h2>Analyste SOC / Cybersécurité</h2>
+        <p>7 ans 3 mois d'expérience</p>
     </header>
 
-    <div class="content">
-        <div class="container">
-            <header>
-                <h1>SEA TPI</h1>
-                <h2>Analyste SOC / Cybersécurité</h2>
-                <p>7 ans 3 mois d'expérience</p>
-            </header>
+    <div class="container">
+        <section class="experience">
+            <h3>Expérience Professionnelle</h3>
 
-            <section class="experience">
-                <h3>Expérience Professionnelle</h3>
+            <div class="job">
+                <h4>Analyste SOC / Cybersécurité</h4>
+                <p><strong>CDI</strong> | Avril 2022 - Aujourd'hui (2 ans 6 mois) | Paris (Hybride)</p>
+                <ul>
+                    <li>SOC Analyste N2 : Traitement des alertes de sécurité, analyse, qualification et réponse aux incidents</li>
+                    <li>Investigation Open Source Intelligence (OSINT), Cyber Threat Intelligence</li>
+                    <li>Technologies : SIEM, EPP, EDR, etc. (Tehtris, Sophos, Microsoft Defender...)</li>
+                    <li>Gestion de crise, astreinte N1</li>
+                    <li>Création de templates, procédures et documents techniques</li>
+                    <li>Journal intranet (CyberVeille, Patch Tuesday...)</li>
+                </ul>
+            </div>
 
-                <div class="job">
-                    <h4>Analyste SOC / Cybersécurité</h4>
-                    <p><strong>CDI</strong> | Avril 2022 - Aujourd'hui (2 ans 6 mois)</p>
-                    <p>Paris (Hybride)</p>
-                    <ul>
-                        <li>SOC Analyste N2 : Traitement des alertes de sécurité, analyse, qualification et réponse aux incidents</li>
-                        <li>Investigation Open Source Intelligence (OSINT), Cyber Threat Intelligence</li>
-                        <li>Technologies : SIEM, EPP, EDR, etc. (Tehtris, Sophos, Microsoft Defender...)</li>
-                        <li>Gestion de crise, astreinte N1</li>
-                        <li>Création de templates, procédures et documents techniques</li>
-                        <li>Journal intranet (CyberVeille, Patch Tuesday...)</li>
-                    </ul>
-                </div>
+            <div class="job">
+                <h4>Technicien N2 - AVIVA France</h4>
+                <p><strong>CDI</strong> | Août 2021 - Mars 2022 (8 mois) | Bois-Colombes (Sur site)</p>
+                <ul>
+                    <li>Création de procédures, déplacement multi-sites</li>
+                    <li>Gestion des demandes et incidents, rapports Backlog et SLA</li>
+                </ul>
+            </div>
 
-                <div class="job">
-                    <h4>Technicien N2 - AVIVA France</h4>
-                    <p><strong>CDI</strong> | Août 2021 - Mars 2022 (8 mois)</p>
-                    <p>Bois-Colombes (Sur site)</p>
-                    <ul>
-                        <li>Création de procédures, déplacement multi-sites</li>
-                        <li>Gestion des demandes et incidents, rapports Backlog et SLA</li>
-                    </ul>
-                </div>
+            <div class="job">
+                <h4>Technicien de Proximité N2 - Groupe BPCE-IT</h4>
+                <p><strong>CDI</strong> | Juillet 2017 - Août 2021 (4 ans 2 mois) | Région de Paris (Sur site)</p>
+                <ul>
+                    <li>Préparation des postes, gestion des demandes et incidents</li>
+                    <li>Gestion d'inventaire, intervention réseau</li>
+                    <li>Gestion d’équipe sur site et à distance, intervention multi-sites</li>
+                    <li>Accompagnement des nouveaux arrivants</li>
+                    <li>Projet "OPEN" : Réaménagement en Open Space, configuration de 150 postes</li>
+                    <li>Migration de Windows 7 à Windows 10</li>
+                </ul>
+            </div>
 
-                <div class="job">
-                    <h4>Technicien de Proximité N2 - Groupe BPCE-IT</h4>
-                    <p><strong>CDI</strong> | Juillet 2017 - Août 2021 (4 ans 2 mois)</p>
-                    <p>Région de Paris (Sur site)</p>
-                    <ul>
-                        <li>Préparation des postes, gestion des demandes et incidents</li>
-                        <li>Gestion d'inventaire, intervention réseau</li>
-                        <li>Gestion d’équipe sur site et à distance, intervention multi-sites</li>
-                        <li>Accompagnement des nouveaux arrivants</li>
-                        <li>Projet "OPEN" : Réaménagement en Open Space, configuration de 150 postes</li>
-                        <li>Migration de Windows 7 à Windows 10</li>
-                    </ul>
-                </div>
+            <div class="job">
+                <h4>Technicien de Proximité - Sysmex</h4>
+                <p><strong>Temps partiel</strong> | Février 2019 - Juin 2019 (5 mois) | Villepinte (Sur site)</p>
+                <ul>
+                    <li>Déploiement du parc informatique, gestion de l'AD</li>
+                    <li>Création de procédures spécifiques</li>
+                </ul>
+            </div>
 
-                <div class="job">
-                    <h4>Technicien de Proximité - Sysmex</h4>
-                    <p><strong>Temps partiel</strong> | Février 2019 - Juin 2019 (5 mois)</p>
-                    <p>Villepinte (Sur site)</p>
-                    <ul>
-                        <li>Déploiement du parc informatique, gestion de l'AD</li>
-                        <li>Création de procédures spécifiques</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <h4>Technicien de Proximité - SNCF</h4>
-                    <p><strong>Alternance</strong> | Septembre 2016 - Juin 2017 (10 mois)</p>
-                    <p>Villeneuve triage (Sur site)</p>
-                    <ul>
-                        <li>Déploiement des PC Rame, prise en main à distance « Dameware »</li>
-                        <li>Hotline, brassage de baies réseaux</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <h4>Technicien - Banque de France (SPAD)</h4>
-                    <p><strong>Alternance</strong> | Septembre 2015 - Août 2016 (1 an)</p>
-                    <p>Région de Paris (Sur site)</p>
-                    <ul>
-                        <li>Déploiement et dépannage d'iPhones, utilisation de la gestion du parc informatique (REPAR)</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <h4>Technicien - Exide Technologies</h4>
-                    <p><strong>CDI</strong> | Février 2015 - Avril 2015 (3 mois)</p>
-                    <p>Gennevilliers (Sur site)</p>
-                    <ul>
-                        <li>Prise de contrôle à distance avec TeamViewer</li>
-                        <li>Réparation du fichier de démarrage (GRUB et MBR)</li>
-                        <li>Protection réseau avec McAfee, création de partitions</li>
-                        <li>Montage et démontage d'ordinateurs</li>
-                        <li>Gestion des quotas d’espace disque avec Hyper-V</li>
-                    </ul>
-                </div>
-            </section>
-        </div>
+            <div class="job">
+                <h4>Technicien de Proximité - SNCF</h4>
+                <p><strong>Alternance</strong> | Septembre 2016 - Juin 2017 (10 mois) | Villeneuve triage (Sur site)</p>
+                <ul>
+                    <li>Déploiement des PC Rame, prise en main à distance « Dameware »</li>
+                    <li>Hotline, brassage de baies réseaux</li>
+                </ul>
+            </div>
+        </section>
     </div>
 
     <footer>
         &copy; 2024 Darconex. Tous droits réservés.
     </footer>
+
 </body>
 </html>
