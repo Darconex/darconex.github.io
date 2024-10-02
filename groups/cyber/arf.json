@@ -402,6 +402,16 @@
                   "url": "https://earthkit.app/geoclip"
                 },
                 {
+                  "name": "Geohints",
+                  "type": "url",
+                  "url": "https://geohints.com/"
+                },
+                {
+                  "name": "Soar",
+                  "type": "url",
+                  "url": "https://soar.earth/maps?"
+                },
+                {
                   "name": "Mobility",
                   "type": "url",
                   "url": "https://mobility.portal.geops.io/"
@@ -491,6 +501,11 @@
                   "name": "AirPortia",
                   "type": "url",
                   "url": "https://www.airportia.com/"
+                },
+                {
+                  "name": "RadarBox",
+                  "type": "url",
+                  "url": "https://www.radarbox.com/"
                 },
                 {
                   "name": "Flightradar24",
