@@ -1406,6 +1406,11 @@
               "url": "https://online-barcode-reader.inliteresearch.com/"
             },
             {
+              "name": "4QRCode",
+              "type": "url",
+              "url": "https://4qrcode.com/scan-qr-code.php"
+            },
+            {
               "name": "Bluecoat",
               "type": "url",
               "url": "https://sitereview.bluecoat.com/#/"
