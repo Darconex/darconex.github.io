@@ -45,6 +45,11 @@
               "name": "OpenCTI",
               "type": "url",
               "url": "https://github.com/OpenCTI-Platform/opencti"
+            },
+            {
+              "name": "Lolrmm",
+              "type": "url",
+              "url": "https://lolrmm.io/"
             }
           ]
         }
