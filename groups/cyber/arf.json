@@ -432,6 +432,11 @@
                   "url": "https://app.shadowmap.org/"
                 },
                 {
+                  "name": "TweetMap",
+                  "type": "url",
+                  "url": "https://www.heavy.ai/demos/tweetmap"
+                },
+                {
                   "name": "DataCenterMap",
                   "type": "url",
                   "url": "https://www.datacentermap.com/"
