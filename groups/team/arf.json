@@ -105,6 +105,11 @@
           "url": "https://amr-git-dot.github.io/offensive/Priv-esc/"
         },
         {
+          "name": "CasterByte",
+          "type": "url",
+          "url": "https://github.com/casterbyte/Above"
+        },
+        {
           "name": "RAT (Remote Access Trojan)",
           "type": "url",
           "url": "https://darconex.github.io/list/Ultimate-RAT-Collection.html"
