@@ -110,6 +110,11 @@
           "url": "https://github.com/casterbyte/Above"
         },
         {
+          "name": "365-Stealer",
+          "type": "url",
+          "url": "https://github.com/AlteredSecurity/365-Stealer"
+        },
+        {
           "name": "RAT (Remote Access Trojan)",
           "type": "url",
           "url": "https://darconex.github.io/list/Ultimate-RAT-Collection.html"
