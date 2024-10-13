@@ -1676,6 +1676,11 @@
           "url": "https://veille-cyber.com/"
         },
         {
+          "name": "Cyber-Operation",
+          "type": "url",
+          "url": "https://www.cfr.org/cyber-operations/"
+        },
+        {
           "name": "The Hacker News",
           "type": "url",
           "url": "https://thehackernews.com/"
