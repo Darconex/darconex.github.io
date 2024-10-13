@@ -1822,6 +1822,11 @@
           "url": "https://attackdefense.com/search"
         },
         {
+          "name": "Free-Certifications",
+          "type": "url",
+          "url": "https://github.com/cloudcommunity/Free-Certifications"
+        },
+        {
           "name": "Root-Me",
           "type": "url",
           "url": "https://www.root-me.org/"
