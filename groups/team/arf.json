@@ -135,6 +135,11 @@
           "url": "https://github.com/Edr4/XSS-Bypass-Filters"
         },
         {
+          "name": "HardenAD",
+          "type": "url",
+          "url": "https://github.com/LoicVeirman/HardenAD"
+        },
+        {
           "name": "RAT (Remote Access Trojan)",
           "type": "url",
           "url": "https://darconex.github.io/list/Ultimate-RAT-Collection.html"
