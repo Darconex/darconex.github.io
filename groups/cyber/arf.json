@@ -1630,6 +1630,11 @@
               "name": "Scammer",
               "type": "url",
               "url": "https://www.ripandscam.com/"
+            },
+            {
+              "name": "ScamSearch",
+              "type": "url",
+              "url": "https://scamsearch.io/"
             }
           ]
         },
