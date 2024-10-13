@@ -64,6 +64,11 @@
               "name": "HashCat",
               "type": "url",
               "url": "https://hashcat.net/hashcat/"
+            },
+            {
+              "name": "MD5",
+              "type": "url",
+              "url": "https://md5.gromweb.com/"
             }
           ]
         },
