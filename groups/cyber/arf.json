@@ -407,6 +407,11 @@
                   "url": "https://earthkit.app/geoclip"
                 },
                 {
+                  "name": "Waze Live-Map",
+                  "type": "url",
+                  "url": "https://www.waze.com/fr/live-map/"
+                },
+                {
                   "name": "Geohints",
                   "type": "url",
                   "url": "https://geohints.com/"
