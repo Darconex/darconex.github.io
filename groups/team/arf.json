@@ -47,6 +47,11 @@
               "url": "https://github.com/OpenCTI-Platform/opencti"
             },
             {
+              "name": "RuleWaf",
+              "type": "url",
+              "url": "https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker"
+            },
+            {
               "name": "Lolrmm",
               "type": "url",
               "url": "https://lolrmm.io/"
