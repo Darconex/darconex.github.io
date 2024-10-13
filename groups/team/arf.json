@@ -125,6 +125,11 @@
           "url": "https://github.com/danielmiessler/SecLists/tree/master"
         },
         {
+          "name": "XSS-Bypass-Filters",
+          "type": "url",
+          "url": "https://github.com/Edr4/XSS-Bypass-Filters"
+        },
+        {
           "name": "RAT (Remote Access Trojan)",
           "type": "url",
           "url": "https://darconex.github.io/list/Ultimate-RAT-Collection.html"
