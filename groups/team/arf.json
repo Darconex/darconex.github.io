@@ -80,6 +80,11 @@
           "url": "https://atomicredteam.io/"
         },
         {
+          "name": "RedTeaming-Tactics-And-Techniques",
+          "type": "url",
+          "url": "https://github.com/mantvydasb/RedTeaming-Tactics-and-Techniques/tree/master/offensive-security"
+        },
+        {
           "name": "Observatory",
           "type": "url",
           "url": "https://observatory.mozilla.org/"
