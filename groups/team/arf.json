@@ -120,9 +120,9 @@
           "url": "https://github.com/AlteredSecurity/365-Stealer"
         },
         {
-          "name": "Password",
+          "name": "SecLists",
           "type": "url",
-          "url": "https://github.com/danielmiessler/SecLists/tree/master/Passwords"
+          "url": "https://github.com/danielmiessler/SecLists/tree/master"
         },
         {
           "name": "RAT (Remote Access Trojan)",
