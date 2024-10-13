@@ -921,6 +921,11 @@
               "url": "https://products.groupdocs.app/metadata/family"
             },
             {
+              "name": "Apackets",
+              "type": "url",
+              "url": "https://apackets.com/"
+            },
+            {
               "name": "Synapsint",
               "type": "url",
               "url": "https://synapsint.com/"
