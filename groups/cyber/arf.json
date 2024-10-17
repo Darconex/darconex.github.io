@@ -515,6 +515,11 @@
                   "name": "Strava",
                   "type": "url",
                   "url": "https://www.strava.com/maps"
+                },
+                {
+                  "name": "CellMapper",
+                  "type": "url",
+                  "url": "https://www.cellmapper.net/map"
                 }
               ]
             },
