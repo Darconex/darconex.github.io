@@ -100,6 +100,11 @@
               "name": "Dictynna",
               "type": "url",
               "url": "https://dictynna.com/graph/orb"
+            },
+            {
+              "name": "BreadCrumbs",
+              "type": "url",
+              "url": "https://www.breadcrumbs.app/"
             }
           ]
         },
@@ -1622,6 +1627,11 @@
               "name": "CAR",
               "type": "url",
               "url": "https://car.mitre.org"
+            },
+            {
+              "name": "Unprotect",
+              "type": "url",
+              "url": "https://unprotect.it/"
             }
           ]
         },
