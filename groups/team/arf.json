@@ -28,7 +28,12 @@
             {
               "name": "LogPoint",
               "type": "url",
-              "url": "https://www.logpoint.com/en/"
+              "url": "https://www.logpoint.com/"
+            },
+            {
+              "name": "EDR-Telemetry",
+              "type": "url",
+              "url": "https://www.edr-telemetry.com/"
             }
           ]
         },
