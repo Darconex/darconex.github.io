@@ -3,176 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Analyste SOC / Cybersécurité</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Darconex</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/x-styles.css">
+    <link rel="icon" href="img/logo.png" title="logo">
+    <script src="js/script.js"></script>
     <style>
-        * {
+        html, body {
+            height: 100%;
             margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
         }
         body {
-            font-family: 'Montserrat', sans-serif;
-            background-color: #f4f7fa;
-            color: #333;
-            line-height: 1.6;
+            flex: 1;
         }
-        header {
-            background-color: #34495e;
-            color: white;
-            text-align: center;
-            padding: 40px 0;
-        }
-        header h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-        header h2 {
-            font-size: 1.5rem;
-            font-weight: 400;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-        .section-title {
-            font-size: 1.8rem;
-            color: #2c3e50;
-            border-bottom: 2px solid #2980b9;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        .profile {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .profile p {
-            font-size: 1.1rem;
-            color: #555;
-        }
-        .experience, .education {
-            margin-bottom: 40px;
-        }
-        .job, .school {
-            margin-bottom: 20px;
-        }
-        .job h4, .school h4 {
-            font-size: 1.3rem;
-            color: #34495e;
-            margin-bottom: 5px;
-        }
-        .job span, .school span {
-            display: block;
-            font-size: 1rem;
-            color: #7f8c8d;
-            margin-bottom: 10px;
-        }
-        .job p, .school p {
-            font-size: 1.1rem;
-            color: #555;
-            margin-bottom: 10px;
-        }
-        ul {
-            padding-left: 20px;
-            margin-bottom: 20px;
-        }
-        ul li {
-            list-style-type: disc;
-            margin-bottom: 10px;
+        .nav-link-disabled {
+            color: inherit;
+            text-decoration: none;
+            cursor: default;
         }
         footer {
             text-align: center;
-            padding: 20px;
-            background-color: #34495e;
-            color: white;
+            padding: 10px;
+            background-color: #403f3f;
             font-size: 0.9em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2rem;
-            }
-            header h2 {
-                font-size: 1.2rem;
-            }
-            .section-title {
-                font-size: 1.5rem;
-            }
-            .profile p {
-                font-size: 1rem;
-            }
+        .content {
+            flex: 1;
         }
     </style>
 </head>
 <body>
-
     <header>
-        <h1>Test</h1>
-        <h2>Analyste SOC / Cybersécurité</h2>
+        <div class="light"></div>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="https://darconex.github.io" class="nav-link">Accueil</a></li>
+                <li class="nav-item">
+                    <span class="nav-link nav-link-disabled">Cyber</span>
+                    <ul class="sub-menu">
+                        <li class="sub-item"><a href="https://darconex.github.io/groups/cyber" class="sub-link">Data Cyber</a></li>
+                        <li class="sub-item"><a href="https://darconex.github.io/groups/team" class="sub-link">Team</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="https://darconex.com" class="nav-link">Pro</a></li>
+                <li class="nav-item">
+                    <span class="nav-link nav-link-disabled">À Propos</span>
+                    <ul class="sub-menu">
+                        <li class="sub-item"><a href="https://darconex.github.io/charte.html" class="sub-link">Charte</a></li>
+                        <li class="sub-item"><a href="https://darconex.github.io/loi-cybersecurite.html" class="sub-link">Loi sur la cybersécurité</a></li>
+                        <li class="sub-item"><a href="https://darconex.github.io/formation.html" class="sub-link">Formation</a></li>
+                        <li class="sub-item"><a href="https://darconex.github.io/certificat.html" class="sub-link">Certificat</a></li>
+                        <li class="sub-item"><a href="https://darconex.github.io/cv.html" class="sub-link">CV</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <div class="container">
-        <section class="profile">
-            <h3 class="section-title">Profil</h3>
-            <p>Analyste SOC expérimenté avec plus de 7 ans d’expérience en cybersécurité. Spécialisé dans le traitement des alertes, la gestion des incidents de sécurité, et l’investigation via OSINT. Solide expertise en technologies de sécurité comme SIEM, EPP, et EDR.</p>
-        </section>
-
-        <section class="experience">
-            <h3 class="section-title">Expérience Professionnelle</h3>
-
-            <div class="job">
-                <h4>Analyste SOC / Cybersécurité</h4>
-                <span>SEA TPI | Avril 2022 - Présent | Paris (Hybride)</span>
-                <ul>
-                    <li>Traitement des alertes de sécurité, analyse des incidents, et réponse immédiate.</li>
-                    <li>Gestion des technologies : SIEM, EPP, EDR, protection des emails.</li>
-                    <li>Investigation via OSINT et hunting de menaces cyber.</li>
-                    <li>Participation à la gestion de crise et astreinte N1.</li>
-                </ul>
-            </div>
-
-            <div class="job">
-                <h4>Technicien N2 - AVIVA France</h4>
-                <span>Août 2021 - Mars 2022 | Bois-Colombes</span>
-                <ul>
-                    <li>Création de procédures, gestion des demandes et incidents.</li>
-                    <li>Déplacement multi-sites, rapports Backlog et SLA.</li>
-                </ul>
-            </div>
-
-            <div class="job">
-                <h4>Technicien de Proximité N2 - Groupe BPCE-IT</h4>
-                <span>Juillet 2017 - Août 2021 | Paris</span>
-                <ul>
-                    <li>Gestion des postes et des incidents utilisateurs VIP.</li>
-                    <li>Réaménagement des bureaux en Open Space (Projet OPEN).</li>
-                    <li>Migration de Windows 7 vers Windows 10.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="education">
-            <h3 class="section-title">Formation</h3>
-
-            <div class="school">
-                <h4>Master en Cybersécurité</h4>
-                <span>Université de Paris | 2015 - 2017</span>
-                <p>Spécialisation en sécurité des réseaux et systèmes d'information.</p>
-            </div>
-
-            <div class="school">
-                <h4>Licence en Informatique</h4>
-                <span>Université de Lyon | 2012 - 2015</span>
-                <p>Approfondissement des systèmes d'exploitation et des réseaux.</p>
-            </div>
-        </section>
+    <div class="content">
     </div>
-
     <footer>
         &copy; 2024 Darconex. Tous droits réservés.
     </footer>
-
 </body>
 </html>
