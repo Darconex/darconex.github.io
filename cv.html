@@ -5,29 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Darconex</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/x-styles.css">
-    <link rel="icon" href="img/logo.png" title="logo">
-    <script src="js/script.js"></script>
     <style>
         html, body {
             height: 100%;
             margin: 0;
-            display: flex;
-            flex-direction: column;
+            overflow: hidden;
         }
         body {
-            flex: 1;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
         }
         header {
             background-color: #403f3f;
             padding: 10px;
             color: white;
+            text-align: center;
         }
         .content {
-            padding: 20px;
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .cv {
+            position: absolute;
+            width: 100%;
+            animation: scroll 30s linear infinite;
+        }
+        @keyframes scroll {
+            0% {
+                top: 100%;
+            }
+            100% {
+                top: -100%;
+            }
         }
         .job {
             margin-bottom: 20px;
+            padding: 0 20px;
         }
         .job h3 {
             margin: 0;
@@ -39,9 +53,6 @@
             background-color: #403f3f;
             font-size: 0.9em;
             color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
@@ -50,88 +61,90 @@
         <h1>CV - Darconex</h1>
     </header>
     <div class="content">
-        <section class="job">
-            <h3>Analyste SOC / Cybersécurité - SEA TPI</h3>
-            <p>CDI - De avril 2022 à aujourd'hui (2 ans 6 mois)</p>
-            <p>Paris - Hybride</p>
-            <ul>
-                <li>SOC Analyste N2 : traitement des alertes, analyse et réponse aux incidents</li>
-                <li>Technologies : SIEM, EPP, EDR, Protection de la messagerie, OSINT, CTI</li>
-                <li>Investigation, Threat Hunting, gestion de crise</li>
-                <li>Création de templates et documents techniques</li>
-                <li>Veille cybersécurité et gestion des alertes CVE</li>
-                <li>Technologies : Tehtris, Sophos, Azure AD, Microsoft Defender, Vade Cloud, etc.</li>
-            </ul>
-        </section>
+        <div class="cv">
+            <section class="job">
+                <h3>Analyste SOC / Cybersécurité - SEA TPI</h3>
+                <p>CDI - De avril 2022 à aujourd'hui (2 ans 6 mois)</p>
+                <p>Paris - Hybride</p>
+                <ul>
+                    <li>SOC Analyste N2 : traitement des alertes, analyse et réponse aux incidents</li>
+                    <li>Technologies : SIEM, EPP, EDR, Protection de la messagerie, OSINT, CTI</li>
+                    <li>Investigation, Threat Hunting, gestion de crise</li>
+                    <li>Création de templates et documents techniques</li>
+                    <li>Veille cybersécurité et gestion des alertes CVE</li>
+                    <li>Technologies : Tehtris, Sophos, Azure AD, Microsoft Defender, Vade Cloud, etc.</li>
+                </ul>
+            </section>
 
-        <section class="job">
-            <h3>Technicien N2 - AVIVA France</h3>
-            <p>CDI - Du août 2021 au mars 2022 (8 mois)</p>
-            <p>Bois-Colombes, Île-de-France, France</p>
-            <ul>
-                <li>Création de procédures</li>
-                <li>Déplacements multi-sites</li>
-                <li>Gestion des demandes et incidents</li>
-                <li>Suivi du backlog et des SLA</li>
-            </ul>
-        </section>
+            <section class="job">
+                <h3>Technicien N2 - AVIVA France</h3>
+                <p>CDI - Du août 2021 au mars 2022 (8 mois)</p>
+                <p>Bois-Colombes, Île-de-France, France</p>
+                <ul>
+                    <li>Création de procédures</li>
+                    <li>Déplacements multi-sites</li>
+                    <li>Gestion des demandes et incidents</li>
+                    <li>Suivi du backlog et des SLA</li>
+                </ul>
+            </section>
 
-        <section class="job">
-            <h3>Technicien de Proximité N2 - Groupe BPCE-IT</h3>
-            <p>CDI - Du juil. 2017 au août 2021 (4 ans 2 mois)</p>
-            <p>Région de Paris, France</p>
-            <ul>
-                <li>Préparation des postes et gestion des incidents</li>
-                <li>Gestion d'inventaire, intervention réseau</li>
-                <li>Gestion d’équipe sur site et à distance</li>
-                <li>Déploiement de la solution One-Q</li>
-                <li>Projet « OPEN » : aménagement de bureaux en Open Space</li>
-            </ul>
-        </section>
+            <section class="job">
+                <h3>Technicien de Proximité N2 - Groupe BPCE-IT</h3>
+                <p>CDI - Du juil. 2017 au août 2021 (4 ans 2 mois)</p>
+                <p>Région de Paris, France</p>
+                <ul>
+                    <li>Préparation des postes et gestion des incidents</li>
+                    <li>Gestion d'inventaire, intervention réseau</li>
+                    <li>Gestion d’équipe sur site et à distance</li>
+                    <li>Déploiement de la solution One-Q</li>
+                    <li>Projet « OPEN » : aménagement de bureaux en Open Space</li>
+                </ul>
+            </section>
 
-        <section class="job">
-            <h3>Technicien de Proximité - Sysmex</h3>
-            <p>Temps partiel - Du févr. 2019 au juin 2019 (5 mois)</p>
-            <p>Villepinte, Île-de-France</p>
-            <ul>
-                <li>Déploiement du parc informatique</li>
-                <li>Création de procédures spécifiques à l'entreprise</li>
-                <li>Gestion de l'Active Directory</li>
-            </ul>
-        </section>
+            <section class="job">
+                <h3>Technicien de Proximité - Sysmex</h3>
+                <p>Temps partiel - Du févr. 2019 au juin 2019 (5 mois)</p>
+                <p>Villepinte, Île-de-France</p>
+                <ul>
+                    <li>Déploiement du parc informatique</li>
+                    <li>Création de procédures spécifiques à l'entreprise</li>
+                    <li>Gestion de l'Active Directory</li>
+                </ul>
+            </section>
 
-        <section class="job">
-            <h3>Technicien de Proximité - SNCF</h3>
-            <p>Contrat en alternance - Du sept. 2016 au juin 2017 (10 mois)</p>
-            <p>Villeneuve Triage</p>
-            <ul>
-                <li>Déploiement des PC Rame</li>
-                <li>Prise en main à distance avec « Dameware »</li>
-                <li>Hotline et brassage de baies réseaux</li>
-            </ul>
-        </section>
+            <section class="job">
+                <h3>Technicien de Proximité - SNCF</h3>
+                <p>Contrat en alternance - Du sept. 2016 au juin 2017 (10 mois)</p>
+                <p>Villeneuve Triage</p>
+                <ul>
+                    <li>Déploiement des PC Rame</li>
+                    <li>Prise en main à distance avec « Dameware »</li>
+                    <li>Hotline et brassage de baies réseaux</li>
+                </ul>
+            </section>
 
-        <section class="job">
-            <h3>Technicien de Proximité - Banque de France (SPAD)</h3>
-            <p>Contrat en alternance - Du sept. 2015 au août 2016 (1 an)</p>
-            <p>Région de Paris, France</p>
-            <ul>
-                <li>Déploiement des iPhones avec Air Watch</li>
-                <li>Dépannage des iPhones</li>
-                <li>Gestion du parc informatique</li>
-            </ul>
-        </section>
+            <section class="job">
+                <h3>Technicien de Proximité - Banque de France (SPAD)</h3>
+                <p>Contrat en alternance - Du sept. 2015 au août 2016 (1 an)</p>
+                <p>Région de Paris, France</p>
+                <ul>
+                    <li>Déploiement des iPhones avec Air Watch</li>
+                    <li>Dépannage des iPhones</li>
+                    <li>Gestion du parc informatique</li>
+                </ul>
+            </section>
 
-        <section class="job">
-            <h3>Technicien de Proximité - Exide Technologies</h3>
-            <p>Du févr. 2015 au avr. 2015 (3 mois)</p>
-            <p>Gennevillier</p>
-            <ul>
-                <li>Prise de contrôle à distance avec TeamViewer</li>
-                <li>Réparation des fichiers de démarrage (GRUB, MBR)</li>
-                <li>Mise en place de réseau et protection informatique avec McAfee</li>
-            </ul>
-        </section>
+            <section class="job">
+                <h3>Technicien de Proximité - Exide Technologies</h3>
+                <p>Du févr. 2015 au avr. 2015 (3 mois)</p>
+                <p>Gennevillier</p>
+                <ul>
+                    <li>Prise de contrôle à distance avec TeamViewer</li>
+                    <li>Réparation des fichiers de démarrage (GRUB, MBR)</li>
+                    <li>Mise en place de réseau et protection informatique avec McAfee</li>
+                </ul>
+            </section>
+        </div>
     </div>
     <footer>
         &copy; 2024 Darconex. Tous droits réservés.
