@@ -607,6 +607,11 @@
                   "name": "OpenSeaMap",
                   "type": "url",
                   "url": "https://www.openseamap.org/"
+                },
+                {
+                  "name": "Ocearch",
+                  "type": "url",
+                  "url": "https://www.ocearch.org/tracker/"
                 }
               ]
             }
@@ -999,6 +1004,11 @@
               "name": "CountryMeters",
               "type": "url",
               "url": "https://countrymeters.info"
+            },
+            {
+              "name": "Greatfon",
+              "type": "url",
+              "url": "https://greatfon.io/"
             }
           ]
         },
