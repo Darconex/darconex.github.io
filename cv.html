@@ -3,43 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darconex</title>
+    <title>Darconex - Cybersécurité</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/x-styles.css">
     <link rel="icon" href="img/logo.png" title="logo">
     <script src="js/script.js"></script>
     <style>
         html, body {
             height: 100%;
             margin: 0;
+            font-family: Arial, sans-serif;
             display: flex;
             flex-direction: column;
+            background-color: #f4f4f4;
         }
         body {
             flex: 1;
         }
+        .navbar {
+            background-color: #282828;
+            padding: 15px;
+        }
+        .nav-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .nav-item {
+            margin-right: 20px;
+        }
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
         .nav-link-disabled {
-            color: inherit;
+            color: gray;
             text-decoration: none;
             cursor: default;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
         }
         footer {
             text-align: center;
             padding: 10px;
             background-color: #403f3f;
+            color: white;
             font-size: 0.9em;
             position: relative;
             bottom: 0;
             width: 100%;
         }
-        .content {
-            flex: 1;
+        h2 {
+            color: #333;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #282828;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #444;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="light"></div>
         <nav class="navbar">
             <ul class="nav-list">
                 <li class="nav-item"><a href="https://darconex.github.io" class="nav-link">Accueil</a></li>
@@ -65,8 +109,30 @@
             </ul>
         </nav>
     </header>
+
     <div class="content">
+        <h2>Bienvenue chez Darconex</h2>
+        <p>Notre équipe de cybersécurité est spécialisée dans la protection des données et la réponse aux incidents.</p>
+        <img src="img/team-photo.jpg" alt="Photo de l'équipe Darconex" style="max-width: 100%; height: auto;">
+
+        <h2 id="contact">Contactez-nous</h2>
+        <form action="contact.php" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+
+        <h2>Télécharger mon CV</h2>
+        <a href="docs/cv.pdf" download>Télécharger mon CV</a>
     </div>
+
     <footer>
         &copy; 2024 Darconex. Tous droits réservés.
     </footer>
