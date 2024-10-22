@@ -3,87 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darconex - Cybersécurité</title>
+    <title>Darconex</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/x-styles.css">
     <link rel="icon" href="img/logo.png" title="logo">
     <script src="js/script.js"></script>
     <style>
         html, body {
             height: 100%;
             margin: 0;
-            font-family: Arial, sans-serif;
             display: flex;
             flex-direction: column;
-            background-color: #f4f4f4;
         }
         body {
             flex: 1;
         }
-        .navbar {
-            background-color: #282828;
-            padding: 15px;
-        }
-        .nav-list {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-        .nav-item {
-            margin-right: 20px;
-        }
-        .nav-link {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
         .nav-link-disabled {
-            color: gray;
+            color: inherit;
             text-decoration: none;
             cursor: default;
-        }
-        .content {
-            flex: 1;
-            padding: 20px;
         }
         footer {
             text-align: center;
             padding: 10px;
             background-color: #403f3f;
-            color: white;
             font-size: 0.9em;
             position: relative;
             bottom: 0;
             width: 100%;
         }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
         h2 {
             color: #333;
         }
-        form {
-            margin-top: 20px;
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
         }
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+        .section {
+            margin-bottom: 20px;
         }
-        button {
-            background-color: #282828;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
+        .job-info {
+            color: #666;
         }
-        button:hover {
-            background-color: #444;
+        .job-title {
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <header>
+        <div class="light"></div>
         <nav class="navbar">
             <ul class="nav-list">
                 <li class="nav-item"><a href="https://darconex.github.io" class="nav-link">Accueil</a></li>
@@ -109,28 +82,35 @@
             </ul>
         </nav>
     </header>
-
+    
     <div class="content">
-        <h2>Bienvenue chez Darconex</h2>
-        <p>Notre équipe de cybersécurité est spécialisée dans la protection des données et la réponse aux incidents.</p>
-        <img src="img/team-photo.jpg" alt="Photo de l'équipe Darconex" style="max-width: 100%; height: auto;">
+        <div class="section">
+            <h2>Analyste SOC / Cybersécurité</h2>
+            <p class="job-info">CDI - De avril 2022 à aujourd'hui · 2 ans 6 mois · Paris · Hybride</p>
 
-        <h2 id="contact">Contactez-nous</h2>
-        <form action="contact.php" method="post">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            
-            <button type="submit">Envoyer</button>
-        </form>
+            <h3>SOC Analyste N2</h3>
+            <ul>
+                <li>Traitement des alertes de sécurité</li>
+                <li>Analyse, qualification et réponse aux incidents de sécurité</li>
+                <li>Technologies éditeurs (SIEM, EPP, EDR, Protection de la messagerie et scanner de vulnérabilités)</li>
+                <li>Investigation sur Open Source Intelligence (OSINT)</li>
+                <li>Cyber Threat Intelligence / Threat Hunting</li>
+                <li>Gestion de crise</li>
+                <li>Astreinte pour le N1</li>
+            </ul>
 
-        <h2>Télécharger mon CV</h2>
-        <a href="docs/cv.pdf" download>Télécharger mon CV</a>
+            <h3>Projet et Intégration</h3>
+            <ul>
+                <li>Création de Template, procédure et documents techniques</li>
+                <li>Mise en place d'un journal sur l'intranet (CyberVeille, Alerte CVE, Cyber Actu, Patch Tuesday)</li>
+            </ul>
+
+            <h3>Technologie</h3>
+            <p>Solutions de sécurité suivantes :</p>
+            <ul>
+                <li>Tehtris, Sophos, Azure AD, Microsoft Defender, Vade Cloud, Graylog, TheHive, Elastic, Withsecure, LogPoint, CrowdStrike, Q-Radar, HarfangLab, Riot, Cyberwatch</li>
+            </ul>
+        </div>
     </div>
 
     <footer>
