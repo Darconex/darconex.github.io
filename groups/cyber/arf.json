@@ -698,6 +698,11 @@
               "url": "https://web-check.xyz/"
             },
             {
+              "name": "Lookyloo",
+              "type": "url",
+              "url": "https://lookyloo.circl.lu/"
+            },
+            {
               "name": "OpenVAS",
               "type": "url",
               "url": "https://hostedscan.com/openvas-vulnerability-scan"
@@ -1212,11 +1217,6 @@
               "name": "Triage",
               "type": "url",
               "url": "https://tria.ge/"
-            },
-            {
-              "name": "Lookyloo",
-              "type": "url",
-              "url": "https://lookyloo.circl.lu/"
             }
           ]
         },
