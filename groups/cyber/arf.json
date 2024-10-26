@@ -1119,6 +1119,11 @@
               "url": "https://www.exploit-db.com/"
             },
             {
+              "name": "DorkGPT",
+              "type": "url",
+              "url": "https://www.dorkgpt.com/"
+            },
+            {
               "name": "Metasploit",
               "type": "url",
               "url": "https://www.metasploit.com/"
@@ -1207,6 +1212,11 @@
               "name": "Triage",
               "type": "url",
               "url": "https://tria.ge/"
+            },
+            {
+              "name": "Lookyloo",
+              "type": "url",
+              "url": "https://lookyloo.circl.lu/"
             }
           ]
         },
