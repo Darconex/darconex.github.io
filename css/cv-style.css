@@ -62,20 +62,6 @@ ul, .experience-item, .education-item {
     margin-right: 8px;
 }
 
-/* Effet d'écran de terminal */
-@keyframes flicker {
-    0%, 18%, 22%, 25%, 53%, 57%, 100% {
-        opacity: 1;
-    }
-    20%, 24%, 55% {
-        opacity: 0;
-    }
-}
-
-body, h1, h2, h3, p, a {
-    animation: flicker 1.5s infinite;
-}
-
 @media (min-width: 768px) {
     main {
         max-width: 700px;
