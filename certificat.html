@@ -45,7 +45,7 @@
             flex-direction: column;
             align-items: center;
             overflow: hidden;
-            height: 400px; /* Hauteur de la zone de défilement */
+            height: 400px;
             position: relative;
         }
         .certificate-card {
@@ -83,7 +83,7 @@
 
         /* Défilement des certificats */
         @keyframes scroll {
-            0% { transform: translateY(0); }
+            0% { transform: translateY(100%); }
             100% { transform: translateY(-100%); }
         }
         .certificate-list {
