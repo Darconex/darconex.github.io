@@ -9,6 +9,7 @@
     <link rel="icon" href="img/logo.png" title="logo">
     <script src="js/script.js"></script>
     <style>
+        /* Styles de base */
         html, body {
             height: 100%;
             margin: 0;
@@ -17,6 +18,9 @@
         }
         body {
             flex: 1;
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f9;
         }
         .nav-link-disabled {
             color: inherit;
@@ -28,16 +32,14 @@
             padding: 10px;
             background-color: #403f3f;
             font-size: 0.9em;
-            position: relative;
-            bottom: 0;
             width: 100%;
         }
         .content {
             flex: 1;
             padding: 20px;
-            background-color: #f4f4f9;
-            color: #333;
         }
+
+        /* Styles de la liste de certificats */
         .certificate-list {
             display: flex;
             flex-wrap: wrap;
@@ -49,7 +51,8 @@
             border: 1px solid #ddd;
             border-radius: 8px;
             padding: 20px;
-            width: 300px;
+            width: 100%;
+            max-width: 300px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         .certificate-card h2 {
@@ -73,6 +76,32 @@
         }
         .download-btn:hover {
             background-color: #0056b3;
+        }
+
+        /* Media Query pour les téléphones */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            header p {
+                font-size: 1em;
+            }
+            .certificate-list {
+                flex-direction: column;
+                align-items: center;
+            }
+            .certificate-card {
+                width: 90%;
+                max-width: none;
+                padding: 15px;
+            }
+            .download-btn {
+                padding: 8px 16px;
+                font-size: 0.9em;
+            }
+            footer {
+                font-size: 0.8em;
+            }
         }
     </style>
 </head>
