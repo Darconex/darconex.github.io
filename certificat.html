@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darconex</title>
+    <title>Darconex - Certificats</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/x-styles.css">
     <link rel="icon" href="img/logo.png" title="logo">
@@ -42,9 +42,11 @@
         /* Styles de la liste de certificats */
         .certificate-list {
             display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+            height: 400px; /* Hauteur de la zone de défilement */
+            position: relative;
         }
         .certificate-card {
             background-color: #fff;
@@ -54,6 +56,7 @@
             width: 100%;
             max-width: 300px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
         }
         .certificate-card h2 {
             font-size: 1.5em;
@@ -78,6 +81,15 @@
             background-color: #0056b3;
         }
 
+        /* Défilement des certificats */
+        @keyframes scroll {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-100%); }
+        }
+        .certificate-list {
+            animation: scroll 20s linear infinite;
+        }
+        
         /* Media Query pour les téléphones */
         @media (max-width: 600px) {
             header h1 {
@@ -87,8 +99,7 @@
                 font-size: 1em;
             }
             .certificate-list {
-                flex-direction: column;
-                align-items: center;
+                height: 300px; /* Ajustement de la hauteur pour mobile */
             }
             .certificate-card {
                 width: 90%;
@@ -139,6 +150,7 @@
             <p>Découvrez l'ensemble des certifications obtenues et téléchargeables.</p>
         </header>        
         <section class="certificate-list">
+            <!-- Certificats affichés dans une liste verticale défilante -->
             <div class="certificate-card">
                 <h2>Loi de Programmation militaire</h2>
                 <p>Formation SSI/LPM</p>
@@ -146,13 +158,6 @@
                 <p>Statut : Actif</p>
                 <a href="certificate/youaredigital.jpg" class="download-btn">Télécharger le certificat</a>
             </div>           
-            <div class="certificate-card">
-                <h2>Vade for M365 Administration</h2>
-                <p>Institution : Vade</p>
-                <p>Date d'émission : 01/2023</p>
-                <p>Statut : Actif</p>
-                <a href="#" class="download-btn">Télécharger le certificat</a>
-            </div>
             <div class="certificate-card">
                 <h2>Vade for M365 Administration</h2>
                 <p>Institution : Vade</p>
@@ -174,22 +179,8 @@
                 <p>Statut : Actif</p>
                 <a href="#" class="download-btn">Télécharger le certificat</a>
             </div>
-                        <div class="certificate-card">
-                <h2>TEHTRIS SOAR</h2>
-                <p>Institution : TEHTRIS</p>
-                <p>Date d'émission : 01/2023</p>
-                <p>Statut : Actif</p>
-                <a href="#" class="download-btn">Télécharger le certificat</a>
-            </div>
             <div class="certificate-card">
-                <h2>TEHTRIS DATA SCIENCE</h2>
-                <p>Institution : TEHTRIS</p>
-                <p>Date d'émission : 01/2023</p>
-                <p>Statut : Actif</p>
-                <a href="#" class="download-btn">Télécharger le certificat</a>
-            </div>
-            <div class="certificate-card">
-                <h2>SecNum ANSSI – Agence nationale de la sécurité des systèmes d’informatio</h2>
+                <h2>SecNum ANSSI – Agence nationale de la sécurité des systèmes d’information</h2>
                 <p>Institution : SecNum</p>
                 <p>Date d'émission : 01/2022</p>
                 <p>Statut : Actif</p>
