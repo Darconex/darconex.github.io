@@ -3,179 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darconex</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/x-styles.css">
-    <link rel="icon" href="img/logo.png" title="logo">
-    <script src="js/script.js"></script>
-    <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-        }
-        body {
-            flex: 1;
-        }
-        .nav-link-disabled {
-            color: inherit;
-            text-decoration: none;
-            cursor: default;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #403f3f;
-            font-size: 0.9em;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        .content {
-            flex: 1;
-            padding: 20px;
-            overflow-y: auto;
-            max-height: 80vh; /* Limite la hauteur et ajoute du défilement */
-        }
-        .cv-section {
-            margin: 20px 0;
-        }
-        h2 {
-            color: #333;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-    </style>
+    <title>CV - Nom Prénom</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="light"></div>
-        <nav class="navbar">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="https://darconex.github.io" class="nav-link">Accueil</a></li>
-                <li class="nav-item">
-                    <span class="nav-link nav-link-disabled">Cyber</span>
-                    <ul class="sub-menu">
-                        <li class="sub-item"><a href="https://darconex.github.io/groups/cyber" class="sub-link">Data Cyber</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/groups/team" class="sub-link">Team</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item"><a href="https://darconex.com" class="nav-link">Pro</a></li>
-                <li class="nav-item">
-                    <span class="nav-link nav-link-disabled">À Propos</span>
-                    <ul class="sub-menu">
-                        <li class="sub-item"><a href="https://darconex.github.io/charte.html" class="sub-link">Charte</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/loi-cybersecurite.html" class="sub-link">Loi sur la cybersécurité</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/formation.html" class="sub-link">Formation</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/certificat.html" class="sub-link">Certificat</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/cv.html" class="sub-link">CV</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
+
+    <!-- En-tête avec la photo et le nom -->
+    <header class="cv-header">
+        <img src="photo.jpg" alt="Photo de Profil" class="profile-img">
+        <h1>Nom Prénom</h1>
+        <p>Votre poste actuel | Votre spécialité</p>
     </header>
-    <div class="content">
-        <h2>CV - Analyste SOC / Cybersécurité</h2>
-        <div class="cv-section">
-            <h3>Expérience</h3>
-            <p><strong>Analyste SOC / Cybersécurité</strong> <br> CDI - De avr. 2022 à aujourd’hui · 2 ans 6 mois <br> Paris · Hybride</p>
-            <ul>
-                <li>SOC Analyste N2</li>
-                <ul>
-                    <li>Traitement des alertes de sécurité</li>
-                    <li>Analyse, qualification et réponse aux incidents de sécurité</li>
-                    <li>Technologies éditeurs (SIEM, EPP, EDR, Protection de la messagerie et scanner de vulnérabilités)</li>
-                    <li>Investigation sur Open Source Intelligence (OSINT)</li>
-                    <li>Cyber Threat Intelligence / Threat Hunting</li>
-                    <li>Gestion de crise</li>
-                    <li>Astreinte pour le N1</li>
-                </ul>
-                <li>Projet et Intégration</li>
-                <ul>
-                    <li>Création de Template, procédure et documents techniques</li>
-                    <li>Mise en place d'un journal sur l'intranet (CyberVeille, Alerte CVE, Cyber Actu, Patch Tuesday)</li>
-                </ul>
-                <li>Technologies utilisées :</li>
-                <ul>
-                    <li>Tehtris, Sophos, Azure AD, Microsoft Defender, Vade Cloud, Graylog, TheHive, Elastic, Withsecure, LogPoint, CrowdStrike, Q-Radar, HarfangLab, Riot, Cyberwatch</li>
-                </ul>
-            </ul>
 
-            <p><strong>Technicien de Proximité N2 - Utilisateur et VIP - Groupe BPCE-IT</strong> <br> CDI - Du août 2021 au mars 2022 · 8 mois <br> Bois-Colombes, Île-de-France</p>
+    <!-- Section de contenu principale -->
+    <main>
+        <!-- Informations personnelles -->
+        <section class="section personal-info">
+            <h2>Informations Personnelles</h2>
             <ul>
-                <li>Création de procédures</li>
-                <li>Déplacement multi-sites</li>
-                <li>Gestion des demandes et incidents</li>
-                <li>Rapport Backlog et SLA</li>
+                <li>Email : exemple@mail.com</li>
+                <li>Téléphone : 0123456789</li>
+                <li>Adresse : Votre adresse ici</li>
+                <li>Site web : www.exemple.com</li>
             </ul>
+        </section>
 
-            <p><strong>Technicien de Proximité N2 - Utilisateur et VIP - Groupe BPCE-IT</strong> <br> CDI - De juil. 2017 à août 2021 · 4 ans 2 mois <br> Région de Paris, France</p>
-            <ul>
-                <li>Préparation des postes</li>
-                <li>Gestion des demandes et incidents</li>
-                <li>Intervention réseau</li>
-                <li>Gestion d’inventaire</li>
-                <li>Gestion d’équipe (intérimaire) sur site et à distance</li>
-                <li>Intervention sur multi-sites</li>
-                <li>Accompagnement des nouveaux arrivants</li>
-                <li>Déploiement de la solution One-Q</li>
-                <li>BAR-IT</li>
-            </ul>
+        <!-- Expérience professionnelle -->
+        <section class="section experience">
+            <h2>Expérience Professionnelle</h2>
+            <div class="experience-item">
+                <h3>Poste 1 - Entreprise</h3>
+                <p>Années | Description du poste, responsabilités, et accomplissements.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Poste 2 - Entreprise</h3>
+                <p>Années | Description du poste, responsabilités, et accomplissements.</p>
+            </div>
+        </section>
 
-            <p><strong>Projet « OPEN » - Réaménagement du site en Open Space</strong> (Durée du projet 1 an)</p>
-            <ul>
-                <li>Aménagement des bureaux en Open Space</li>
-                <li>Gestion et accompagnement à l’utilisation du nouveau matériel</li>
-                <li>Préparation et configuration de 150 postes</li>
-                <li>Analyse de chaque port pour mise dans le bon VLAN (IMP, Poste, Wifi)</li>
-                <li>Migration de W7 à W10</li>
+        <!-- Compétences -->
+        <section class="section skills">
+            <h2>Compétences</h2>
+            <ul class="skills-list">
+                <li>Compétence 1</li>
+                <li>Compétence 2</li>
+                <li>Compétence 3</li>
             </ul>
+        </section>
 
-            <p><strong>Technicien de Proximité - Sysmex</strong> <br> Temps partiel - De févr. 2019 à juin 2019 · 5 mois <br> Villepinte, France</p>
-            <ul>
-                <li>Déploiement du parc informatique</li>
-                <li>Création de procédures sur des outils propres à l'entreprise</li>
-                <li>Gestion de l'AD</li>
-            </ul>
-
-            <p><strong>Technicien de Proximité - SNCF</strong> <br> Contrat en alternance - De sept. 2016 à juin 2017 · 10 mois <br> Villeneuve triage</p>
-            <ul>
-                <li>Déploiement des PC Rame</li>
-                <li>Masterisation des postes informatiques</li>
-                <li>Prise en main à distance « Dameware »</li>
-                <li>Utilisation de logiciel bureautique</li>
-                <li>Hotline</li>
-                <li>Brassage de baies réseaux</li>
-            </ul>
-
-            <p><strong>SPAD (Service Pré-études Approvisionnement Déploiements) - Banque de France</strong> <br> Contrat en alternance - De sept. 2015 à août 2016 · 1 an <br> Région de Paris, France</p>
-            <ul>
-                <li>Déploiement des iPhones sur le terminal Air Watch</li>
-                <li>Dépannage des iPhones</li>
-                <li>Gestion du parc informatique (REPAR)</li>
-            </ul>
-
-            <p><strong>Technicien de Proximité - Exide Technologies</strong> <br> Du févr. 2015 à avr. 2015 · 3 mois <br> Gennevilliers, France</p>
-            <ul>
-                <li>Prise de contrôle à distance avec TeamViewer</li>
-                <li>Réparation du fichier de démarrage (GRUB et MBR)</li>
-                <li>Protection réseau et informatique avec McAfee</li>
-                <li>Mise en place d'un lecteur réseau</li>
-                <li>Installation de PC et imprimantes dans un réseau</li>
-                <li>Montage et démontage d'ordinateurs portables et fixes</li>
-                <li>Assistance sur logiciels de bureautique</li>
-                <li>Ghosting des ordinateurs</li>
-                <li>Diagnostic des pannes d’ordinateur</li>
-                <li>Utilisation de Hyper-V (quotas, partitions, autorisations, déploiement de master)</li>
-            </ul>
-        </div>
-    </div>
-    <footer>
-        &copy; 2024 Darconex. Tous droits réservés.
-    </footer>
+        <!-- Formations -->
+        <section class="section education">
+            <h2>Formation</h2>
+            <div class="education-item">
+                <h3>Diplôme - Établissement</h3>
+                <p>Année | Description du programme ou des matières étudiées.</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
