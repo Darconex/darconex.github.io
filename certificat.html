@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darconex</title>
+    <title>Darconex - Certificats</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/x-styles.css">
     <link rel="icon" href="img/logo.png" title="logo">
@@ -32,18 +32,47 @@
             bottom: 0;
             width: 100%;
         }
-            .content {
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 100%;
-    }
-
-    .certificates {
-        max-width: 600px; /* Facultatif, pour limiter la largeur du texte */
-    }
+        .content {
+            flex: 1;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .certificate-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .certificate-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .certificate-card h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .certificate-card p {
+            font-size: 1em;
+            color: #555;
+        }
+        .download-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -75,20 +104,34 @@
             </ul>
         </nav>
     </header>
+
     <div class="content">
-    <div class="certificates">
-        <p>&loz;Date de délivrance : janv. 2023 – SecNum ANSSI – Agence nationale de la sécurité des systèmes d’information&loz;</p>
-        <p>&loz;Date de délivrance : janv. 2023 – TEHTRIS DATA SCIENCE&loz;</p>
-        <p>&loz;Date de délivrance : janv. 2023 – TEHTRIS SOARTEHTRIS&loz;</p>
-        <p>&loz;Date de délivrance : sept. 2022 – TEHTRIS XDR Niveau 1&loz;</p>
-        <p>&loz;Date de délivrance : sept. 2022 – TEHTRIS UES Niveau 2&loz;</p>
-        <p>&loz;Date de délivrance : janv. 2023 – Vade Secure Cloud Administration&loz;</p>
-        <p>&loz;Date de délivrance : janv. 2023 – Vade for M365 Administration&loz;</p>
-        <p>&loz;Date de délivrance : juil. 2020 – Loi de Programmation militaire – Formation SSI/LPM&loz;</p>
+        <header>
+            <h1>Certificats</h1>
+            <p>Découvrez l'ensemble des certifications obtenues et téléchargeables.</p>
+        </header>
+        
+        <section class="certificate-list">
+            <div class="certificate-card">
+                <h2>Certification en Sécurité Informatique</h2>
+                <p>Institution : CyberSec Academy</p>
+                <p>Date d'émission : 15/09/2023</p>
+                <p>Statut : Actif</p>
+                <a href="#" class="download-btn">Télécharger le certificat</a>
+            </div>
+            
+            <div class="certificate-card">
+                <h2>Certification en Développement Web</h2>
+                <p>Institution : OpenAI Academy</p>
+                <p>Date d'émission : 20/06/2023</p>
+                <p>Statut : Expiré</p>
+                <a href="#" class="download-btn">Télécharger le certificat</a>
+            </div>
+            
+            <!-- Ajoutez plus de certificats ici -->
+        </section>
     </div>
-</div>
-    <div class="content">
-    </div>
+
     <footer>
         &copy; 2024 Darconex. Tous droits réservés.
     </footer>
