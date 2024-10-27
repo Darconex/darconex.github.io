@@ -44,10 +44,25 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            overflow: hidden;
+            overflow-y: auto; /* Activer le défilement vertical */
             height: 400px;
             position: relative;
+            scrollbar-width: thin; /* pour les navigateurs compatibles */
+            scrollbar-color: #007bff #f4f4f9; /* couleurs de la barre de défilement */
         }
+
+        /* Style de la barre de défilement pour Chrome, Edge, et Safari */
+        .certificate-list::-webkit-scrollbar {
+            width: 8px;
+        }
+        .certificate-list::-webkit-scrollbar-track {
+            background: #f4f4f9;
+        }
+        .certificate-list::-webkit-scrollbar-thumb {
+            background-color: #007bff;
+            border-radius: 4px;
+        }
+
         .certificate-card {
             background-color: #fff;
             border: 1px solid #ddd;
@@ -79,15 +94,6 @@
         }
         .download-btn:hover {
             background-color: #0056b3;
-        }
-
-        /* Défilement des certificats */
-        @keyframes scroll {
-            0% { transform: translateY(100%); }
-            100% { transform: translateY(-100%); }
-        }
-        .certificate-list {
-            animation: scroll 20s linear infinite;
         }
         
         /* Media Query pour les téléphones */
@@ -150,7 +156,7 @@
             <p>Découvrez l'ensemble des certifications obtenues et téléchargeables.</p>
         </header>        
         <section class="certificate-list">
-            <!-- Certificats affichés dans une liste verticale défilante -->
+            <!-- Certificats affichés dans une liste verticale avec défilement manuel -->
             <div class="certificate-card">
                 <h2>Loi de Programmation militaire</h2>
                 <p>Formation SSI/LPM</p>
