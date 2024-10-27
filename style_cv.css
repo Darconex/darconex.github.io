@@ -5,15 +5,17 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace; /* Style type terminal */
+    background-color: #0d0d0d; /* Arrière-plan noir */
+    color: #00ff99; /* Texte vert néon */
     line-height: 1.6;
 }
 
 .cv-header {
     text-align: center;
-    background: #333;
-    color: #fff;
+    background: #121212;
     padding: 20px;
+    border-bottom: 2px solid #00ff99; /* Accent de couleur néon */
 }
 
 .cv-header .profile-img {
@@ -21,6 +23,22 @@ body {
     height: 150px;
     border-radius: 50%;
     margin-bottom: 10px;
+    border: 3px solid #00ff99; /* Bordure néon autour de l'image */
+}
+
+h1, h2, h3 {
+    color: #00ff99;
+    text-shadow: 0px 0px 5px #00ff99; /* Effet de lumière néon */
+}
+
+a {
+    color: #00ff99;
+    text-decoration: none;
+    border-bottom: 1px dashed #00ff99;
+}
+
+a:hover {
+    color: #00cc66;
 }
 
 main {
@@ -29,34 +47,38 @@ main {
 
 .section {
     margin-bottom: 20px;
-}
-
-h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
+    padding: 15px;
+    background: rgba(0, 255, 153, 0.1); /* Légère transparence pour un effet de terminal */
+    border: 1px solid #00ff99; /* Bordure néon */
 }
 
 ul, .experience-item, .education-item {
     margin-bottom: 10px;
 }
 
-@media (min-width: 768px) {
-    .cv-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.skills-list li::before {
+    content: ">";
+    color: #00ff99;
+    margin-right: 8px;
+}
 
-    .personal-info, .experience, .skills, .education {
-        display: flex;
-        flex-direction: column;
+/* Effet d'écran de terminal */
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        opacity: 1;
+    }
+    20%, 24%, 55% {
+        opacity: 0;
     }
 }
 
-@media (min-width: 992px) {
+body, h1, h2, h3, p, a {
+    animation: flicker 1.5s infinite;
+}
+
+@media (min-width: 768px) {
     main {
-        max-width: 960px;
+        max-width: 700px;
         margin: auto;
     }
 }
