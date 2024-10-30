@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #f0f4ff; /* léger bleu clair */
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica;
 }
@@ -14,6 +14,7 @@ body {
   font-weight: bold;
   top: 20px;
   text-align: center;
+  color: #ff4d4d; /* rouge vif */
 }
 
 .legend {
@@ -22,7 +23,7 @@ body {
   right: 0;
   width: 330px;
   font-size: 11px;
-  color: #000;
+  color: #336699; /* bleu plus foncé */
 }
 
 .node {
@@ -31,18 +32,18 @@ body {
 
 .node circle {
   cursor: pointer;
-  fill: #fff;
-  stroke: steelblue;
+  fill: #ffcccc; /* léger rouge clair */
+  stroke: #336699; /* bleu foncé pour les bordures */
   stroke-width: 1.5px;
 }
 
 .node text {
   font-size: 12px;
-  fill: rgb(0, 0, 0);
+  fill: #336699; /* bleu foncé pour le texte des nœuds */
 }
 
 path.link {
   fill: none;
-  stroke: #ccc;
+  stroke: #ff4d4d; /* rouge pour les liens */
   stroke-width: 1px;
 }
