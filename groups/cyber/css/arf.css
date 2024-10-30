@@ -2,6 +2,7 @@ body {
   background-color: #000000;
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica;
+  color: #ffffff; /* Texte principal en blanc */
 }
 
 #body {
@@ -14,6 +15,7 @@ body {
   font-weight: bold;
   top: 20px;
   text-align: center;
+  color: #ffffff; /* Texte de l'en-tête en blanc */
 }
 
 .legend {
@@ -22,7 +24,7 @@ body {
   right: 0;
   width: 330px;
   font-size: 11px;
-  color: #000;
+  color: #ffffff; /* Texte de la légende en blanc */
 }
 
 .node {
@@ -31,18 +33,18 @@ body {
 
 .node circle {
   cursor: pointer;
-  fill: #fff;
+  fill: #333333; /* Fond gris foncé pour le cercle */
   stroke: steelblue;
   stroke-width: 1.5px;
 }
 
 .node text {
   font-size: 12px;
-  fill: rgb(0, 0, 0);
+  fill: #ffffff; /* Texte du nœud en blanc */
 }
 
 path.link {
   fill: none;
-  stroke: #ccc;
+  stroke: #666666; /* Lien en gris foncé */
   stroke-width: 1px;
 }
