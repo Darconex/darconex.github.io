@@ -1,7 +1,9 @@
 body {
-  background: linear-gradient(to right, #1A237E, #FF4D4D); /* dégradé bleu foncé à rouge */
+  background: linear-gradient(to right, #1A237E, #FF4D4D);
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica;
+  height: 100vh;
+  margin: 0;
 }
 
 #body {
@@ -14,7 +16,7 @@ body {
   font-weight: bold;
   top: 20px;
   text-align: center;
-  color: #ffffff; /* texte en blanc pour contraster avec le fond */
+  color: #ffffff;
 }
 
 .legend {
@@ -23,7 +25,7 @@ body {
   right: 0;
   width: 330px;
   font-size: 11px;
-  color: #ffffff; /* texte en blanc */
+  color: #ffffff;
 }
 
 .node {
@@ -32,18 +34,18 @@ body {
 
 .node circle {
   cursor: pointer;
-  fill: #ffffff; /* fond blanc pour les cercles */
-  stroke: #FF4D4D; /* rouge pour les bordures */
+  fill: #ffffff;
+  stroke: #FF4D4D;
   stroke-width: 1.5px;
 }
 
 .node text {
   font-size: 12px;
-  fill: #ffffff; /* texte en blanc pour contraster */
+  fill: #ffffff;
 }
 
 path.link {
   fill: none;
-  stroke: #ffffff; /* liens en blanc */
+  stroke: #ffffff;
   stroke-width: 1px;
 }
