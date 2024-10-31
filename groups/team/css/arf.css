@@ -2,8 +2,12 @@ body {
   background: linear-gradient(to right, #1A237E, #FF4D4D);
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica;
-  height: 100vh;
+  height: 100vh; /* couvre toute la hauteur de l'écran */
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #body {
