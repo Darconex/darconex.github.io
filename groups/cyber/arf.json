@@ -1907,6 +1907,16 @@
           "url": "https://www.root-me.org/"
         },
         {
+          "name": "SecNumacademie",
+          "type": "url",
+          "url": "https://secnumacademie.gouv.fr/"
+        },
+        {
+          "name": "Atelier RGPD",
+          "type": "url",
+          "url": "https://atelier-rgpd.cnil.fr/"
+        },
+        {
           "name": "BugBounty",
           "type": "folder",
           "children": [
