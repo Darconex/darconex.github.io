@@ -400,6 +400,11 @@
               "name": "BetaFace",
               "type": "url",
               "url": "http://betaface.com/demo.html"
+            },
+            {
+              "name": "StolenCameraFinder",
+              "type": "url",
+              "url": "https://www.stolencamerafinder.com/"
             }
           ]
         },
@@ -525,6 +530,31 @@
                   "name": "CellMapper",
                   "type": "url",
                   "url": "https://www.cellmapper.net/map"
+                },
+                {
+                  "name": "EarthCam",
+                  "type": "url",
+                  "url": "https://www.earthcam.com/mapsearch/"
+                },
+                {
+                  "name": "Cita",
+                  "type": "url",
+                  "url": "https://www.cita.lu/"
+                },
+                {
+                  "name": "Nsinternational",
+                  "type": "url",
+                  "url": "https://www.nsinternational.com/en/stations/station-maps-floor-plan"
+                },
+                {
+                  "name": "LivingAtlas",
+                  "type": "url",
+                  "url": "https://livingatlas.arcgis.com/wayback/"
+                },
+                {
+                  "name": "GeoJson,
+                  "type": "url",
+                  "url": "https://geojson.io"
                 }
               ]
             },
