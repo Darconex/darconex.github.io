@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darconex</title>
+    <title>Darconex - Contact</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/x-styles.css">
     <link rel="icon" href="img/logo.png" title="logo">
@@ -34,6 +34,43 @@
         }
         .content {
             flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .contact-form {
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -65,6 +102,22 @@
         </nav>
     </header>
     <div class="content">
+        <form class="contact-form" action="/envoyer-message" method="post">
+            <h2>Contactez-nous</h2>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="sujet">Sujet :</label>
+            <input type="text" id="sujet" name="sujet" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
     </div>
     <footer>
         &copy; 2024 Darconex. Tous droits réservés.
