@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mes Certificats</title>
     <style>
-        /* Styles de base */
         * {
             box-sizing: border-box;
             margin: 0;
@@ -19,30 +18,22 @@
             justify-content: center;
             padding: 40px;
         }
-
-        /* Conteneur principal */
         .container {
             max-width: 1200px;
             width: 100%;
             padding: 20px;
         }
-
-        /* Titre principal */
         h1 {
             text-align: center;
             font-size: 2.5em;
             margin-bottom: 20px;
             color: #4a90e2;
         }
-
-        /* Grille pour les certificats */
         .certificats-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
         }
-
-        /* Carte de chaque certificat */
         .certificat-card {
             background-color: #ffffff;
             border-radius: 8px;
@@ -50,35 +41,27 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
         }
-
         .certificat-card:hover {
             transform: translateY(-5px);
         }
-
-        /* Image de certificat */
         .certificat-card img {
             width: 100%;
             height: 150px;
             object-fit: cover;
         }
-
-        /* Détails du certificat */
         .certificat-content {
             padding: 15px;
         }
-        
         .certificat-title {
             font-size: 1.25em;
             color: #4a90e2;
             margin-bottom: 5px;
         }
-
         .certificat-details {
             font-size: 0.9em;
             color: #555;
             margin-bottom: 10px;
         }
-
         .certificat-description {
             font-size: 0.85em;
             color: #777;
@@ -90,17 +73,105 @@
         <h1>Mes Certificats</h1>
         
         <div class="certificats-grid">
-            <!-- Exemple de certificat -->
+            <!-- Certificat 1 -->
             <div class="certificat-card">
-                <img src="chemin/vers/image_certificat.jpg" alt="Certificat Image">
+                <img src="chemin/vers/image_certificat1.jpg" alt="Certificat Image">
                 <div class="certificat-content">
                     <h2 class="certificat-title">Développement Web</h2>
                     <p class="certificat-details">Obtenu le : 15/03/2023<br>Organisation : OpenClassrooms</p>
-                    <p class="certificat-description">Ce certificat valide mes compétences en HTML, CSS et JavaScript pour la création de sites web interactifs.</p>
+                    <p class="certificat-description">Compétences en HTML, CSS, et JavaScript pour créer des sites interactifs.</p>
                 </div>
             </div>
-            
-            <!-- Ajouter d'autres cartes de certificat en utilisant la même structure -->
+
+            <!-- Certificat 2 -->
+            <div class="certificat-card">
+                <img src="chemin/vers/image_certificat2.jpg" alt="Certificat Image">
+                <div class="certificat-content">
+                    <h2 class="certificat-title">Marketing Digital</h2>
+                    <p class="certificat-details">Obtenu le : 10/05/2022<br>Organisation : Google</p>
+                    <p class="certificat-description">Introduction aux bases du marketing en ligne et de la publicité numérique.</p>
+                </div>
+            </div>
+
+            <!-- Certificat 3 -->
+            <div class="certificat-card">
+                <img src="chemin/vers/image_certificat3.jpg" alt="Certificat Image">
+                <div class="certificat-content">
+                    <h2 class="certificat-title">Data Science</h2>
+                    <p class="certificat-details">Obtenu le : 21/06/2023<br>Organisation : Coursera</p>
+                    <p class="certificat-description">Maîtrise de l'analyse de données avec Python et outils de data science.</p>
+                </div>
+            </div>
+
+            <!-- Certificat 4 -->
+            <div class="certificat-card">
+                <img src="chemin/vers/image_certificat4.jpg" alt="Certificat Image">
+                <div class="certificat-content">
+                    <h2 class="certificat-title">Gestion de Projet</h2>
+                    <p class="certificat-details">Obtenu le : 05/09/2021<br>Organisation : PMI</p>
+                    <p class="certificat-description">Techniques de gestion de projets et méthodologies Agile et Scrum.</p>
+                </div>
+            </div>
+
+            <!-- Certificat 5 -->
+            <div class="certificat-card">
+                <img src="chemin/vers/image_certificat5.jpg" alt="Certificat Image">
+                <div class="certificat-content">
+                    <h2 class="certificat-title">Python pour Data Science</h2>
+                    <p class="certificat-details">Obtenu le : 02/12/2022<br>Organisation : Udemy</p>
+                    <p class="certificat-description">Utilisation de Python pour l'analyse et la visualisation de données.</p>
+                </div>
+            </div>
+
+            <!-- Certificat 6 -->
+            <div class="certificat-card">
+                <img src="chemin/vers/image_certificat6.jpg" alt="Certificat Image">
+                <div class="certificat-content">
+                    <h2 class="certificat-title">UI/UX Design</h2>
+                    <p class="certificat-details">Obtenu le : 18/01/2023<br>Organisation : Interaction Design Foundation</p>
+                    <p class="certificat-description">Principes fondamentaux de design d'interface et d'expérience utilisateur.</p>
+                </div>
+            </div>
+
+            <!-- Certificat 7 -->
+            <div class="certificat-card">
+                <img src="chemin/vers/image_certificat7.jpg" alt="Certificat Image">
+                <div class="certificat-content">
+                    <h2 class="certificat-title">Intelligence Artificielle</h2>
+                    <p class="certificat-details">Obtenu le : 12/04/2023<br>Organisation : Stanford</p>
+                    <p class="certificat-description">Introduction aux concepts et techniques de l'intelligence artificielle.</p>
+                </div>
+            </div>
+
+            <!-- Certificat 8 -->
+            <div class="certificat-card">
+                <img src="chemin/vers/image_certificat8.jpg" alt="Certificat Image">
+                <div class="certificat-content">
+                    <h2 class="certificat-title">Cyber Sécurité</h2>
+                    <p class="certificat-details">Obtenu le : 09/07/2022<br>Organisation : Cisco</p>
+                    <p class="certificat-description">Les bases de la sécurité en réseau et la prévention des cybermenaces.</p>
+                </div>
+            </div>
+
+            <!-- Certificat 9 -->
+            <div class="certificat-card">
+                <img src="chemin/vers/image_certificat9.jpg" alt="Certificat Image">
+                <div class="certificat-content">
+                    <h2 class="certificat-title">Blockchain</h2>
+                    <p class="certificat-details">Obtenu le : 15/11/2021<br>Organisation : IBM</p>
+                    <p class="certificat-description">Les concepts et applications de la technologie blockchain.</p>
+                </div>
+            </div>
+
+            <!-- Certificat 10 -->
+            <div class="certificat-card">
+                <img src="chemin/vers/image_certificat10.jpg" alt="Certificat Image">
+                <div class="certificat-content">
+                    <h2 class="certificat-title">Machine Learning</h2>
+                    <p class="certificat-details">Obtenu le : 23/03/2023<br>Organisation : Coursera</p>
+                    <p class="certificat-description">Compréhension des algorithmes de machine learning et de leurs applications.</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
