@@ -3,199 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darconex - Certificats</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/x-styles.css">
-    <link rel="icon" href="img/logo.png" title="logo">
-    <script src="js/script.js"></script>
+    <title>Page de Certificats</title>
     <style>
-        /* Styles de base */
-        html, body {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-        }
         body {
-            flex: 1;
             font-family: Arial, sans-serif;
-            color: #333;
             background-color: #f4f4f9;
-        }
-        .nav-link-disabled {
-            color: inherit;
-            text-decoration: none;
-            cursor: default;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #403f3f;
-            font-size: 0.9em;
-            width: 100%;
-        }
-        .content {
-            flex: 1;
-            padding: 20px;
-        }
-
-        /* Styles de la liste de certificats */
-        .certificate-list {
+            margin: 0;
+            padding: 0;
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
-            overflow-y: auto; /* Activer le défilement vertical */
-            height: 400px;
-            position: relative;
-            scrollbar-width: thin; /* pour les navigateurs compatibles */
-            scrollbar-color: #007bff #f4f4f9; /* couleurs de la barre de défilement */
+            min-height: 100vh;
         }
-
-        /* Style de la barre de défilement pour Chrome, Edge, et Safari */
-        .certificate-list::-webkit-scrollbar {
-            width: 8px;
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .certificate-list::-webkit-scrollbar-track {
-            background: #f4f4f9;
+        h1 {
+            text-align: center;
+            color: #333;
         }
-        .certificate-list::-webkit-scrollbar-thumb {
-            background-color: #007bff;
+        .certificat {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            margin: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .certificat:last-child {
+            border-bottom: none;
+        }
+        .certificat img {
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
             border-radius: 4px;
         }
-
-        .certificate-card {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 20px;
-            width: 100%;
-            max-width: 300px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 10px;
+        .certificat-details {
+            max-width: 600px;
         }
-        .certificate-card h2 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-            color: #333;
+        .certificat-details h3 {
+            margin: 0;
+            color: #007bff;
         }
-        .certificate-card p {
-            font-size: 1em;
+        .certificat-details p {
+            margin: 5px 0;
             color: #555;
-        }
-        .download-btn {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 10px 20px;
-            color: #fff;
-            background-color: #007bff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-        .download-btn:hover {
-            background-color: #0056b3;
-        }
-        
-        /* Media Query pour les téléphones */
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 1.8em;
-            }
-            header p {
-                font-size: 1em;
-            }
-            .certificate-list {
-                height: 300px; /* Ajustement de la hauteur pour mobile */
-            }
-            .certificate-card {
-                width: 90%;
-                max-width: none;
-                padding: 15px;
-            }
-            .download-btn {
-                padding: 8px 16px;
-                font-size: 0.9em;
-            }
-            footer {
-                font-size: 0.8em;
-            }
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="light"></div>
-        <nav class="navbar">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="https://darconex.github.io" class="nav-link">Accueil</a></li>
-                <li class="nav-item">
-                    <span class="nav-link nav-link-disabled">Cyber</span>
-                    <ul class="sub-menu">
-                        <li class="sub-item"><a href="https://darconex.github.io/groups/cyber" class="sub-link">Data Cyber</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/groups/team" class="sub-link">Team</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item"><a href="https://darconex.com" class="nav-link">Pro</a></li>
-                <li class="nav-item">
-                    <span class="nav-link nav-link-disabled">À Propos</span>
-                    <ul class="sub-menu">
-                        <li class="sub-item"><a href="https://darconex.github.io/charte.html" class="sub-link">Charte</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/loi-cybersecurite.html" class="sub-link">Loi sur la cybersécurité</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/formation.html" class="sub-link">Formation</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/certificat.html" class="sub-link">Certificat</a></li>
-                        <li class="sub-item"><a href="https://darconex.github.io/cv.html" class="sub-link">CV</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="content">
-        <header>
-            <h1>Certificats</h1>
-            <p>Découvrez l'ensemble des certifications obtenues et téléchargeables.</p>
-        </header>        
-        <section class="certificate-list">
-            <!-- Certificats affichés dans une liste verticale avec défilement manuel -->
-            <div class="certificate-card">
-                <h2>Loi de Programmation militaire</h2>
-                <p>Formation SSI/LPM</p>
-                <p>Date d'émission : 07/2020</p>
-                <p>Statut : Actif</p>
-                <a href="certificate/youaredigital.jpg" class="download-btn">Télécharger le certificat</a>
-            </div>           
-            <div class="certificate-card">
-                <h2>Vade for M365 Administration</h2>
-                <p>Institution : Vade</p>
-                <p>Date d'émission : 01/2023</p>
-                <p>Statut : Actif</p>
-                <a href="#" class="download-btn">Télécharger le certificat</a>
+    <div class="container">
+        <h1>Certificats</h1>
+        
+        <!-- Exemple de section pour un certificat -->
+        <div class="certificat">
+            <img src="chemin/vers/image_certificat.jpg" alt="Certificat Image">
+            <div class="certificat-details">
+                <h3>Nom du Certificat</h3>
+                <p>Date d'obtention : 01/01/2023</p>
+                <p>Organisation : OpenClassrooms</p>
+                <p>Description : Ce certificat valide la maîtrise des concepts de base du développement web.</p>
             </div>
-            <div class="certificate-card">
-                <h2>TEHTRIS UES Niveau 2</h2>
-                <p>Institution : TEHTRIS</p>
-                <p>Date d'émission : 09/2022</p>
-                <p>Statut : Actif</p>
-                <a href="#" class="download-btn">Télécharger le certificat</a>
-            </div>
-            <div class="certificate-card">
-                <h2>TEHTRIS XDR Niveau 1</h2>
-                <p>Institution : TEHTRIS</p>
-                <p>Date d'émission : 07/2022</p>
-                <p>Statut : Actif</p>
-                <a href="#" class="download-btn">Télécharger le certificat</a>
-            </div>
-            <div class="certificate-card">
-                <h2>SecNum ANSSI – Agence nationale de la sécurité des systèmes d’information</h2>
-                <p>Institution : SecNum</p>
-                <p>Date d'émission : 01/2022</p>
-                <p>Statut : Actif</p>
-                <a href="certificate/secnum.jpg" class="download-btn">Télécharger le certificat</a>
-            </div>
-        </section>
+        </div>
+        
+        <!-- Ajouter d'autres certificats en utilisant la même structure -->
     </div>
-    <footer>
-        &copy; 2024 Darconex. Tous droits réservés.
-    </footer>
 </body>
 </html>
