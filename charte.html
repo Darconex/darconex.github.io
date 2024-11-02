@@ -46,6 +46,28 @@
         }
         .charte {
             color: green;
+            position: relative;
+            background-image: linear-gradient(45deg, rgba(0, 255, 0, 0.1) 25%, transparent 25%, transparent 75%, rgba(0, 255, 0, 0.1) 75%, rgba(0, 255, 0, 0.1)),
+                              linear-gradient(45deg, rgba(0, 255, 0, 0.1) 25%, transparent 25%, transparent 75%, rgba(0, 255, 0, 0.1) 75%, rgba(0, 255, 0, 0.1));
+            background-size: 40px 40px;
+            background-blend-mode: overlay;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .charte::before {
+            content: "101010101010 00110011 11010101 10101010 11010101 10010101 11101001 11000101 11011001 00101110 10101011 11001001 01010111";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            color: rgba(0, 255, 0, 0.1);
+            font-size: 2em;
+            line-height: 1.5em;
+            white-space: nowrap;
+            overflow: hidden;
+            z-index: -1;
+            display: block;
         }
     </style>
 </head>
@@ -78,14 +100,14 @@
     </header>
     <div class="content charte">
         <h2>Charte de Non-Clause</h2>
-        <p>&loz; Respecter les lois et réglementations en vigueur en matière de cybersécurité et de protection des données. &loz;</p>
-        <p>&loz; Ne pas s’engager dans des activités de piratage informatique, de vol de données, de déni de service ou d’autres actions malveillantes visant à compromettre la sécurité informatique d’autrui. &loz;</p>
-        <p>&loz; Protéger les actifs numériques et les données confidentielles de l’entreprise. &loz;</p>
-        <p>&loz; Signaler toute faille de sécurité, tout incident ou toute activité suspecte à l’équipe de sécurité informatique de l’entreprise. &loz;</p>
-        <p>&loz; Participer à des programmes de sensibilisation à la sécurité informatique et à la formation continue pour rester informé des meilleures pratiques en matière de cybersécurité. &loz;</p>
+        <p>Respecter les lois et réglementations en vigueur en matière de cybersécurité et de protection des données.</p>
+        <p>Ne pas s’engager dans des activités de piratage informatique, de vol de données, de déni de service ou d’autres actions malveillantes visant à compromettre la sécurité informatique d’autrui.</p>
+        <p>Protéger les actifs numériques et les données confidentielles de l’entreprise.</p>
+        <p>Signaler toute faille de sécurité, tout incident ou toute activité suspecte à l’équipe de sécurité informatique de l’entreprise.</p>
+        <p>Participer à des programmes de sensibilisation à la sécurité informatique et à la formation continue pour rester informé des meilleures pratiques en matière de cybersécurité.</p>
 
         <h3>Conséquences de la violation</h3>
-        <p>&loz; En cas de violation de cette Charte, les parties signataires reconnaissent que des mesures disciplinaires appropriées seront prises conformément aux politiques internes de l’entreprise. De plus, les parties peuvent être passibles de poursuites judiciaires en cas de violation des lois en vigueur. &loz;</p>
+        <p>En cas de violation de cette Charte, les parties signataires reconnaissent que des mesures disciplinaires appropriées seront prises conformément aux politiques internes de l’entreprise. De plus, les parties peuvent être passibles de poursuites judiciaires en cas de violation des lois en vigueur.</p>
     </div>
     <footer>
         &copy; 2024 Darconex. Tous droits réservés.
