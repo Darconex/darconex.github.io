@@ -3,76 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page de Certificats</title>
+    <title>Mes Certificats</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+        /* Styles de base */
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f7fa;
+            color: #333;
             display: flex;
             justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            padding: 40px;
         }
+
+        /* Conteneur principal */
         .container {
-            width: 90%;
-            max-width: 800px;
-            margin: 20px;
+            max-width: 1200px;
+            width: 100%;
             padding: 20px;
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
+        /* Titre principal */
         h1 {
             text-align: center;
-            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #4a90e2;
         }
-        .certificat {
-            display: flex;
-            align-items: center;
+
+        /* Grille pour les certificats */
+        .certificats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        /* Carte de chaque certificat */
+        .certificat-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .certificat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Image de certificat */
+        .certificat-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        /* Détails du certificat */
+        .certificat-content {
             padding: 15px;
-            margin: 10px 0;
-            border-bottom: 1px solid #ddd;
         }
-        .certificat:last-child {
-            border-bottom: none;
+        
+        .certificat-title {
+            font-size: 1.25em;
+            color: #4a90e2;
+            margin-bottom: 5px;
         }
-        .certificat img {
-            width: 100px;
-            height: auto;
-            margin-right: 20px;
-            border-radius: 4px;
-        }
+
         .certificat-details {
-            max-width: 600px;
-        }
-        .certificat-details h3 {
-            margin: 0;
-            color: #007bff;
-        }
-        .certificat-details p {
-            margin: 5px 0;
+            font-size: 0.9em;
             color: #555;
+            margin-bottom: 10px;
+        }
+
+        .certificat-description {
+            font-size: 0.85em;
+            color: #777;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Certificats</h1>
+        <h1>Mes Certificats</h1>
         
-        <!-- Exemple de section pour un certificat -->
-        <div class="certificat">
-            <img src="chemin/vers/image_certificat.jpg" alt="Certificat Image">
-            <div class="certificat-details">
-                <h3>Nom du Certificat</h3>
-                <p>Date d'obtention : 01/01/2023</p>
-                <p>Organisation : OpenClassrooms</p>
-                <p>Description : Ce certificat valide la maîtrise des concepts de base du développement web.</p>
+        <div class="certificats-grid">
+            <!-- Exemple de certificat -->
+            <div class="certificat-card">
+                <img src="chemin/vers/image_certificat.jpg" alt="Certificat Image">
+                <div class="certificat-content">
+                    <h2 class="certificat-title">Développement Web</h2>
+                    <p class="certificat-details">Obtenu le : 15/03/2023<br>Organisation : OpenClassrooms</p>
+                    <p class="certificat-description">Ce certificat valide mes compétences en HTML, CSS et JavaScript pour la création de sites web interactifs.</p>
+                </div>
             </div>
+            
+            <!-- Ajouter d'autres cartes de certificat en utilisant la même structure -->
         </div>
-        
-        <!-- Ajouter d'autres certificats en utilisant la même structure -->
     </div>
 </body>
 </html>
