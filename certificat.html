@@ -1,300 +1,120 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/logo.png" title="logo">
     <title>Darconex</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/x-styles.css">
+    <link rel="icon" href="img/logo.png" title="logo">
+    <script src="js/script.js"></script>
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
         body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f3f7fa;
-            color: #333;
+        }
+        .content {
+            flex: 1;
             display: flex;
             justify-content: center;
-            padding: 40px;
-        }
-        .container {
-            max-width: 1200px;
-            width: 100%;
+            align-items: center;
             padding: 20px;
         }
-        h1 {
-            text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 20px;
-            color: #4a90e2;
-        }
-        .certificats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-        .certificat-card {
-            background-color: #ffffff;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-        .certificat-card:hover {
-            transform: translateY(-5px);
-        }
-        .certificat-card img {
-            width: 100%;
-            height: 150px;
-            object-fit: cover;
-        }
-        .certificat-content {
-            padding: 15px;
-        }
-        .certificat-title {
-            font-size: 1.25em;
-            color: #4a90e2;
-            margin-bottom: 5px;
-        }
-        .certificat-details {
-            font-size: 0.9em;
-            color: #555;
-            margin-bottom: 10px;
-        }
-        .certificat-description {
-            font-size: 0.85em;
-            color: #777;
-        }
         .button-link {
-            display: inline-block;
-            margin-bottom: 20px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #808080;
+            border: none;
+            color: white;
             padding: 10px 20px;
-            background-color: #4a90e2;
-            color: #fff;
+            text-align: center;
             text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            cursor: pointer;
             border-radius: 5px;
-            transition: background-color 0.3s ease;
+            transition-duration: 0.4s;
+            margin-right: 20px;
         }
         .button-link:hover {
-            background-color: #357ab7;
+            background-color: white;
+            color: #808080;
+            border: 2px solid #808080;
         }
-
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #403f3f;
+            color: white;
+            font-size: 0.9em;
+            width: 100%;
+            margin-top: auto;
+        }
+        .contact-form {
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #000;
+        }
+        .contact-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #000;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            color: #000;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <a href="https://darconex.github.io/" class="button-link">Menu</a>
-        <h1>Mes Certificats</h1>
-        <!-- Certificat 1 -->
-        <div class="certificats-grid">
-            <div class="certificat-card">
-                <img src="certificate/TEHTRIS/TEHTRIS_Data_Science.jpg" alt="Certificat TEHTRIS Data Science">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">TEHTRIS Data Science</h2>
-                    <p class="certificat-details">Obtenu le : 31/01/2023<br>Organisation : TEHTRIS</p>
-                    <p class="certificat-description">Compétences en cybersécurité.</p>
-                </div>
-            </div>
-            <!-- Certificat 2 -->
-            <div class="certificat-card">
-                <img src="certificate/TEHTRIS/TEHTRIS_SOAR.jpg" alt="Certificat TEHTRIS SOAR">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">TEHTRIS SOAR</h2>
-                    <p class="certificat-details">Obtenu le : 31/01/2023<br>Organisation : TEHTRIS</p>
-                    <p class="certificat-description">Compétences en cybersécurité.</p>
-                </div>
-            </div>
-            <!-- Certificat 3 -->
-            <div class="certificat-card">
-                <img src="certificate/TEHTRIS/TEHTRIS_UES_NIVEAU_2.jpg" alt="Certificat TEHTRIS UES NIVEAU 2">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">TEHTRIS UES NIVEAU 2</h2>
-                    <p class="certificat-details">Obtenu le : 30/09/2022<br>Organisation : TEHTRIS</p>
-                    <p class="certificat-description">Compétences en cybersécurité.</p>
-                </div>
-            </div>
-            <!-- Certificat 4 -->
-            <div class="certificat-card">
-                <img src="certificate/TEHTRIS/TEHTRIS_XDR_NIVEAU_1.jpg" alt="Certificat TEHTRIS XDR NIVEAU 1">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">TEHTRIS XDR NIVEAU 1</h2>
-                    <p class="certificat-details">Obtenu le : 30/09/2022<br>Organisation : TEHTRIS</p>
-                    <p class="certificat-description">Compétences en cybersécurité.</p>
-                </div>
-            </div>
-            <!-- Certificat 5 -->
-            <div class="certificat-card">
-                <img src="certificate/vade/Vade_for_M365_Administration.jpg" alt="Certificat Vade for M365 Administration">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">Vade for M365 Administration</h2>
-                    <p class="certificat-details">Obtenu le : 11/01/2023<br>Organisation : Vade</p>
-                    <p class="certificat-description">Administration M365 Vade.</p>
-                </div>
-            </div>
-            <!-- Certificat 6 -->
-            <div class="certificat-card">
-                <img src="certificate/vade/Vade_for_M365_Secure_Cloud_Administration.jpg" alt="Certificat Vade Secure Cloud Administration">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">Vade Secure Cloud Administration</h2>
-                    <p class="certificat-details">Obtenu le : 10/01/2023<br>Organisation : Vade</p>
-                    <p class="certificat-description">Principes fondamentaux de design d'interface et d'expérience utilisateur.</p>
-                </div>
-            </div>    
-            <!-- Certificat 7 -->
-            <div class="certificat-card">
-                <img src="certificate/orsys/Certificat_ORSYS_ANFCV1.jpg" alt="Certificat ORSYS Analyse Forensic">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">ORSYS Analyse Forensic</h2>
-                    <p class="certificat-details">Obtenu le : 18/11/2022<br>Organisation : ORSYS</p>
-                    <p class="certificat-description">L'analyse post-mortem des incidents de sécurité permet de collecter, préserver et analyser les preuves pour renforcer la sécurité du système d'information après une intrusion.</p>
-                </div>
-            </div>
-            <!-- Certificat 8 -->
-            <div class="certificat-card">
-                <img src="certificate/orsys/Certificat_ORSYS_BSRCV1.jpg" alt="Certificat ORSYS Les bases de la sécurité systèmes et réseaux">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">ORSYS Les bases de la sécurité systèmes et réseaux</h2>
-                    <p class="certificat-details">Obtenu le : 02/09/2022<br>Organisation : ORSYS</p>
-                    <p class="certificat-description">Les bases de la sécurisation des systèmes et réseaux face aux menaces pesant sur le SI.</p>
-                </div>
-            </div>
-            <!-- Certificat 9 -->
-            <div class="certificat-card">
-                <img src="certificate/orsys/Certificat_ORSYS_CPICV1.jpg" alt="Certificat ORSYS Check Point R81, instalation et configuration">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">ORSYS Check Point R81, instalation et configuration</h2>
-                    <p class="certificat-details">Obtenu le : 20/12/2021<br>Organisation : ORSYS</p>
-                    <p class="certificat-description">Installer, configurer et gérer un firewall Check Point R80 ainsi qu’à établir une politique de sécurité.</p>
-                </div>
-            </div>
-            <!-- Certificat 10 -->
-            <div class="certificat-card">
-                <img src="certificate/orsys/Certificat_ORSYS_EGNCV1.jpg" alt="Certificat ORSYS Sécurité des système industriels">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">ORSYS Sécurité des système industriels</h2>
-                    <p class="certificat-details">Obtenu le : 07/10/2023<br>Organisation : ORSYS</p>
-                    <p class="certificat-description">Les bases techniques pour comprendre les systèmes SCADA (ICS), leurs vulnérabilités et les menaces qui pèsent sur les infrastructures critiques.</p>
-                </div>
-            </div>
-            <!-- Certificat 11 -->
-            <div class="certificat-card">
-                <img src="certificate/orsys/Certificat_ORSYS_FTSCV1.jpg" alt="Certificat ORSYS Les fondamentaux de la sécurité des SI">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">ORSYS Les fondamentaux de la sécurité des SI</h2>
-                    <p class="certificat-details">Obtenu le : 27/07/2022<br>Organisation : ORSYS</p>
-                    <p class="certificat-description">Les actions et solutions pour sécuriser le SI, incluant analyse des risques, solutions de sécurité, assurances et aspects juridiques.</p>
-                </div>
-            </div>
-            <!-- Certificat 12 -->
-            <div class="certificat-card">
-                <img src="certificate/orsys/Certificat_ORSYS_ISICV2.jpg" alt="Certificat ORSYS Introduction à la sécurité informatique">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">ORSYS Introduction à la sécurité informatique</h2>
-                    <p class="certificat-details">Obtenu le : 10/06/2022<br>Organisation : ORSYS</p>
-                    <p class="certificat-description">La sécurité des SI explore les risques et menaces croissants dans les environnements privés et professionnels.</p>
-                </div>
-            </div>
-            <!-- Certificat 13 -->
-            <div class="certificat-card">
-                <img src="certificate/orsys/Certificat_ORSYS_LOGCV1.jpg" alt="Certificat ORSYS Collecte et analyse des logs, un SIEM pour optimiser la sécurité de votre SI">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">ORSYS Collecte et analyse des logs, un SIEM pour optimiser la sécurité de votre SI.</h2>
-                    <p class="certificat-details">Obtenu le : 08/11/2022<br>Organisation : ORSYS</p>
-                    <p class="certificat-description">Offre une vue d'ensemble sur la supervision, les obligations légales de conservation des données, et la mise en place de solutions adaptées.</p>
-                </div>
-            </div>
-            <!-- Certificat 14 -->
-            <div class="certificat-card">
-                <img src="certificate/orsys/Certificat_ORSYS_SCECV1.jpg" alt="Certificat ORSYS La sécurité dans le cyberespace">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">ORSYS La sécurité dans le cyberespace</h2>
-                    <p class="certificat-details">Obtenu le : 29/06/2022<br>Organisation : ORSYS</p>
-                    <p class="certificat-description">La cybersécurité des entreprises en présentant les menaces, les moyens d'intrusion et les principales mesures de protection.</p>
-                </div>
-            </div>
-            <!-- Certificat 15 -->
-            <div class="certificat-card">
-                <img src="certificate/orsys/Certificat_ORSYS_TRUCV1.jpg" alt="Certificat ORSYS Détection d'intrusion et SOC">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">ORSYS Détection d'intrusion et SOC</h2>
-                    <p class="certificat-details">Obtenu le : 12/08/2023<br>Organisation : ORSYS</p>
-                    <p class="certificat-description">Explore les techniques d'attaque avancées, leur détection, la riposte adaptée et le rôle d'analyste SOC avec les outils essentiels.</p>
-                </div>
-            </div>
-            <!-- Certificat 16 -->
-            <div class="certificat-card">
-                <img src="certificate/tryhackme/THM-SCMGPQ53TI.png" alt="Certificat THM - Pre Security">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">THM Pre Security</h2>
-                    <p class="certificat-details">Obtenu le : 18/02/2023<br>Organisation : TryHackMe</p>
-                    <p class="certificat-description">Les bases techniques essentielles pour débuter en cybersécurité, en explorant le fonctionnement des technologies.</p>
-                </div>
-            </div>
-            <!-- Certificat 17 -->
-            <div class="certificat-card">
-                <img src="certificate/tryhackme/THM-I9AMABY7V7.png" alt="Certificat THM - Web Fundamentals">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">THM Web Fundamentals</h2>
-                    <p class="certificat-details">Obtenu le : 27/01/2024<br>Organisation : TryHackMe</p>
-                    <p class="certificat-description">L'attaque d'applications Web en couvrant les fondamentaux du Web, les outils de sécurité et l'exploitation des vulnérabilités courantes.</p>
-                </div>
-            </div>
-            <!-- Certificat 18 -->
-            <div class="certificat-card">
-                <img src="certificate/tryhackme/THM-HZRUZOJDCB.png" alt="Certificat THM - Cyber Defense">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">THM Cyber Defense</h2>
-                    <p class="certificat-details">Obtenu le : 19/07/2023<br>Organisation : TryHackMe</p>
-                    <p class="certificat-description">Introduction complète aux domaines essentiels pour détecter et répondre aux menaces.</p>
-                </div>
-            </div>
-            <!-- Certificat 19 -->
-            <div class="certificat-card">
-                <img src="certificate/tryhackme/THM-GC3HPGKR8H.png" alt="Certificat THM - Introduction to Cyber Security">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">THM Introduction to Cyber Security</h2>
-                    <p class="certificat-details">Obtenu le : 24/01/2023<br>Organisation : TryHackMe</p>
-                    <p class="certificat-description">Introduction pratique aux différents domaines de la cybersécurité pour bien débuter.</p>
-                </div>
-            </div>
-            <!-- Certificat 20 -->
-            <div class="certificat-card">
-                <img src="certificate/tryhackme/THM-BXOAYFVV53.png" alt="Certificat THM - Soc Level 1">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">THM </h2>
-                    <p class="certificat-details">Obtenu le : 21/04/2023<br>Organisation : TryHackMe</p>
-                    <p class="certificat-description">Rôle d'analyste sécurité junior, spécialisé dans le triage et la surveillance des journaux d'événements et des alertes.</p>
-                </div>
-            </div>
-            <!-- Certificat 21 -->
-            <div class="certificat-card">
-                <img src="certificate/tryhackme/THM-ANROEWLQLN.png" alt="Certificat THM - Beginner">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">THM Beginner</h2>
-                    <p class="certificat-details">Obtenu le : 07/03/2023<br>Organisation : TryHackMe</p>
-                    <p class="certificat-description">Introduction complète aux principaux domaines de la sécurité informatique.</p>
-                </div>
-            </div>
-            <!-- Certificat 22 -->
-            <div class="certificat-card">
-                <img src="certificate/youraredigital.JPG" alt="Certificat YourAreDigital">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">YourAreDigital</h2>
-                    <p class="certificat-details">Obtenu le : 17/07/2023<br>Organisation : YourAreDigital</p>
-                    <p class="certificat-description">Concepts de sécurité et aux bonnes pratiques pour protéger les comptes à privilèges.</p>
-                </div>
-            </div>
-            <!-- Certificat 23 -->
-            <div class="certificat-card">
-                <img src="certificate/secnum.jpg" alt="Certificat Mooc">
-                <div class="certificat-content">
-                    <h2 class="certificat-title">Mooc</h2>
-                    <p class="certificat-details">Obtenu le : 10/01/2023<br>Organisation : ANSSI</p>
-                    <p class="certificat-description">Sensibiliser les citoyens à la sécurité numérique en milieu professionnel et personnel.</p>
-                </div>
-            </div>
-        </div>
+    <a href="https://darconex.github.io/" class="button-link">Menu</a>
+    <div class="content">
+        <form class="contact-form" action="/envoyer-message" method="post">
+            <h2>Contactez-nous</h2>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="sujet">Sujet :</label>
+            <input type="text" id="sujet" name="sujet" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
     </div>
+    <footer>
+        &copy; 2024 Darconex. Tous droits réservés.
+    </footer>
 </body>
 </html>
