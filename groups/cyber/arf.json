@@ -913,6 +913,11 @@
               "name": "Blackbird OSINT",
               "type": "url",
               "url": "https://blackbird-osint.herokuapp.com/"
+            },
+            {
+              "name": "User-Searcher",
+              "type": "url",
+              "url": "https://www.user-searcher.com/"
             }
           ]
         },
@@ -924,6 +929,11 @@
               "name": "Passport",
               "type": "url",
               "url": "https://www.passportindex.org/"
+            },
+            {
+              "name": "Worldlicenseplates",
+              "type": "url",
+              "url": "http://worldlicenseplates.com/"
             },
             {
               "name": "SearchCode",
