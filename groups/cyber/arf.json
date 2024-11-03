@@ -1059,6 +1059,11 @@
               "name": "WebHook",
               "type": "url",
               "url": "https://webhook.site/"
+            },
+            {
+              "name": "OpenSanctions",
+              "type": "url",
+              "url": "https://www.opensanctions.org/"
             }
           ]
         },
