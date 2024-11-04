@@ -715,6 +715,11 @@
               "name": "IP Address Ranges By Country",
               "type": "url",
               "url": "https://lite.ip2location.com/ip-address-ranges-by-country"
+            },
+             {
+              "name": "IPLocation",
+              "type": "url",
+              "url": "https://www.iplocation.net/"
             }
           ]
         },
