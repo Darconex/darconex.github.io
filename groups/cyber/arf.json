@@ -923,6 +923,11 @@
               "name": "User-Searcher",
               "type": "url",
               "url": "https://www.user-searcher.com/"
+            },
+            {
+              "name": "UserSearch",
+              "type": "url",
+              "url": "https://usersearch.ai"
             }
           ]
         },
@@ -1594,6 +1599,11 @@
               "name": "VMRay",
               "type": "url",
               "url": "https://www.vmray.com/"
+            },
+            {
+              "name": "HoneyDB",
+              "type": "url",
+              "url": "https://honeydb.io/"
             }
           ]
         },
