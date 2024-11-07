@@ -405,6 +405,11 @@
               "name": "StolenCameraFinder",
               "type": "url",
               "url": "https://www.stolencamerafinder.com/"
+            },
+            {
+              "name": "ExtractMetadata",
+              "type": "url",
+              "url": "https://www.extractmetadata.com/"
             }
           ]
         },
