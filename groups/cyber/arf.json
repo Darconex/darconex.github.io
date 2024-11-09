@@ -1079,6 +1079,11 @@
               "name": "OpenSanctions",
               "type": "url",
               "url": "https://www.opensanctions.org/"
+            },
+            {
+              "name": "SearX",
+              "type": "url",
+              "url": "https://searx.space/"
             }
           ]
         },
