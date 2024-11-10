@@ -532,6 +532,11 @@
                   "url": "https://www.strava.com/maps"
                 },
                 {
+                  "name": "IknowvHereYourCatLives",
+                  "type": "url",
+                  "url": "https://iknowwhereyourcatlives.com"
+                },
+                {
                   "name": "CellMapper",
                   "type": "url",
                   "url": "https://www.cellmapper.net/map"
@@ -542,6 +547,11 @@
                   "url": "https://www.earthcam.com/mapsearch/"
                 },
                 {
+                  "name": "Rain-Alarm",
+                  "type": "url",
+                  "url": "https://www.rain-alarm.com/"
+                },
+                {
                   "name": "Cita",
                   "type": "url",
                   "url": "https://www.cita.lu/"
@@ -550,6 +560,11 @@
                   "name": "Nsinternational",
                   "type": "url",
                   "url": "https://www.nsinternational.com/en/stations/station-maps-floor-plan"
+                },
+                {
+                  "name": "Whatiswhere",
+                  "type": "url",
+                  "url": "https://www.whatiswhere.com/"
                 },
                 {
                   "name": "LivingAtlas",
