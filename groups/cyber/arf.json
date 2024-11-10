@@ -69,6 +69,11 @@
               "name": "MD5",
               "type": "url",
               "url": "https://md5.gromweb.com/"
+            },
+            {
+              "name": "Quiqpiuq",
+              "type": "url",
+              "url": "https://quipqiup.com/"
             }
           ]
         },
@@ -657,6 +662,11 @@
                   "name": "OpenSeaMap",
                   "type": "url",
                   "url": "https://www.openseamap.org/"
+                },
+                {
+                  "name": "Ports",
+                  "type": "url",
+                  "url": "http://ports.com"
                 },
                 {
                   "name": "USA.FisherMap",
