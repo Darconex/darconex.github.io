@@ -659,6 +659,11 @@
                   "url": "https://www.openseamap.org/"
                 },
                 {
+                  "name": "USA.FisherMap",
+                  "type": "url",
+                  "url": "https://usa.fishermap.org/"
+                },
+                {
                   "name": "Ocearch",
                   "type": "url",
                   "url": "https://www.ocearch.org/tracker/"
