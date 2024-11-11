@@ -2133,6 +2133,11 @@
           "name": "ExifTool",
           "type": "url",
           "url": "https://exiftool.org/"
+        },
+        {
+          "name": "Volatility",
+          "type": "url",
+          "url": "https://volatilityfoundation.org/"
         }
       ]
     }
