@@ -2095,6 +2095,11 @@
               "name": "Json Formatter",
               "type": "url",
               "url": "https://jsonformatter.org/"
+            },
+            {
+              "name": "SQLMap",
+              "type": "url",
+              "url": "https://acorzo1983.github.io/SQLMapCG/"
             }
           ]
         }
