@@ -2100,6 +2100,11 @@
               "name": "SQLMap",
               "type": "url",
               "url": "https://acorzo1983.github.io/SQLMapCG/"
+            },
+            {
+              "name": "HashCat",
+              "type": "url",
+              "url": "https://acorzo1983.github.io/HashCatCG/"
             }
           ]
         }
