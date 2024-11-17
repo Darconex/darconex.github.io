@@ -621,6 +621,11 @@
                   "name": "ADSBExchange",
                   "type": "url",
                   "url": "https://globe.adsbexchange.com/"
+                },
+                {
+                  "name": "Eyes.Nasa",
+                  "type": "url",
+                  "url": "https://eyes.nasa.gov/apps/dsn-now/dsn.html"
                 }
               ]
             },
