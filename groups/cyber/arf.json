@@ -1111,9 +1111,19 @@
               "url": "https://webhook.site/"
             },
             {
+              "name": "ExportComments",
+              "type": "url",
+              "url": "https://exportcomments.com/"
+            },
+            {
               "name": "OpenSanctions",
               "type": "url",
               "url": "https://www.opensanctions.org/"
+            },
+            {
+              "name": "SourceGraph",
+              "type": "url",
+              "url": "https://sourcegraph.com/search"
             },
             {
               "name": "SearX",
