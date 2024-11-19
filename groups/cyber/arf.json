@@ -331,6 +331,11 @@
                   "name": "HackCheck",
                   "type": "url",
                   "url": "https://www.avast.com/hackcheck"
+                },
+                {
+                  "name": "BreachForums",
+                  "type": "url",
+                  "url": "https://breachforums.st/"
                 }
               ]
             },
