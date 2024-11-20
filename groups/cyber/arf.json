@@ -336,6 +336,11 @@
                   "name": "BreachForums",
                   "type": "url",
                   "url": "https://breachforums.st/"
+                },
+                {
+                  "name": "BonjourLaFuite",
+                  "type": "url",
+                  "url": "https://bonjourlafuite.eu.org/"
                 }
               ]
             },
