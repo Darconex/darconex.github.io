@@ -341,6 +341,11 @@
                   "name": "BonjourLaFuite",
                   "type": "url",
                   "url": "https://bonjourlafuite.eu.org/"
+                },
+                {
+                  "name": "LearBase",
+                  "type": "url",
+                  "url": "https://leakbase.io/"
                 }
               ]
             },
