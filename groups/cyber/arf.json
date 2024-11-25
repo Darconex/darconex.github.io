@@ -1352,6 +1352,11 @@
               "name": "Triage",
               "type": "url",
               "url": "https://tria.ge/"
+            },
+            {
+              "name": "Search.Odin",
+              "type": "url",
+              "url": "https://search.odin.io/"
             }
           ]
         },
