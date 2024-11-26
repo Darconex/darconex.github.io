@@ -274,6 +274,11 @@
               "url": "https://www.phishtool.com/"
             },
             {
+              "name": "EasyDMarc",
+              "type": "url",
+              "url": "https://easydmarc.com/"
+            },
+            {
               "name": "Data Breach",
               "type": "folder",
               "children": [
