@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" title="logo">
+    <title>Darconex</title>
+    <style>
+        .button-link {
+            background-color: #808080;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition-duration: 0.4s;
+            margin-right: 20px;
+        }
+        .button-link:hover {
+            background-color: white;
+            color: #808080;
+            border: 2px solid #808080;
+        }
+        .toggle-button {
+            margin: 10px 0;
+            padding: 8px 15px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .toggle-button:hover {
+            background-color: #004080;
+        }
+        .hidden {
+            display: none;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #403f3f;
+            color: white;
+            font-size: 0.9em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <script>
+        function toggleSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section.classList.contains('hidden')) {
+                section.classList.remove('hidden');
+            } else {
+                section.classList.add('hidden');
+            }
+        }
+    </script>
+</head>
+<body>
+    <a href="https://darconex.github.io/" class="button-link">Menu</a>
+    <header class="cv-header">
+        <img src="img/moi3.jpg" alt="Photo de Profil" class="profile-img">
+        <h1>Cyrille</h1>
+        <p>Analyste SOC | Cybersécurité</p>
+    </header>
+    <main>
+        <!-- Informations personnelles -->
+        <section>
+            <button class="toggle-button" onclick="toggleSection('personal-info')">Informations Personnelles</button>
+            <div id="personal-info" class="hidden">
+                <ul>
+                    <li>Email : Secret</li>
+                    <li>Téléphone : Secret</li>
+                    <li>Adresse : Île-de-France</li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/darconex/">
+                            <img src="img/logo_link.png" alt="LinkedIn" style="width: 50px; height: 50px;">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.root-me.org/darconex/">
+                            <img src="img/rootme.png" alt="Root-Me" style="width: 50px; height: 50px;">
+                        </a>
+                    </li>
+                    <li><img src="https://tryhackme-badges.s3.amazonaws.com/Darconex.png" alt="TryHackMe Badge" /></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Expérience -->
+        <section>
+            <button class="toggle-button" onclick="toggleSection('experience')">Expérience</button>
+            <div id="experience" class="hidden">
+                <ul>
+                    <li><strong>Sea Tpi</strong></li>
+                    <li>7 ans 3 mois</li>
+                    <li><strong>Analyste SOC / Cybersécurité CDI</strong></li>
+                    <ul>
+                        <li>De avr. 2022 à aujourd’hui · 2 ans 6 mois</li>
+                        <li>Paris · Hybride</li>
+                        <li><strong>SOC Analyste N2 :</strong></li>
+                        <ul>
+                            <li>Traitement des alertes de sécurité</li>
+                            <li>Analyse, qualification et réponse aux incidents de sécurité</li>
+                            <li>Technologies éditeurs (SIEM, EPP, EDR, Protection de la messagerie et scanner de vulnérabilités)</li>
+                            <li>Investigation sur Open Source Intelligence (OSINT)</li>
+                            <li>Cyber Threat Intelligence / Threat Hunting</li>
+                            <li>Gestion de crise</li>
+                            <li>Astreinte pour le N1</li>
+                        </ul>
+                        <li><strong>Projet et Intégration :</strong></li>
+                        <ul>
+                            <li>Création de Template, procédure et documents techniques</li>
+                            <li>Mise en place d'un journal sur l'intranet (CyberVeille, Alerte CVE, Cyber Actu, Patch Tuesday)</li>
+                        </ul>
+                        <li><strong>Technologie :</strong></li>
+                        <ul>
+                            <li>Tehtris, Sophos, Azure AD, Microsoft Defender, Vade Cloud, Graylog, TheHive, Elastic, Withsecure, LogPoint, CrowdStrike, Q-Radar, HarfangLab, Riot, Cyberwatch</li>
+                        </ul>
+                    </ul>
+                    <li><strong>Technicien N2 - AVIVA France</strong></li>
+                    <ul>
+                        <li>Du août 2021 au mars 2022 · 8 mois</li>
+                        <li>Bois-Colombes, Île-de-France, France · Sur site</li>
+                        <ul>
+                            <li>Création de procédures</li>
+                            <li>Déplacement multi-sites</li>
+                            <li>Gestion demandes et incidents</li>
+                            <li>Rapport Backlog et SLA</li>
+                        </ul>
+                    </ul>
+                    <li><strong>Technicien de Proximité N2, utilisateur et VIP - Groupe BPCE-IT CDI</strong></li>
+                    <ul>
+                        <li>Du juil. 2017 au août 2021 · 4 ans 2 mois</li>
+                        <li>Région de Paris, France · Sur site</li>
+                        <ul>
+                            <li>Préparation des postes</li>
+                            <li>Gestion demandes et incidents</li>
+                            <li>Intervention réseau</li>
+                            <li>Gestion d’inventaire</li>
+                            <li>Gestion d’équipe (intérimaire) sur site et à distance</li>
+                            <li>Intervention sur multi-sites</li>
+                            <li>Accompagnement des nouveaux arrivants</li>
+                            <li>Déploiement de la solution One-Q</li>
+                            <li>BAR-IT</li>
+                            <li>Projet « OPEN » - Réaménagement du site en Open Space</li>
+                        </ul>
+                    </ul>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Compétences -->
+        <section>
+            <button class="toggle-button" onclick="toggleSection('skills')">Compétences</button>
+            <div id="skills" class="hidden">
+                <ul>
+                    <li>Formation : TryHackMe, HackTheBox, Root-Me</li>
+                    <li>Threat Hunting, OSINT, gestion d'incidents</li>
+                    <li>Technologies : SIEM, EPP, EDR, TheHive, CrowdStrike</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Formation -->
+        <section>
+            <button class="toggle-button" onclick="toggleSection('education')">Formation</button>
+            <div id="education" class="hidden">
+                <ul>
+                    <li>Technicien Supérieur en Maintenance Informatique et Réseau (BAC+2) - Aston Arcueil-Cachan (2015-2017)</li>
+                    <li>Technicien Maintenance micro-Informatique et Réseau (BAC) - Aston Bagneux (2015-2016)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projets -->
+        <section>
+            <button class="toggle-button" onclick="toggleSection('projects')">Projets</button>
+            <div id="projects" class="hidden">
+                <ul>
+                    <li>Création de procédures et documents techniques pour le SOC</li>
+                    <li>Mise en place d’un journal interne : CyberVeille, Alertes CVE</li>
+                    <li>Projet Open Space (BPCE-IT) : Réaménagement complet</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 Darconex. Tous droits réservés.
+    </footer>
+</body>
+</html>
