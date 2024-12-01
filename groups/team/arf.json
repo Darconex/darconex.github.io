@@ -148,6 +148,11 @@
           "name": "RAT (Remote Access Trojan)",
           "type": "url",
           "url": "https://github.com/Cryakl/Ultimate-RAT-Collection"
+        },
+        {
+          "name": "CspBypass",
+          "type": "url",
+          "url": "https://cspbypass.com/"
         }
       ]
     }
