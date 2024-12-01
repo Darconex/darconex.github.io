@@ -1362,6 +1362,11 @@
               "name": "Search.Odin",
               "type": "url",
               "url": "https://search.odin.io/"
+            },
+            {
+              "name": "ISMalicious.com",
+              "type": "url",
+              "url": "https://ismalicious.com"
             }
           ]
         },
