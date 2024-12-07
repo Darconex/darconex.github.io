@@ -74,6 +74,16 @@
               "name": "Quiqpiuq",
               "type": "url",
               "url": "https://quipqiup.com/"
+            },
+            {
+              "name": "JWT",
+              "type": "url",
+              "url": "https://jwt.io/"
+            },
+            {
+              "name": "IT-Tools",
+              "type": "url",
+              "url": "https://it-tools.tech/"
             }
           ]
         },
