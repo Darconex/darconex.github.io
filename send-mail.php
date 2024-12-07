@@ -19,6 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $emailBody .= "Sujet: $sujet\n";
     $emailBody .= "Message:\n$message\n";
 
+    $to = "admin@darconex.com";
+    
     // Envoyer l'email
     if (mail($to, $subject, $emailBody, $headers)) {
         echo "Message envoyé avec succès.";
