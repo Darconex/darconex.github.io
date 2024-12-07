@@ -1002,7 +1002,12 @@
             {
               "name": "UserSearch",
               "type": "url",
-              "url": "https://usersearch.ai"
+              "url": "https://usersearch.ai/"
+            },
+            {
+              "name": "NameMC",
+              "type": "url",
+              "url": "https://namemc.com/"
             }
           ]
         },
